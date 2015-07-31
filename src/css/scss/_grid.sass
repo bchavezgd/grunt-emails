@@ -1,0 +1,14 @@
+// grid work
+@for $i from 1 to ($columns + 1)
+	.col-#{$i}
+		// converting px width to %
+		width: 100% * ( ( ($i * ($width / $columns)) - $gutter) / $width)
+		margin:
+			top: 0
+			bottom: 0
+			right: (0.5 * $gutter)
+			left: 0
+
+@for $i from 1 to ($columns + 1)
+	table.col-#{$i}
+		display: table-cell

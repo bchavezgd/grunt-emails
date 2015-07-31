@@ -1,0 +1,76 @@
+---
+# for excerpt and other body copy, the punctuation must be escaped.
+# or else they break the template parsing function.
+# colon	: => &#58;
+# apostropy ' => &apos;
+#	ellipsis ... => &hellip;
+# quotes "left  right" => &ldquo;   &rdquo;
+# nccpt reusable data
+
+hero:
+  title: Sun&apos;s out, are you?
+  image: http://static.nccpt.com/images/150807-pose-off.jpg
+  alt: HASHTAG NCCPT POSE DOWN
+  link: http://www.instagram.com/nccptco
+  excerpt: Show us your best outdoor fitness pose. Photos MUST be taken outside - clothes or bathing suits required (can&apos;t believe we had to say that!). Post your photo on Instagram using the hashtag &#35;NCCPTPoseDown. If your pose is chosen - you may win an NCCPT Dry Fit Trainer Shirt! We&apos;ll be monitoring the hastag daily and giving out two shirts a  week in August!
+
+articles: # 2 max
+  - title: Why science thinks fasting might save your life&hellip;
+    link: http://blog.nccpt.com/fasting-diets-the-worst-secret-to-dieting-success-and-more/
+    more: Read More&hellip;
+    excerpt: Eat too much, risk disease. Eat too little&hellip; live longer? Researchers are discovering deprivation may lead to restoration.
+
+  - title: Rotator Cuff Injuries are a pain in the shoulder&hellip;
+    link: http://blog.nccpt.com/how-to-train-the-rotator-cuff-after-injury/
+    more: Learn more.
+    excerpt: Learn the latest evidenced-based research on rotator cuff tears and how to transition a client from therapy to the gym.
+
+featured:
+  ready: true #true/false
+  image: http://static.nccpt.com/images/150807-trainer.jpg
+  name: MF Doom
+  link: http://blog.nccpt.com/
+  excerpt: The super flow with more jokes than Bazooka Joe A mix between Superfly Snuka and a superhoe Chew a MC like El Chupa Nibre Digest a group and sell the poop on eBay Danger with the vest screamin &ldquo;Shoot the DJ!&rdquo; DOOM clickin over two chickens, three-way Four in the 5, a cork on the freeway Villain find a way to make &apos;em pay whatever we say.
+
+blog: # copy/paste this block and modify for each blog post.
+  - title: The 1 thing you NEED to do to survive in the fitness industry
+    subhead:
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/CEUEmailPic.png
+    link: http://blog.nccpt.com/the-one-thing-you-need-to-do-to-survive-in-the-fitness-industry/
+    more: Learn why&hellip;
+    excerpt: A career in fitness is rewarding, but the rewards stop once you stop learning.
+
+  - title: Ten ways to lose a personal training client&hellip;
+    subhead:
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/Slide-81.jpg
+    link: http://blog.nccpt.com/10-ways-to-lose-a-personal-training-client/
+    more: Keep Clients&hellip;
+    excerpt: Are you making any of these mistakes? If so, you may want to rethink your client retention management strategy!
+
+  - title: Ice, Ice, Maybe?
+    subhead:
+    thumbnail: http://stoneathleticmedicine.com/wp-content/uploads/2015/02/ice-300x248.png
+    link: http://blog.nccpt.com/guest-blog-josh-stone-10-reasons-icing-injuries-is-wrong
+    more: Let him explain&hellip;
+    excerpt: According to Josh Stone (MA, ATC, CES, and many more), ice is for keeping your drinks cold and NOT for your ankle sprain.
+
+has-ads: true #true/false
+ads:
+  - thumbnail: http://static.nccpt.com/images/150801-ad-cpt.jpg
+    link: https://www.nccpt.com/store/products/personal-trainer-certificate-program/1719
+    link-text: Start today
+    promo-code: CERTME #do not delete, leave blank if no promocode exists.
+    title: Certificate of Personal Training $119
+    blurb: Get started on your personal training career with the most affordable education option in the industry!
+
+  - thumbnail: http://static.nccpt.com/images/150807-pro-fit-jobs.jpg
+    link: http://profitjobs.com/
+    link-text: What are you waiting for?
+    promo-code:
+    title: ProFitJobs.com
+    blurb: Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today!
+
+
+pres-message:
+  title: Watch me spin.
+  copy: <p>Presidents messages goes here. </p>

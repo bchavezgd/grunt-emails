@@ -1,0 +1,38 @@
+nccpt:
+  company: NCCPT
+  logo: http://static.nccpt.com/images/newsletter-nccpt-logo.png #about 400px wide
+  url: http://www.nccpt.com
+  phone: (800)778-6060
+  blog:
+    name: Best of the Week
+    url: http://blog.nccpt.com
+
+  social:
+    - alt: Faceboook
+      url: //www.facebook.com/nccpt
+      thumbnail: http://static.nccpt.com/images/sm-facebook.png
+
+    - alt: instagram
+      url: //www.instagram.com/nccptco
+      thumbnail: http://static.nccpt.com/images/sm-instagram.png
+
+    - alt: linkedin
+      url: https://www.linkedin.com/company/3588036
+      thumbnail: http://static.nccpt.com/images/sm-linkedin.png
+
+    - alt: youtube
+      url: https://www.youtube.com/user/TheNCCPT
+      thumbnail: http://static.nccpt.com/images/sm-youtube.png  
+
+smart-fitness:
+  company: Smart Fitness
+  banner: http://static.nccpt.com/images/150527-banner.jpg
+  logo: http://static.nccpt.com/images/150527-smartfitness_logo.png
+  url: http://www.smartfitness.com
+  phone: (844)778-6060
+
+  email: karenp@smartfitness.com
+
+  blog:
+    name: Check out what&apos;s Inside Smart Fitness! 
+    url: http://blog.smartfitness.com

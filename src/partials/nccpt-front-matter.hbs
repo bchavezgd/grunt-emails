@@ -1,0 +1,92 @@
+<!-- front matter -->
+<tr class="front-matter">
+	<td>
+		<table class="container">
+			<tr height="8" class="spacer-8">
+				<td>&nbsp;</td>
+			</tr>
+			<!-- spacer -->
+			<tr>
+				<td align="center" class="col-4">
+					<table>
+						<!-- First header column with Logo -->
+						<tr>
+							<td class="p-small light-text">
+								<a href="{{ nccpt.url }}" target="_blank">{{ nccpt.company }}</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<!-- end col 4 -->
+				<!-- Second header column with ISSUE|DATE -->
+				<td align="center" class="col-2">
+					<table>
+						<tr>
+							<td class="p-small light-text">
+								{{ preview-text }} | {{ date }}
+							</td>
+						</tr>
+					</table>
+				</td>
+				<!-- end col 2 -->
+			</tr>
+			<tr height="8" class="spacer-8">
+				<td>&nbsp;</td>
+			</tr>
+			<!-- spacer -->
+		</table>
+		<!-- end container -->
+	</td>
+</tr>
+<!-- end front matter -->
+
+<!-- masthead -->
+<tr bgcolor="#152831" class="masthead">
+	<td>
+		<table class="container">
+			<tr>
+				<td class="col-4">
+					<!-- logo -->
+					<table >
+						<tr>
+							<td>
+								<!-- logo sized to fit this frame. -->
+								<a href="{{ nccpt.url }}" target="_blank">
+									<img src="{{ nccpt.logo }}" alt="{{ nccpt.url }}" class="center">
+								</a>
+							</td>
+						</tr>
+					</table>
+					<!-- end logo -->
+				</td>
+				<td class="col-2">
+
+					<!-- social links -->
+					<table>
+						<tr height="32">
+							<td class="spacer-32">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+						<tr>
+							<td height="32" class="social-links">
+								<!-- can create a loop here. using #each nccpt.social -->
+								{{#each nccpt.social }}
+								<a href="{{ url }}" target="_blank">
+									<img width="30" height="30" alt="{{ alt }}" src="{{ thumbnail }}">
+								</a>
+								{{/each}}
+							</td>
+						</tr>
+						<tr height="32">
+							<td class="spacer-32">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+					</table>
+					<!-- end social links -->
+				</td>
+			</tr>
+		</table>
+		<!-- end container -->
+	</td>
+</tr>
+<!-- end masthead -->

@@ -1,0 +1,61 @@
+/* -------------------------------------
+    GLOBAL RESETS
+------------------------------------- */
+
+img {
+	-ms-interpolation-mode: bicubic;
+	max-width: 100%;
+}
+
+body,
+.body {
+	margin: 0;
+	padding: 0;
+	font-family: $body-font-stack;
+	-webkit-font-smoothing: antialiased;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+//	color: $primary-color;
+	height: 100% !important;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	width: 100% !important;
+}
+
+// Let's make sure all tables have defaults
+table {
+	border-collapse: collapse !important;
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+	-premailer-width: 100%; // This is a specific style for the premailer gem
+	margin: 0;
+	padding: 0;
+	tr {
+		width: 100%;
+
+	}
+	td {
+		font-family: $body-font-stack;
+		mso-table-lspace: 0pt;
+		mso-table-rspace: 0pt;
+		vertical-align: top;
+	}
+}
+
+hr, .hr {
+	@include heavy-border($brand-gray)
+}
+
+// External class fix for Outlook.com
+.ExternalClass {
+	width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+	line-height: 100%;
+}

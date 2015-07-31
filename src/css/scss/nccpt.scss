@@ -1,0 +1,43 @@
+/* -------------------------------------
+    CONFIGURE YOUR VARIABLES
+------------------------------------- */
+
+$padding: 30px; 	// For consistent padding
+$gutter: 10px;		// gutters... duh
+$width: 595px; 		// Width of the content area
+$br: 4px;					// Border radius
+$btn-br: 5px; 		// Border radius
+$columns: 6; 			// number of columns
+
+$body-font-stack: helvetica, Roboto, arial, sans-serif;
+$body-font-size: 16px;
+$body-line-height: 1.4;
+
+//colors
+$primary-color: #000000; // Primary color for buttons and links
+$brand-primary: #005583;
+$brand-dark: #152831;
+$brand-gray: darken(#fff, 18%); // approx 18% gray
+$background-color: #fff; // Background color
+
+$featured-trainer-bg: mix($brand-dark, $brand-gray, 50%); // for consistency.
+
+// Main scss styles
+
+@import 'molotov';
+@import 'global';
+@import 'layout';
+@import 'type';
+@import 'buttons';
+@import 'other';
+@import 'front-matter';
+@import 'footer';
+@import 'content';
+
+// responsive imports last.
+//@media only screen
+//	and (max-width: 480px)
+//	and (-webkit-min-device-pixel-ratio: 2) {
+//	@import 'responsive';
+//}
+

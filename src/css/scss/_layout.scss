@@ -1,0 +1,80 @@
+/* -------------------------------------
+    BODY & CONTAINER
+
+classes only.
+styles for tags go in global.scss
+
+
+------------------------------------- */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+
+
+
+.container {
+	/*
+
+*	In constant contact, their footer is set to a fixed 595px width. breaking all the content above it.
+
+* Putsmail works exactly as expected with a max-width/width declarations
+
+*/
+	//width: 100%; BREAKING IPHONE LAYOUTS
+	width: $width;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	display: table;
+	p a {
+		color: inherit !important;
+		border-bottom: 1px solid inherit;
+		text-decoration: none;
+	}
+}
+
+
+/* -------------------------------------
+    HEADER, FOOTER, MAIN
+------------------------------------- */
+
+
+
+.header {
+	width: 100%;
+}
+
+.hidden-big {
+	visibility: collapse;
+}
+
+/*
+**	grid work
+*/
+
+@import 'grid';
+
+// spacers.
+.spacer {
+	line-height: 0;
+	font-size: 0;
+	display: table-row;
+}
+.spacer-8 {
+	@extend .spacer;
+	height: 8px;
+}
+
+.spacer-16 {
+	@extend .spacer;
+	height: 16px;
+}
+
+.spacer-24 {
+	@extend .spacer;
+	height: 24px;
+}
+
+.spacer-32 {
+	@extend .spacer;
+	height: 32px;
+}

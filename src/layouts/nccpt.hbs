@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>{{ subject }}</title>
+	<link href="../src/css/nccpt.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	{{> preheader }}
+	<table cellpadding="0" cellspacing="0" border="0" class="body">
+
+		{{> nccpt-front-matter }}
+
+		{{> cover }}
+		{{> featured-articles }}
+
+		{{> nccpt-pres-message }}
+
+		{{ body }}
+
+		{{> nccpt-banner }}
+
+		{{#each nccpt-vars.blog }}
+			{{> blog-loop }}
+		{{/each}}
+
+		<!-- ads go here -->
+		{{#if nccpt-vars.has-ads }}
+			{{> nccpt-ads }}
+		{{/if}}
+
+		{{#if nccpt-vars.featured.ready }}
+		 {{> nccpt-featured-trainer }}
+		{{/if}}
+
+		{{> nccpt-footer }}
+	</table>
+
+</body>
+
+</html>
