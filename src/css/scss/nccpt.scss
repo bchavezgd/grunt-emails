@@ -33,6 +33,8 @@ $featured-trainer-bg: mix($brand-dark, $brand-gray, 50%); // for consistency.
 @import 'front-matter';
 @import 'footer';
 @import 'content';
+@import 'blog';
+
 
 // responsive imports last.
 //@media only screen

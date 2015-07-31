@@ -83,7 +83,7 @@ styles for tags go in global.scss
   height: auto;
   margin: 0 auto;
   padding: 0;
-  display: table;
+  display: block;
 }
 .container p a {
   color: inherit !important;
@@ -105,52 +105,48 @@ styles for tags go in global.scss
 /*
 **	grid work
 */
-.col-1 {
+.container .col-1 {
+  width: 89.16667px;
+  margin: 0;
+}
+.container .col-2 {
+  width: 188.33333px;
+  margin: 0;
+}
+.container .col-3 {
+  width: 287.5px;
+  margin: 0;
+}
+.container .col-4 {
+  width: 386.66667px;
+  margin: 0;
+}
+.container .col-5 {
+  width: 485.83333px;
+  margin: 0;
+}
+.container .col-6 {
+  width: 585px;
+  margin: 0;
+}
+
+[class*="col"] .col-1 {
   width: 14.98599%;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 5px;
-  margin-left: 0;
 }
-
-.col-2 {
+[class*="col"] .col-2 {
   width: 31.65266%;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 5px;
-  margin-left: 0;
 }
-
-.col-3 {
+[class*="col"] .col-3 {
   width: 48.31933%;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 5px;
-  margin-left: 0;
 }
-
-.col-4 {
+[class*="col"] .col-4 {
   width: 64.98599%;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 5px;
-  margin-left: 0;
 }
-
-.col-5 {
+[class*="col"] .col-5 {
   width: 81.65266%;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 5px;
-  margin-left: 0;
 }
-
-.col-6 {
+[class*="col"] .col-6 {
   width: 98.31933%;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 5px;
-  margin-left: 0;
 }
 
 table.col-1 {
@@ -175,6 +171,11 @@ table.col-5 {
 
 table.col-6 {
   display: table-cell;
+}
+
+.col-spacer {
+  display: table-cell;
+  min-width: 10px;
 }
 
 .spacer, .spacer-8, .spacer-16, .spacer-24, .spacer-32 {
@@ -529,27 +530,6 @@ a.btn {
   border-bottom: 3px solid;
 }
 
-.blog {
-  width: 100%;
-  background-color: #fff;
-  color: #525252;
-}
-.blog .blog-panel {
-  background-color: #d1d1d1;
-  color: #525252;
-  border-color: #9e9e9e;
-  border-radius: 8px;
-  width: 100%;
-  height: auto;
-}
-.blog .blog-panel .blog-thumbnail {
-  max-width: 180px;
-  height: auto;
-}
-.blog .blog-panel .blog-copy {
-  width: auto;
-}
-
 .featured-trainer, tr[class~="featured-trainer"] {
   background-color: #737c81;
   color: white;
@@ -561,6 +541,33 @@ a.btn {
   background-color: #525252;
   color: white;
   border-bottom: 3px solid #858585;
+}
+
+.subhead {
+  border-left-size: 2px;
+  border-left-style: solid;
+  border-left-color: #005583;
+}
+
+.blog {
+  width: 100%;
+  background-color: #fff;
+  color: #525252;
+}
+.blog .blog-panel {
+  background-color: #fff;
+  color: #525252;
+  border-color: #9e9e9e;
+  width: 100%;
+  height: auto;
+}
+.blog .blog-panel .blog-thumbnail {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.blog .blog-panel .blog-copy {
+  width: auto;
 }
 
 /*# sourceMappingURL=nccpt.css.map */

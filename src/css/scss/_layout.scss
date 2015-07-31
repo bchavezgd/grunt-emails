@@ -24,7 +24,7 @@ styles for tags go in global.scss
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
-	display: table;
+	display: block;
 	p a {
 		color: inherit !important;
 		border-bottom: 1px solid inherit;
@@ -52,29 +52,3 @@ styles for tags go in global.scss
 */
 
 @import 'grid';
-
-// spacers.
-.spacer {
-	line-height: 0;
-	font-size: 0;
-	display: table-row;
-}
-.spacer-8 {
-	@extend .spacer;
-	height: 8px;
-}
-
-.spacer-16 {
-	@extend .spacer;
-	height: 16px;
-}
-
-.spacer-24 {
-	@extend .spacer;
-	height: 24px;
-}
-
-.spacer-32 {
-	@extend .spacer;
-	height: 32px;
-}

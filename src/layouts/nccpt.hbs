@@ -13,29 +13,26 @@
 	<table cellpadding="0" cellspacing="0" border="0" class="body">
 
 		{{> nccpt-front-matter }}
-
 		{{> cover }}
 		{{> featured-articles }}
-
 		{{> nccpt-pres-message }}
-
 		{{ body }}
-
 		{{> nccpt-banner }}
-
+		{{#if nccpt-vars.featured.ready }}
+		{{> nccpt-featured-trainer }}
+		{{/if}}
+		<tr height="32">
+			<td class="spacer-32">&nbsp;</td>
+		</tr>
+		<!-- spacer -->
 		{{#each nccpt-vars.blog }}
-			{{> blog-loop }}
+		{{> blog-loop }}
 		{{/each}}
 
 		<!-- ads go here -->
 		{{#if nccpt-vars.has-ads }}
 			{{> nccpt-ads }}
 		{{/if}}
-
-		{{#if nccpt-vars.featured.ready }}
-		 {{> nccpt-featured-trainer }}
-		{{/if}}
-
 		{{> nccpt-footer }}
 	</table>
 

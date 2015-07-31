@@ -10,11 +10,12 @@
 			<!-- spacer -->
 
 			{{#if subhead}}
-						<!-- subhead	 -->
-			<tr class="subhead">
+			<!-- subhead	 -->
+			<tr>
 				<td>
 					<table class="container">
 						<tr>
+							<td class="subhead" width="16" >&nbsp;</td>
 							<td class="h2">
 								{{{ subhead }}}
 							</td>
@@ -29,16 +30,22 @@
 			</tr>
 			<!-- end subhead -->
 			{{/if}}
-
 			<!-- article -->
 			<tr>
-				<td align="center">
+				<td>
 					<!-- panel, blog content will be in here. -->
-					<table class="col-5">
+					<table class="col-6">
+						<tr>
+							<td class="h3">
+								{{{ title }}}
+							</td>
+						</tr>
+						<tr height="32"><td class="spacer-32">&nbsp;</td></tr><!-- spacer -->
 						<tr>
 							<td>
 								<table class="blog-panel">
 									<tr>
+
 										<!-- thumbnail -->
 										<td class="col-2">
 											<img src="{{ thumbnail }}" class="blog-thumbnail">
@@ -46,7 +53,7 @@
 										<!-- end thumbnail -->
 
 										<!-- horizontal space -->
-										<td width="16" class="spacer col hidden-sm">&nbsp;</td>
+										<td width="16" class="col-spacer hidden-sm">&nbsp;</td>
 										<!-- end space -->
 										<!-- blog copy -->
 										<td class="col-4">
@@ -55,15 +62,6 @@
 													<td>
 														<!-- copy -->
 														<table>
-															<tr height="8" class="spacer-8">
-																<td>&nbsp;</td>
-															</tr>
-															<!-- spacer -->
-															<tr>
-																<td class="h2">
-																	{{{ title }}}
-																</td>
-															</tr>
 															<tr height="8" class="spacer-8">
 																<td>&nbsp;</td>
 															</tr>
@@ -78,7 +76,7 @@
 															</tr>
 															<!-- spacer -->
 															<tr>
-																<td align="center">
+																<td align="right">
 																	<a href="{{ link }}" target="_blank" class="btn btn-default">Read More!</a>
 																</td>
 															</tr>
@@ -94,6 +92,7 @@
 											</table>
 										</td>
 										<!-- end blog copy -->
+
 									</tr>
 								</table>
 							</td>
@@ -101,9 +100,13 @@
 					</table>
 					<!-- end blog panel -->
 				</td>
+
 			</tr>
 			<!-- end article -->
-<tr height="32"><td class="spacer-32">&nbsp;</td></tr><!-- spacer -->
+			<tr height="32" style="border-bottom: 1px solid #d1d1d1">
+				<td class="spacer-32">&nbsp;</td>
+			</tr>
+			<!-- spacer -->
 		</table>
 		<!-- end container -->
 	</td>

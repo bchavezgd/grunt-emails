@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$width".
-        on line 23 of /Volumes/graphics storage HD/web-resources/email-temp/grunt-emails/src/css/scss/_layout.scss
+        on line 23 of /Volumes/graphics storage HD/web-resources/grunt-emails/src/css/scss/_layout.scss
 
 18:
 19: * Putsmail works exactly as expected with a max-width/width declarations
@@ -11,11 +11,11 @@ Error: Undefined variable: "$width".
 24: 	height: auto;
 25: 	margin: 0 auto;
 26: 	padding: 0;
-27: 	display: table;
+27: 	display: block;
 28: 	p a {
 
 Backtrace:
-/Volumes/graphics storage HD/web-resources/email-temp/grunt-emails/src/css/scss/_layout.scss:23
+/Volumes/graphics storage HD/web-resources/grunt-emails/src/css/scss/_layout.scss:23
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$width\".\A         on line 23 of /Volumes/graphics storage HD/web-resources/email-temp/grunt-emails/src/css/scss/_layout.scss\A \A 18: \A 19: * Putsmail works exactly as expected with a max-width/width declarations \A 20: \A 21: */\A 22: 	//width: 100%; BREAKING IPHONE LAYOUTS\A 23: 	width: $width;\A 24: 	height: auto;\A 25: 	margin: 0 auto;\A 26: 	padding: 0;\A 27: 	display: table;\A 28: 	p a {"; }
+  content: "Error: Undefined variable: \"$width\".\A         on line 23 of /Volumes/graphics storage HD/web-resources/grunt-emails/src/css/scss/_layout.scss\A \A 18: \A 19: * Putsmail works exactly as expected with a max-width/width declarations\A 20: \A 21: */\A 22: 	//width: 100%; BREAKING IPHONE LAYOUTS\A 23: 	width: $width;\A 24: 	height: auto;\A 25: 	margin: 0 auto;\A 26: 	padding: 0;\A 27: 	display: block;\A 28: 	p a {"; }

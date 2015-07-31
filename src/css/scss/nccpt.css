@@ -212,6 +212,9 @@ p, .p, ul, ol {
     list-style-position: inside;
     margin-left: 5px; }
 
+.p-small {
+  font-size: 12px; }
+
 a {
   color: inherit;
   text-decoration: none; }
@@ -438,23 +441,6 @@ a.btn {
   color: #525252;
   border-bottom: 3px solid; }
 
-.blog {
-  width: 100%;
-  background-color: #fff;
-  color: #525252; }
-  .blog .blog-panel {
-    background-color: #d1d1d1;
-    color: #525252;
-    border-color: #9e9e9e;
-    border-radius: 8px;
-    width: 100%;
-    height: auto; }
-    .blog .blog-panel .blog-thumbnail {
-      max-width: 180px;
-      height: auto; }
-    .blog .blog-panel .blog-copy {
-      width: auto; }
-
 .featured-trainer, tr[class~="featured-trainer"] {
   background-color: #737c81;
   color: white;
@@ -465,5 +451,22 @@ a.btn {
   background-color: #525252;
   color: white;
   border-bottom: 3px solid #858585; }
+
+.blog {
+  width: 100%;
+  background-color: #fff;
+  color: #525252; }
+  .blog .blog-panel {
+    background-color: #fff;
+    color: #525252;
+    border-color: #9e9e9e;
+    border-radius: 8px;
+    width: 100%;
+    height: auto; }
+    .blog .blog-panel .blog-thumbnail {
+      max-width: 180px;
+      height: auto; }
+    .blog .blog-panel .blog-copy {
+      width: auto; }
 
 /*# sourceMappingURL=nccpt.css.map */

@@ -1,14 +1,45 @@
 // grid work
-@for $i from 1 to ($columns + 1)
-	.col-#{$i}
-		// converting px width to %
-		width: 100% * ( ( ($i * ($width / $columns)) - $gutter) / $width)
-		margin:
-			top: 0
-			bottom: 0
-			right: (0.5 * $gutter)
-			left: 0
+.container
+	@for $i from 1 to ($columns + 1)
+		.col-#{$i}
+			// converting px width to %100% * [below] / $width
+			width:  ( ($i * ($width / $columns)) - $gutter)
+			margin: 0
+
+[class*="col"]
+	@for $i from 1 to ($columns + 1)
+		.col-#{$i}
+			// converting px width to %100% *
+			width: 100% * ( ( ($i * ($width / $columns)) - $gutter) / $width)
 
 @for $i from 1 to ($columns + 1)
 	table.col-#{$i}
 		display: table-cell
+
+
+// spacers.
+.col-spacer
+	display: table-cell
+	min-width: $gutter
+
+.spacer
+	line-height: 0
+	font-size: 0
+	display: table-row
+
+.spacer-8
+	@extend .spacer
+	height: 8px
+
+.spacer-16
+	@extend .spacer
+	height: 16px
+
+.spacer-24
+	@extend .spacer
+	height: 24px
+
+.spacer-32
+	@extend .spacer
+	height: 32px
+
