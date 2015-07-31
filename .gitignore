@@ -6,3 +6,5 @@
 /psd/
 /secrets.json
 /.sass-cache/
+*.css.map
+/src/*.css
