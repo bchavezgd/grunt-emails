@@ -8,3 +8,4 @@
 /.sass-cache/
 *.css.map
 /src/**/*.css
+/dist/
