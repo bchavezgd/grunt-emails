@@ -7,4 +7,4 @@
 /secrets.json
 /.sass-cache/
 *.css.map
-/src/*.css
+/src/**/*.css
