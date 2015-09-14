@@ -1,5 +1,4 @@
 // content settings.
-
 .masthead
 	+Auto-bg-text($brand-dark)
 
@@ -11,10 +10,6 @@
 	a
 		border: none
 
-// featured articles.
-.featured-articles
-	+Auto-bg-text($brand-dark)
-
 .main
 	background: #fff
 	width: 100%
@@ -24,7 +19,8 @@
 	text-align: center
 	width: 100%
 
-/* .content should be a block element, so that it will fill 100% of the .container */
+// .content should be a block element, 
+// so that it will fill 100% of the .container
 
 .content
 	display: block
@@ -44,17 +40,19 @@
 	+Auto-bg-text(mix($brand-primary, #fff, 20%))
 	border-bottom: 3px solid
 
-
-
+// featured articles.
+.featured-articles
+	+Auto-bg-text($brand-dark)
+	+heavy-border($background-color)
 
 .featured-trainer, tr[class~="featured-trainer"]
 	+Auto-bg-text($featured-trainer-bg)
 	+heavy-border($brand-dark)
-	border-top: 3px solid $brand-gray
+	border-top: 3px solid $gray-brand
 
 // announcment
 .announcement
-	$bgcolor: darken($brand-gray, 50%)
+	$bgcolor: darken($gray-brand, 50%)
 	+Auto-bg-text($bgcolor)
 	+heavy-border($bgcolor)
 

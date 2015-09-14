@@ -1,0 +1,103 @@
+{{#if nccpt-vars.oneUp.ready }}
+<!-- oneUp -->
+<tr class="oneUp">
+	<td>
+		<table class="container">
+			<!-- spacer -->
+			<tr height="32">
+				<td class="spacer-32">&nbsp;</td>
+			</tr>
+
+
+			<tr>
+				<td>
+					<!-- content -->
+					<table class="col-6">
+
+						<!-- thumbnail -->
+						<tr>
+							<td>
+								<a href="{{ nccpt-vars.oneUp.link }}" target="_blank">
+									<img src="{{ nccpt-vars.oneUp.thumbnail }}">
+								</a>
+							</td>
+						</tr>
+
+						<!-- spacer -->
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						
+						<!-- headline -->
+						<tr>
+							<td class="h1">
+								{{{ nccpt-vars.oneUp.headline }}}
+							</td>
+						</tr>
+
+						<!-- spacer -->
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						
+						<!-- blurb -->
+						<tr>
+							<td class="p">
+								{{{ nccpt-vars.oneUp.blurb }}}
+							</td>
+						</tr>
+						
+						<!-- spacer --><tr height="16"><td class="spacer-16">&nbsp;</td></tr>
+
+						{{#if price}}
+						<!-- price -->
+						<tr>
+							<td class="h3">
+								{{ nccpt-vars.oneUp.price }}
+							</td>
+						</tr>
+						
+						<!-- spacer -->
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						{{/if}}
+
+						<!-- link button -->
+						<tr>
+							<td class="align-center">
+								<a href="{{ nccpt-vars.oneUp.link }}" target="_blank" class="btn btn-default align-center">{{{ nccpt-vars.oneUp.linkText }}}</a>
+							</td>
+						</tr>
+
+						<!-- spacer -->
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						
+						{{#if promoCode}}
+						<!-- promocode -->
+						<tr>
+							<td class="p">
+								Coupon Code: {{ nccpt-vars.oneUp.promoCode }}
+							</td>
+						</tr>
+						{{/if}}
+
+					</table>
+					<!-- end content-->
+				</td>
+			</tr>
+
+
+			<!-- spacer -->
+			<tr height="32">
+				<td class="spacer-32">&nbsp;</td>
+			</tr>
+
+		</table>
+		<!-- end container -->
+	</td>
+</tr>
+<!-- end oneUp -->
+{{/if}}

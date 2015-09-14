@@ -4,7 +4,7 @@
 
 $padding: 30px; 	// For consistent padding
 $gutter: 10px;		// gutters... duh
-$width: 595px; 		// Width of the content area
+$width: 600px; 		// Width of the content area
 $br: 4px;					// Border radius
 $btn-br: 5px; 		// Border radius
 $columns: 6; 			// number of columns
@@ -14,19 +14,28 @@ $body-font-size: 16px;
 $body-line-height: 1.4;
 
 //colors
-$primary-color: #000000; // Primary color for buttons and links
+$primary-color: #000; 
+$background-color: #fff; 
+
 $brand-primary: #005583;
 $brand-dark: #152831;
-$brand-gray: darken(#fff, 18%); // approx 18% gray
-$background-color: #fff; // Background color
+$brand-light: #91d6e6;
 
-$featured-trainer-bg: mix($brand-dark, $brand-gray, 50%); // for consistency.
+// approx 18% gray
+$gray-brand: darken(#fff, 18%); 
+$gray-dark: desaturate($brand-dark, 100%);
+$gray-light: desaturate($brand-light, 100%);
+
+
+
+$featured-trainer-bg: mix($brand-dark, $gray-brand, 50%); // for consistency.
 
 // Main scss styles
 
 @import 'molotov';
 @import 'global';
 @import 'layout';
+@import 'grid';
 @import 'type';
 @import 'buttons';
 @import 'other';
@@ -34,6 +43,8 @@ $featured-trainer-bg: mix($brand-dark, $brand-gray, 50%); // for consistency.
 @import 'footer';
 @import 'content';
 @import 'blog';
+@import '3up';
+@import 'workshops';
 
 
 // responsive imports last.

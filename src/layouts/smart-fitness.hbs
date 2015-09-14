@@ -1,38 +1,25 @@
-<!doctype html>
-<html>
-
-<head>
-	<meta name="viewport" content="width=device-width" />
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-	<title>{{ subject }}</title>
-	<link href="../src/css/main.css" media="all" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
+{{> sf-head }}
 	{{> preheader }}
-	<table class="body" cellspacing="0" cellpadding="0" border="0">
+
 
 		{{> sf-front-matter }}
 
 		{{ body }}
-
-		{{> sf-banner }}
+		
+		{{> sf-featured-article }}
 
 		{{#if sf-vars.featured.ready}}
-			{{> sf-featured-trainer }}
+			{{> sf-featured-trainer-2col }}
 		{{/if}}
+		
+		{{> sf-banner }}
 
 
-		{{#each sf-vars.blog }}
-    	{{> blog-loop }}
-		{{/each}}
+		
+    	{{> sf-blog-loop }}
 
 		{{> webinar }}
 
 		{{> sf-footer }}
-  </table>
-	<!-- end table.body -->
-	</body>
-</html>
+{{> foot }}
 

@@ -4,7 +4,7 @@ Error: Undefined variable: "$body-font-stack".
 
 2:     TYPOGRAPHY
 3: ------------------------------------- *\/
-4:
+4: 
 5: h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 6: 	color: inherit;
 7: 	font-family: $body-font-stack;

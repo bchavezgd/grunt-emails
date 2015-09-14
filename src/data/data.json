@@ -5,18 +5,18 @@
     "url": "http://www.nccpt.com",
     "phone": "(800)778-6060",
     "blog": {
-      "name": "Best of the Week",
+      "name": "NCCPT Lift",
       "url": "http://blog.nccpt.com"
     },
     "social": [
       {
         "alt": "Faceboook",
-        "url": "//www.facebook.com/nccpt",
+        "url": "https://www.facebook.com/nccpt",
         "thumbnail": "http://static.nccpt.com/images/sm-facebook.png"
       },
       {
         "alt": "instagram",
-        "url": "//www.instagram.com/nccptco",
+        "url": "http://www.instagram.com/nccptco",
         "thumbnail": "http://static.nccpt.com/images/sm-instagram.png"
       },
       {

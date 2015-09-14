@@ -1,0 +1,116 @@
+{{#if nccpt-vars.threeUpAds }}
+<!-- three up ads/catalog -->
+<tr class="threeUp">
+	<td>
+		<table class="container">
+			<tr height="24">
+				<td class="spacer-24">&nbsp;</td>
+			</tr>
+			<!-- spacer -->
+			<tr>
+				<td class="h2 align-center" colspan="6">
+					Featured Products!
+				</td>
+			</tr>
+			<!-- spacer -->
+			<tr height="24">
+				<td class="spacer-24">&nbsp;</td>
+			</tr>
+
+			<tr class="col-6 grid">
+				<!-- loop start -->
+				{{#each nccpt-vars.threeUps }}
+				<td class="col-2">
+					<!-- ad 1 -->
+					<table>
+
+						<!-- headline -->
+						<tr>
+							<td class="h3">
+								{{{ headline }}}
+							</td>
+						</tr>
+
+
+						<tr height="8">
+							<td class="spacer-8">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+
+						<!-- thumbnail -->
+						<tr>
+							<td>
+								<a href="{{ link }}" target="_blank">
+									<img src="{{ thumbnail }}" alt="{{ blurb }}" width="180">
+								</a>
+							</td>
+						</tr>
+
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+
+						<!-- blurb -->
+						<tr>
+							<td class="p">
+								{{{ blurb }}}
+							</td>
+						</tr>
+						<tr height="8">
+							<td class="spacer-8">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+
+						<!-- price -->
+						<tr>
+							<td class="h3">
+								{{{ price }}}
+							</td>
+						</tr>
+						<tr height="8">
+							<td class="spacer-8">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+
+						<!-- link button -->
+						<tr>
+							<td class="p">
+								<a href="{{ link }}" target="_blank" class="btn btn-default">{{{ linkText }}}</a>
+							</td>
+						</tr>
+
+						{{#if this.promoCode }}
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+						<!-- promo code -->
+						<tr>
+							<td class="p">
+								Coupon Code: <strong>{{{ promoCode }}}</strong>
+							</td>
+						</tr>
+						{{/if}}
+
+					</table>
+					<!-- end -->
+				</td>
+				
+				<td class="col-spacer">&nbsp;</td>
+				{{/each}}
+				<!-- loop end -->
+
+			</tr>
+
+			<tr height="32">
+				<td class="spacer-32">&nbsp;</td>
+			</tr>
+			<!-- spacer -->
+
+		</table>
+		<!-- end container -->
+	</td>
+</tr>
+<!-- end  -->
+{{/if}}

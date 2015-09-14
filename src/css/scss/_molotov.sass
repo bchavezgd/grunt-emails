@@ -5,9 +5,9 @@
 
 @function contrast-text ($c)
 	@if (lightness($c) > 50)
-		@return darken($brand-gray, 50%)
+		@return darken($gray-brand, 50%)
 	@else
-		@return lighten($brand-gray, 20%)
+		@return lighten($gray-brand, 20%)
 
 =Auto-bg-text($c)
 	background-color: $c
@@ -25,3 +25,6 @@
 
 .heavy-border
 	+heavy-border($brand-primary)
+
+=make-row()
+	padding: ($body-font-size * $body-line-height) 0

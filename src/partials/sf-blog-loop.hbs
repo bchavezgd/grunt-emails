@@ -1,4 +1,4 @@
-
+{{#each sf-vars.blog }}
 <!-- blog excerpts -->
 <tr class="blog">
 	<td>
@@ -8,17 +8,18 @@
 			</tr>
 			<!-- spacer -->
 
+			{{#if subhead}}
 			<!-- subhead	 -->
-			<tr class="subhead">
+			<tr>
 				<td>
 					<table class="container">
 						<tr height="32">
 							<td class="spacer-32">&nbsp;</td>
 						</tr>
 						<!-- spacer -->
-						<tr>
+						<tr class="subhead">
 							<td class="h2">
-								{{{ subhead }}}
+								&emsp; &emsp; {{{ subhead }}}
 							</td>
 						</tr>
 						<tr height="32">
@@ -30,6 +31,7 @@
 				</td>
 			</tr>
 			<!-- end subhead -->
+			{{/if}}
 
 			<!-- article -->
 			<tr>
@@ -48,7 +50,7 @@
 										<!-- end thumbnail -->
 
 										<!-- horizontal space -->
-										<td width="16" class="spacer col">&nbsp;</td>
+										<td width="16" class="col-spacer">&nbsp;</td>
 										<!-- end space -->
 
 										<!-- blog copy -->
@@ -101,19 +103,20 @@
 									</tr>
 								</table>
 							</td>
-
-
 						</tr>
 					</table>
 					<!-- end blog panel -->
 				</td>
 			</tr>
 			<!-- end article -->
-			<tr>
-				<td height="64" class="spacer">&nbsp;</td>
-			</tr>
-			<!-- spacer -->
+
 		</table>
 		<!-- end container -->
 	</td>
+</tr>
+{{/each}}
+
+<!-- spacer -->
+<tr height="32">
+	<td class="spacer-32">&nbsp;</td>
 </tr>

@@ -12,10 +12,10 @@ module.exports = function (grunt) {
 
 		// Re-usable filesystem paths (these shouldn't be modified)
 		paths: {
-			src: 'src',
-			src_img: 'src/img',
-			dist: 'dist',
-			dist_img: 'dist/img'
+			src: './src',
+			src_img: './src/img',
+			dist: './dist',
+			dist_img: './dist/img'
 		},
 
 
@@ -28,8 +28,8 @@ module.exports = function (grunt) {
 					style: 'expanded'
 				},
 				files: {
-					'<%= paths.src %>/css/main.css': '<%= paths.src %>/css/scss/main.scss',
-					'<%= paths.src %>/css/nccpt.css': '<%= paths.src %>/css/scss/nccpt.scss'
+					'./dist/css/main.css': '<%= paths.src %>/css/scss/main.scss',
+					'<%= paths.dist %>/css/nccpt.css': '<%= paths.src %>/css/scss/nccpt.scss'
 				}
 			}
 		},
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
 			options: {
 				layoutdir: '<%= paths.src %>/layouts',
 				partials: ['<%= paths.src %>/partials/**/*.hbs'],
-				data: ['<%= paths.src %>/data/*.{json,yml}'],
+				data: '<%= paths.src %>/data/*.{json,yml}',
 				flatten: true
 			},
 			pages: {
@@ -143,7 +143,7 @@ module.exports = function (grunt) {
 									'<%= paths.src %>/layouts/*',
 									'<%= paths.src %>/partials/*',
 									'<%= paths.src %>/data/*'],
-			tasks: ['default']
+			tasks: ['dev']
 		},
 
 
@@ -266,7 +266,8 @@ module.exports = function (grunt) {
 
 	// Load assemble
 	grunt.loadNpmTasks('assemble');
-
+	
+	grunt.loadNpmTasks('grunt-newer');
 	// Load all grunt tasks
 	// https://github.com/sindresorhus/load-grunt-tasks
 	require('load-grunt-tasks')(grunt);
@@ -276,8 +277,15 @@ module.exports = function (grunt) {
 			'sass',
 			'assemble',
 			'premailer',
-			'imagemin',
+			'newer:imagemin',
 			'replace:src_images'
+		]);	
+	
+	
+	grunt.registerTask('dev', [
+			'sass',
+			'assemble',
+			'newer:imagemin',
 		]);
 	// Use grunt send if you want to actually send the email to your inbox
 	grunt.registerTask('send', ['mailgun']);

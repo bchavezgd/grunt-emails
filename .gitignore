@@ -9,3 +9,5 @@
 *.css.map
 /src/**/*.css
 /dist/
+/.DS_Store
+/src/css/.DS_Store

@@ -73,13 +73,10 @@ styles for tags go in global.scss
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 .container {
   	/*
-
   *	In constant contact, their footer is set to a fixed 595px width. breaking all the content above it.
-
   * Putsmail works exactly as expected with a max-width/width declarations
-
   */
-  width: 595px;
+  width: 600px;
   height: auto;
   margin: 0 auto;
   padding: 0;
@@ -102,80 +99,62 @@ styles for tags go in global.scss
   visibility: collapse;
 }
 
-/*
-**	grid work
-*/
+/*	----------	 */
+/*   grid work	 */
+/*	----------	 */
+.container .col-6 {
+  width: 600px;
+  margin: 0;
+}
 .container .col-1 {
-  width: 89.16667px;
+  width: 90px;
   margin: 0;
 }
 .container .col-2 {
-  width: 188.33333px;
+  width: 190px;
   margin: 0;
 }
 .container .col-3 {
-  width: 287.5px;
+  width: 290px;
   margin: 0;
 }
 .container .col-4 {
-  width: 386.66667px;
+  width: 390px;
   margin: 0;
 }
 .container .col-5 {
-  width: 485.83333px;
-  margin: 0;
-}
-.container .col-6 {
-  width: 585px;
+  width: 490px;
   margin: 0;
 }
 
+/* nested columns. */
+[class*="col"] .col-6 {
+  width: 100%;
+}
 [class*="col"] .col-1 {
-  width: 14.98599%;
+  width: 15%;
 }
 [class*="col"] .col-2 {
-  width: 31.65266%;
+  width: 32%;
 }
 [class*="col"] .col-3 {
-  width: 48.31933%;
+  width: 48%;
 }
 [class*="col"] .col-4 {
-  width: 64.98599%;
+  width: 65%;
 }
 [class*="col"] .col-5 {
-  width: 81.65266%;
-}
-[class*="col"] .col-6 {
-  width: 98.31933%;
+  width: 82%;
 }
 
-table.col-1 {
+table[class*="col-"] {
   display: table-cell;
 }
 
-table.col-2 {
+/* spacers. */
+td .col-spacer {
   display: table-cell;
-}
-
-table.col-3 {
-  display: table-cell;
-}
-
-table.col-4 {
-  display: table-cell;
-}
-
-table.col-5 {
-  display: table-cell;
-}
-
-table.col-6 {
-  display: table-cell;
-}
-
-.col-spacer {
-  display: table-cell;
-  min-width: 10px;
+  width: 20px;
 }
 
 .spacer, .spacer-8, .spacer-16, .spacer-24, .spacer-32 {
@@ -185,19 +164,23 @@ table.col-6 {
 }
 
 .spacer-8 {
-  height: 8px;
+  height: 11.2px;
 }
 
 .spacer-16 {
-  height: 16px;
+  height: 22.4px;
 }
 
 .spacer-24 {
-  height: 24px;
+  height: 33.6px;
 }
 
 .spacer-32 {
-  height: 32px;
+  height: 44.8px;
+}
+
+.grid td.col-spacer:last-of-type {
+  display: none;
 }
 
 /* -------------------------------------
@@ -266,7 +249,7 @@ td[class~="light-text"] {
 
 .dark-text,
 td[class~="dark-text"] {
-  color: #000000;
+  color: #000;
 }
 
 /* -------------------------------------
@@ -453,7 +436,7 @@ a.btn {
 }
 
 .front-matter {
-  background-color: #000000;
+  background-color: #000;
   color: white;
   width: 100%;
   min-height: 2.5em;
@@ -490,11 +473,6 @@ a.btn {
   border: none;
 }
 
-.featured-articles {
-  background-color: #152831;
-  color: white;
-}
-
 .main {
   background: #fff;
   width: 100%;
@@ -507,11 +485,10 @@ a.btn {
   width: 100%;
 }
 
-/* .content should be a block element, so that it will fill 100% of the .container */
 .content {
   display: block;
   margin: 0 auto;
-  max-width: 595px;
+  max-width: 600px;
   padding: 10px;
 }
 .content p {
@@ -528,6 +505,12 @@ a.btn {
   background-color: #ccdde6;
   color: #525252;
   border-bottom: 3px solid;
+}
+
+.featured-articles {
+  background-color: #152831;
+  color: white;
+  border-bottom: 3px solid #cccccc;
 }
 
 .featured-trainer, tr[class~="featured-trainer"] {
@@ -568,6 +551,22 @@ a.btn {
 }
 .blog .blog-panel .blog-copy {
   width: auto;
+}
+
+.threeUp {
+  padding: 22.4px 0;
+  background-color: #bcbcbc;
+}
+
+.workshops {
+  background-color: #232323;
+}
+
+table.table {
+  border-bottom: 1px solid #bcbcbc;
+}
+table.table th {
+  background-color: #152831;
 }
 
 /*# sourceMappingURL=nccpt.css.map */

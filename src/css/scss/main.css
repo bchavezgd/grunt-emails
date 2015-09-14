@@ -1,6 +1,3 @@
-/* -------------------------------------
-    CONFIGURE YOUR VARIABLES
-------------------------------------- */
 .heavy-border {
   border-bottom: 3px solid #f05d5d; }
 
@@ -53,6 +50,70 @@ hr, .hr {
 .ExternalClass div {
   line-height: 100%; }
 
+/*	----------	 */
+/*   grid work	 */
+/*	----------	 */
+.container .col-6 {
+  width: 595px;
+  margin: 0; }
+.container .col-1 {
+  width: 89px;
+  margin: 0; }
+.container .col-2 {
+  width: 188px;
+  margin: 0; }
+.container .col-3 {
+  width: 287px;
+  margin: 0; }
+.container .col-4 {
+  width: 386px;
+  margin: 0; }
+.container .col-5 {
+  width: 485px;
+  margin: 0; }
+
+/* nested columns. */
+[class*="col"] .col-6 {
+  width: 100%; }
+[class*="col"] .col-1 {
+  width: 15%; }
+[class*="col"] .col-2 {
+  width: 32%; }
+[class*="col"] .col-3 {
+  width: 48%; }
+[class*="col"] .col-4 {
+  width: 65%; }
+[class*="col"] .col-5 {
+  width: 82%; }
+
+table[class*="col-"] {
+  display: table-cell; }
+
+/* spacers. */
+td .col-spacer {
+  display: table-cell;
+  width: 20px; }
+
+.spacer, .spacer-8, .spacer-16, .spacer-24, .spacer-32 {
+  line-height: 0;
+  font-size: 0;
+  display: table-row; }
+
+.spacer-8 {
+  height: 11.2px; }
+
+.spacer-16 {
+  height: 22.4px; }
+
+.spacer-24 {
+  height: 33.6px; }
+
+.spacer-32 {
+  height: 44.8px; }
+
+.grid td.col-spacer:last-of-type {
+  display: none; }
+
 /* -------------------------------------
     BODY & CONTAINER
 
@@ -64,11 +125,8 @@ styles for tags go in global.scss
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 .container {
   	/*
-
   *	In constant contact, their footer is set to a fixed 595px width. breaking all the content above it.
-
   * Putsmail works exactly as expected with a max-width/width declarations
-
   */
   width: 595px;
   height: auto;
@@ -88,80 +146,6 @@ styles for tags go in global.scss
 
 .hidden-big {
   visibility: collapse; }
-
-/*
-**	grid work
-*/
-.container .col-1 {
-  width: 89.16667px;
-  margin: 0; }
-.container .col-2 {
-  width: 188.33333px;
-  margin: 0; }
-.container .col-3 {
-  width: 287.5px;
-  margin: 0; }
-.container .col-4 {
-  width: 386.66667px;
-  margin: 0; }
-.container .col-5 {
-  width: 485.83333px;
-  margin: 0; }
-.container .col-6 {
-  width: 585px;
-  margin: 0; }
-
-[class*="col"] .col-1 {
-  width: 14.98599%; }
-[class*="col"] .col-2 {
-  width: 31.65266%; }
-[class*="col"] .col-3 {
-  width: 48.31933%; }
-[class*="col"] .col-4 {
-  width: 64.98599%; }
-[class*="col"] .col-5 {
-  width: 81.65266%; }
-[class*="col"] .col-6 {
-  width: 98.31933%; }
-
-table.col-1 {
-  display: table-cell; }
-
-table.col-2 {
-  display: table-cell; }
-
-table.col-3 {
-  display: table-cell; }
-
-table.col-4 {
-  display: table-cell; }
-
-table.col-5 {
-  display: table-cell; }
-
-table.col-6 {
-  display: table-cell; }
-
-.col-spacer {
-  display: table-cell;
-  min-width: 10px; }
-
-.spacer, .spacer-8, .spacer-16, .spacer-24, .spacer-32 {
-  line-height: 0;
-  font-size: 0;
-  display: table-row; }
-
-.spacer-8 {
-  height: 8px; }
-
-.spacer-16 {
-  height: 16px; }
-
-.spacer-24 {
-  height: 24px; }
-
-.spacer-32 {
-  height: 32px; }
 
 /* -------------------------------------
     TYPOGRAPHY
@@ -220,6 +204,9 @@ td[class~="light-text"] {
 .dark-text,
 td[class~="dark-text"] {
   color: #000000; }
+
+.small {
+  font-size: 0.75em; }
 
 /* -------------------------------------
     BUTTONS
@@ -402,10 +389,6 @@ a.btn {
   .social-links a {
     border: none; }
 
-.featured-articles {
-  background-color: #760b0b;
-  color: white; }
-
 .main {
   background: #fff;
   width: 100%; }
@@ -416,7 +399,6 @@ a.btn {
   text-align: center;
   width: 100%; }
 
-/* .content should be a block element, so that it will fill 100% of the .container */
 .content {
   display: block;
   margin: 0 auto;
@@ -434,6 +416,11 @@ a.btn {
   background-color: #f6cfcf;
   color: #515151;
   border-bottom: 3px solid; }
+
+.featured-articles {
+  background-color: #760b0b;
+  color: white;
+  border-bottom: 3px solid #cccccc; }
 
 .featured-trainer, tr[class~="featured-trainer"] {
   background-color: #000000;
@@ -467,5 +454,8 @@ a.btn {
       height: auto; }
     .blog .blog-panel .blog-copy {
       width: auto; }
+
+table.body {
+  background-color: #d41313; }
 
 /*# sourceMappingURL=main.css.map */

@@ -30,7 +30,7 @@
 	&:hover,
 	&:focus,
 	&.focus {
-		color: darken($brand-gray, 10%);
+		color: darken($gray-brand, 10%);
 		text-decoration: none;
 	}
 	&:active,
@@ -58,7 +58,7 @@ fieldset[disabled] .btn {
 }
 
 .btn-default {
-	color: lighten($brand-gray, 50%);
+	color: lighten($gray-brand, 50%);
 	background-color: $brand-primary;
 	border-color: $brand-primary;
 	a {

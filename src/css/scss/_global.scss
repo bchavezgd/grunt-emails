@@ -43,7 +43,7 @@ table {
 }
 
 hr, .hr {
-	@include heavy-border($brand-gray)
+	@include heavy-border($gray-brand)
 }
 
 // External class fix for Outlook.com

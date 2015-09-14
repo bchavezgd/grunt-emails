@@ -1,0 +1,78 @@
+---
+# for excerpt and other body copy, the punctuation must be escaped.
+# or else they break the template parsing function.
+# colon	: => &#58;
+# apostropy ' => &apos;
+#	ellipsis ... => &hellip;
+# quotes "left  right" => &ldquo;   &rdquo;
+# nccpt reusable data
+
+hero:
+  title: Sun&apos;s out, are you?
+  image: http://static.nccpt.com/images/150807-pose-off.jpg
+  alt: HASHTAG NCCPT POSE DOWN
+  link: http://www.instagram.com/nccptco
+  excerpt: Show us your best outdoor fitness pose. Photos MUST be taken outside - clothes or bathing suits required (can&apos;t believe we had to say that!). Post your photo on Instagram using the hashtag &#35;NCCPTPoseDown. If your pose is chosen - you may win an NCCPT Dry Fit Trainer Shirt! We&apos;ll be monitoring the hastag daily and giving out two shirts a  week in August!
+
+articles: # 2 max
+  - title: Why science thinks fasting might save your life&hellip;
+    link: http://blog.nccpt.com/fasting-diets-the-worst-secret-to-dieting-success-and-more/
+    more: Read More&hellip;
+    excerpt: Eat too much, risk disease. Eat too little&hellip; live longer? Researchers are discovering deprivation may lead to restoration.
+
+  - title: Rotator Cuff Injuries are a pain in the shoulder&hellip;
+    link: http://blog.nccpt.com/how-to-train-the-rotator-cuff-after-injury/
+    more: Learn more.
+    excerpt: Learn the latest evidenced-based research on rotator cuff tears and how to transition a client from therapy to the gym.
+
+# Featured Trainer
+featured:
+  ready: false #true/false
+  image: http://static.nccpt.com/images/150807-trainer.jpg
+  name: MF Doom
+  link: http://blog.nccpt.com/
+  excerpt: The super flow with more jokes than Bazooka Joe A mix between Superfly Snuka and a superhoe Chew a MC like El Chupa Nibre Digest a group and sell the poop on eBay Danger with the vest screamin &ldquo;Shoot the DJ!&rdquo; DOOM clickin over two chickens, three-way Four in the 5, a cork on the freeway Villain find a way to make &apos;em pay whatever we say.
+
+blog: # copy/paste this block and modify for each blog post.
+  - title: The 1 thing you NEED to do to survive in the fitness industry
+    subhead:
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/CEUEmailPic.png
+    link: http://blog.nccpt.com/the-one-thing-you-need-to-do-to-survive-in-the-fitness-industry/
+    more: Learn why&hellip;
+    excerpt: A career in fitness is rewarding, but the rewards stop once you stop learning.
+
+  - title: Ten ways to lose a personal training client&hellip;
+    subhead:
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/Slide-81.jpg
+    link: http://blog.nccpt.com/10-ways-to-lose-a-personal-training-client/
+    more: Keep Clients&hellip;
+    excerpt: Are you making any of these mistakes? If so, you may want to rethink your client retention management strategy!
+
+  - title: Ice, Ice, Maybe?
+    subhead:
+    thumbnail: http://stoneathleticmedicine.com/wp-content/uploads/2015/02/ice-300x248.png
+    link: http://blog.nccpt.com/guest-blog-josh-stone-10-reasons-icing-injuries-is-wrong
+    more: Let him explain&hellip;
+    excerpt: According to Josh Stone (MA, ATC, CES, and many more), ice is for keeping your drinks cold and NOT for your ankle sprain.
+
+has-ads: true #true/false
+ads:
+  - thumbnail: http://static.nccpt.com/images/150801-ad-cpt.jpg
+    link: https://www.nccpt.com/store/products/personal-trainer-certificate-program/1719
+    link-text: Start today
+    promo-code: CERTME #do not delete, leave blank if no promocode exists.
+    title: Certificate of Personal Training $119
+    blurb: Get started on your personal training career with the most affordable education option in the industry!
+
+  - thumbnail: http://static.nccpt.com/images/150807-pro-fit-jobs.jpg
+    link: http://profitjobs.com/
+    link-text: What are you waiting for?
+    promo-code:
+    title: ProFitJobs.com
+    blurb: Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today!
+
+
+pres-message:
+  title: President&rsquo;s Message
+  copy: <p>I heard a podcast the other day in regards to licensure for personal trainers in Washington DC. On the call was Jeff Glassman the creator of Cross Fit. I have to give credit when credit is due. When one guy creates a format that encourages and motivates thousands of people to get active, you have to give him kudos. With over 10,000 locations and growing, this one man is responsible for making this happen. Are people getting injured? According to one study, <a href="http://ojs.sagepub.com/content/2/4/2325967114531177.full">20% of the people that participate in Cross Fit get injured</a>. Any time the intensity increases when exercising, the chance of injury also increases. Look at any intense sport&mdash;injuries may occur. That&rsquo;s a choice one makes.</p><p><strong>Back to the podcast.</strong></p><p>Jeff made a comment that Cross Fit was the only organization that offered live, hands-on training. This of course is incorrect. Every major certification, including the NCCPT offers live, hands-on training. It kind of bugged me when he said that. What I really liked was what he said about licensure. He focused on the sugar industry. Now you&rsquo;re talking! That&rsquo;s who really needs to be regulated --not personal trainers. Personal trainers and Cross Fitters are doing their part to improve the health of our nation. We often work long hours, don&rsquo;t have a steady income and rarely get benefits. We don&rsquo;t need more regulation to increase the costs of becoming and remaining a fitness professional. What we need is for the public to value and prioritize their health. In doing so, personal trainers will become more respected. There are good doctors and bad doctors. All of them have 8-11 years of education. In the end, it&rsquo;s up to each and every one of us to do our due-diligence to hire the right person whether it be a baby sitter, a roofer, a dentist or a personal trainer. I see a lot of people disparaging Cross Fit, however, I have to agree with Jeff Glassman. Regulate the sugar and food industry first. There&rsquo;s big money behind those lobbies. Leave the personal trainers alone. We&rsquo;re doing a great job!</p> <p>Anyway, time to get off my box and go for a swim! Keep up the good work and enjoy your summer.</p><p>Stay Fit,</p><p>John Platero<br>CEO</p>
+
