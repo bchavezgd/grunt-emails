@@ -1,5 +1,5 @@
 .heavy-border {
-  border-bottom: 3px solid #f05d5d; }
+  border-bottom: 3px solid #cd0006; }
 
 /* -------------------------------------
     GLOBAL RESETS
@@ -256,13 +256,13 @@ fieldset[disabled] .btn {
 
 .btn-default {
   color: white;
-  background-color: #d41313;
-  border-color: #d41313; }
+  background-color: #670003;
+  border-color: #670003; }
   .btn-default a {
     color: #fff; }
   .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
     color: #cbcbcb;
-    background-color: #760b0b;
+    background-color: #010000;
     border-color: #adadad; }
 
 .btn-default:active, .btn-default.active {
@@ -374,12 +374,12 @@ a.btn {
     color: inherit; }
 
 .footer {
-  background-color: #760b0b;
+  background-color: #010000;
   color: white;
   width: 100%; }
 
 .masthead {
-  background-color: #760b0b;
+  background-color: #010000;
   color: white; }
 
 .social-links {
@@ -394,7 +394,7 @@ a.btn {
   width: 100%; }
 
 .banner {
-  background-color: #760b0b;
+  background-color: #010000;
   color: white;
   text-align: center;
   width: 100%; }
@@ -409,23 +409,23 @@ a.btn {
     margin: 0 auto 16px; }
 
 .article-list {
-  background-color: #d41313;
+  background-color: #670003;
   color: white; }
 
 .ads {
-  background-color: #f6cfcf;
+  background-color: #e0cccc;
   color: #515151;
   border-bottom: 3px solid; }
 
 .featured-articles {
-  background-color: #760b0b;
+  background-color: #010000;
   color: white;
   border-bottom: 3px solid #cccccc; }
 
 .featured-trainer, tr[class~="featured-trainer"] {
   background-color: #000000;
   color: white;
-  border-bottom: 3px solid #d41313;
+  border-bottom: 3px solid #670003;
   border-top: 3px solid #d1d1d1; }
 
 .announcement {
@@ -436,7 +436,7 @@ a.btn {
 .subhead {
   border-left-size: 2px;
   border-left-style: solid;
-  border-left-color: #d41313; }
+  border-left-color: #670003; }
 
 .blog {
   width: 100%;
@@ -456,6 +456,16 @@ a.btn {
       width: auto; }
 
 table.body {
-  background-color: #d41313; }
+  background-color: #670003; }
+
+[class^="ph-"] .container {
+  background-color: white; }
+
+.sales-copy .container {
+  background-color: white; }
+  .sales-copy .container td.h2 {
+    text-align: center; }
+  .sales-copy .container ul {
+    text-indent: -16px; }
 
 /*# sourceMappingURL=main.css.map */
