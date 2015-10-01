@@ -1,0 +1,128 @@
+---
+# for excerpt and other body copy, the punctuation must be escaped.
+# or else they break the template parsing function.
+# colon	: => &#58;
+# apostropy ' => &apos;
+#	ellipsis ... => &hellip;
+# quotes "left  right" => &ldquo;   &rdquo;
+# nccpt reusable data
+
+#featured articles
+hero:
+  ceus:
+  title: "School's back in session - are you ready to learn?"
+  image: http://blog.nccpt.com/wp-content/uploads/CEUEmailPic.png
+  alt: "Schools in session bro!"
+  link: http://blog.nccpt.com/the-one-thing-you-need-to-do-to-survive-in-the-fitness-industry/
+  linkText: "Hit the Books!"
+  excerpt: "If you stop learning - you stop growing in this industry. Here's why&hellip;"
+
+# displays as stack,
+articles:
+  -
+    excerpt: "The foot is where movement begins, from the initiating of simple functional movements such as sit to stand or walking, to climbing stairs&hellip;"
+    link: http://blog.nccpt.com/the-foot-and-ankle-complex-understanding-the-science-behind-both-movement-and-dysfunction/
+    more: "Learn more."
+    thumbnail: http://static.nccpt.com/images/150904-ankle.jpg
+    title: "The Foot and ankle complex: understanding the science."
+    ceus: 0
+
+#featured blog articles
+blog:
+  -
+    excerpt: "Learn the insider secrets to enhancing your client's performance when every little thing counts!"
+    link: "http://blog.nccpt.com/one-way-to-increase-performance-without-sacrificing-power/"
+    more: "Learn why&hellip;"
+    subhead:
+    thumbnail: "http://static.nccpt.com/images/150904-blog-01.jpg"
+    title: "Increase performance without sacrificing power&hellip;"
+    ceus: 0.1
+  -
+    excerpt: "But do you know how to help clients avoid it?"
+    link: "http://blog.nccpt.com/the-easiest-injury-to-avoid-and-how-to-avoid-it/"
+    more: "Learn How&hellip;"
+    subhead: "It's the easiest injury to avoid&hellip;"
+    thumbnail: http://static.nccpt.com/images/150904-blog-02.jpg
+    title:
+    ceus: 0.1
+
+#featured trainer
+featured:
+  ready: true
+  image: http:///static.nccpt.com/images/150904-trainer.jpg
+  link: http://blog.nccpt.com/alison-hager/
+  name: "Alison Hager"
+  excerpt: "No matter what job or profession you&apos;re in, it is the level of inspiration that will forever forecast the depths of your success.  For Alison Hager, she believes, &ldquo;You only fail when you quit trying.&rdquo;"
+
+pres-message:
+  ready: true
+  title: "President&apos;s Message"
+  copy: "<p><strong> President&rsquo;s Message </strong></p><p>Our new <strong> Weight Management Specialist Certification </strong> is here! As you know, nutrition is a huge component of health and fitness. We have a brand new program to help you guide your clients to reach their goals in a more efficient manner. On the same nutrition note, I just watched the documentary &ldquo; <strong> Forks over Knives </strong> &rdquo; on Netflix. I highly recommend it.</p><p>Don&rsquo;t forget the NCCPT has its own <strong> Dartfish </strong> Channel. Check out the video analysis done by our Director of Education Tom Delong. You can download the app on your phone, take video footage of your clients and then have it analyzed! How cool is that? It&rsquo;s like having a biomechanics lab for your business!</p><p>Check out our Featured Personal Trainer <strong> Alison Hager </strong> , where quitting for her was never an option!</p><p>Once again we have a few <strong> CEU articles </strong> to add towards your recertification credits.</p><p>Don&rsquo;t forget to post your free profile on <strong> www.ProFitJobs.com </strong> so employers can find you.</p><p>On a personal note, I had a freaky accident and tore all my quadriceps off the bone! Extremely painful. Had surgery on August 19<sup>th</sup>. I&rsquo;ll document the entire rehabilitation process in case you ever have clients with the same condition.</p><p>That guy Murphy&hellip;&hellip;&hellip;</p><p>Stay Fit!</p><p><strong> John Platero </strong></p>"
+
+#ads.
+
+oneUp:
+  ready: true
+  blurb: "The Certified Weight Management Course has been revised. The most current information is now availble to help your keep your client's on the right track to achieving their goals."
+  headline: "Reintroducing! The Certified Weight Management Course"
+  link: http://www.nccpt.com/certified-weight-management-specialist
+  linkText: "Enroll Now"
+  price: "$299"
+  promoCode:
+  thumbnail: http://static.nccpt.com/images/150907-cwms.jpg
+
+twoUpAds: true
+twoUps:
+  -
+    blurb: "Become a pillar of strength, learn how to coach the Big Three and help people hit those PR's Buy now for $350"
+    link: https://www.nccpt.com/store/products/certified-powerlifting-instructor/1726
+    link-text: "Start today"
+    promo-code: PWR5
+    thumbnail: http://static.nccpt.com/images/150904-ad-pl.jpg
+    title: "Coaches Lift More"
+  -
+    blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today!"
+    link: http://profitjobs.com/
+    link-text: "What are you waiting for?"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/150807-pro-fit-jobs.jpg
+    title: ProFitJobs.com
+
+threeUpAds: true
+threeUps:
+  -
+    blurb: 'Start a Career in Personal Training with NCCPT, and work from anywhere. <span class="small"> expires 9/10/15</span>'
+    headline: "Be your own boss!"
+    link: http://www.nccpt.com/store/products/nccpt-online-premium-package/1459
+    linkText: "Learn more!"
+    price:
+    promoCode: LABOR
+    thumbnail: http://static.nccpt.com/images/150904-ad-labor.jpg
+  -
+    blurb: "Summer is almost over, time to start prepping for those cooler fall morning training sessions. Cut the chill with DryFit Hoodies."
+    headline: "Winter is Coming."
+    link: https://www.nccpt.com/store/products/dryshirt-hoodie-black/1601
+    linkText: "Shop Now!"
+    price:
+    promoCode: "Hoodies1510"
+    thumbnail: http://static.nccpt.com/images/150904-ad-hoodie.jpg
+  -
+    blurb: "When you buy the New Certified Weight Management Course, recieve a free Body Fat Caliper! Call in only."
+    headline: "Introductory deal"
+    link: http://www.nccpt.com/store/products/body-calipers/1586
+    linkText: "Take a look."
+    price: 800-778-6060
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/150904-ad-caliper.jpg
+
+workshops:
+  ready: true
+  link: http://www.nccpt.com/live-workshops
+  linkText: "Find one near you!"
+  thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
+  headline: "Learn hands-on how to become a personal trainer with our two-day workshop!"
+  copy: '<p class="p light-text">This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.</p> <p class="p light-text">In addition to sixteen hours of hands-on experience with industry veterans, you&apos;ll receive: </p><ul> <li class="p light-text">NCCPT textbook and *one time exam attempt (*proctoring fee is not included)</li><li class="p light-text">Access to all personal training course videos online.</li><li class="p light-text">Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).</li><li class="p light-text"> 1.6 CEUs if you are currently a personal trainer looking for more experience.</li>'
+  dates:
+    -
+      date: "Sep 19, 2015"
+      location: "Aliso Viejo, CA - Renaissance ClubSport"

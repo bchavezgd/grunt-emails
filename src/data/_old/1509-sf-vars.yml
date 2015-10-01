@@ -1,0 +1,52 @@
+---
+# for excerpt and other body copy, the punctuation must be escaped.
+# or else they break the template parsing function.
+# colon	: => &#58;
+# apostropy ' => &apos;
+#	ellipsis ... => &hellip;
+# quotes "left  right" => &ldquo;   &rdquo;
+
+#hero image
+hero:
+  title: "something"
+  image: http://static.nccpt.com/images/150907-hero.jpg
+  alt: "My Sweet Summer&apos;s gone"
+  excerpt: "something else"
+
+# featured article
+article:
+  headline: "It&apos;s back to school time! And that should include your staff! "
+  excerpt: "Education is an ongoing process. The best companies ensure their staff are constantly up to date on their education and working towards expanding their knowledge - and that goes for every employee on every level. The back to school season is a great time to evaluate your staff&apos;s education and provide avenues for them to continue their education, learn new things or just brush up on topics they may have forgotten. Keeping a well trained, knowledgeable staff is a powerful tool in ensuring your club exceeds customer expectations.  CTA&#58; Explore Smart Fitness Education"
+
+
+#featured trainer
+featured:
+  ready: true
+  image: http://blog.smartfitness.com/wp-content/uploads/2015/09/Katie_3.gif
+  name: "Katie Schaeffler"
+  link: http://blog.smartfitness.com/katie-schaeffler
+  excerpt: "For many years, Club Fit in Jefferson Valley has been dubbed as &ldquo;The Best of Westchester.&rdquo;  As for Smart Fitness, we believe Katie Schaeffler is one of the most inspiring Personal Trainers in all of New York!"
+
+
+#blog posts
+blog:
+  -
+    excerpt: "What&rsquo;s the hottest new fitness product? It&rsquo;s the Terra Core and everyone at Smart Fitness can&rsquo;t wait to get their hands on it. It&rsquo;s perfect for Group-X, Personal Training, Rehabilitation, or home use."
+    link: http://blog.smartfitness.com/awesome-vicore-terra-core/
+    subhead:
+    thumbnail: http://static.nccpt.com/images/150907-vicore.jpg
+    title: "Check out Vicore&rsquo;s game changing equipment!"
+
+
+  -
+    excerpt: "Trainers trained to do more, make more money. Who's leading the pack in your group exercise room? With the Indoor Cycling Certification from the NCCPT, your trainers could be helping you expand your service offerings and their paychecks!"
+    link: "http://vt.lightspeedvt.com/tc/#/trainingcenter/course/19217?CFID=2504018&CFTOKEN=c867ad5b2e63cd65-9595099D-B81A-FF95-35330F98C68E74D5"
+    subhead: "New Content!"
+    thumbnail: "http://static.nccpt.com/images/150904-cici.jpg"
+    title: "Help your trainers become Certified Indoor Cycling Instructors!"
+  -
+    excerpt: "Each quarter, Smart Fitness creates an educational program for your fitness staff along with the marketing materials to help promote this particular program in your clubs. The quarterly launch helps educate and empower your staff with new skills while the marketing materials assist in creating a “buzz” to increase revenue in your clubs."
+    link: "http://vt.lightspeedvt.com/tc/#/trainingcenter/category/2040?CFID=2504018&CFTOKEN=c867ad5b2e63cd65-9595099D-B81A-FF95-35330F98C68E74D5"
+    subhead: "Free Marketing Materials for your clubs!"
+    thumbnail: "http://static.nccpt.com/images/150904-quarterly-launch.jpg"
+    title: "Quarterly Launches for your business."
