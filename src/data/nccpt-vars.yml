@@ -10,49 +10,49 @@
 #featured articles
 hero:
   ceus: 
-  title: "School's back in session - are you ready to learn?"
-  image: http://blog.nccpt.com/wp-content/uploads/CEUEmailPic.png
-  alt: "Schools in session bro!"
-  link: http://blog.nccpt.com/the-one-thing-you-need-to-do-to-survive-in-the-fitness-industry/
-  linkText: "Hit the Books!"
-  excerpt: "If you stop learning - you stop growing in this industry. Here's why&hellip;" 
+  title:
+  image:
+  alt:
+  link:
+  linkText:
+  excerpt:
 
 # displays as stack, 
 articles: 
   - 
-    excerpt: "The foot is where movement begins, from the initiating of simple functional movements such as sit to stand or walking, to climbing stairs&hellip;"
-    link: http://blog.nccpt.com/the-foot-and-ankle-complex-understanding-the-science-behind-both-movement-and-dysfunction/
-    more: "Learn more."
-    thumbnail: http://static.nccpt.com/images/150904-ankle.jpg
-    title: "The Foot and ankle complex: understanding the science."
+    excerpt: "<p>Given that a large percent of members entering health and fitness facilities are now the &ldquo;baby boomers&rdquo; (55+) crowd, as fitness professionals we are faced with several different challenges to enhance their activities of daily living (ADLs) through training. Core and balance work is a staple for the senior population, but have you considered plyometric training?</p>"
+    link: http://blog.nccpt.com/2015/plyometric-training-for-seniors-yes-and-heres-why/
+    more: "Jump to it."
+    thumbnail: http://static.nccpt.com/images/151002-senior-plyo.jpg
+    title: "Plyometric training for seniors? Yes! And here’s why…"
     ceus: 0
 
 #featured blog articles
 blog: 
   - 
-    excerpt: "Learn the insider secrets to enhancing your client's performance when every little thing counts!"
-    link: "http://blog.nccpt.com/one-way-to-increase-performance-without-sacrificing-power/"
-    more: "Learn why&hellip;"
+    excerpt: "When people think of endurance events, they normally think of marathons, triathlons, cross-country races or events that last longer than three hours. The longer competition times would lend a coach, trainer or nutritionist to focus on the aerobic system. But in order to win an endurance event, one must be able to fuel the anaerobic system because that is really where the competition is won or lost."
+    link: http://blog.nccpt.com/2015/is-competition-won-or-lost-with-fat/
+    more: "Ready for More?"
     subhead: 
-    thumbnail: "http://static.nccpt.com/images/150904-blog-01.jpg"
-    title: "Increase performance without sacrificing power&hellip;"
-    ceus: 0.1
+    thumbnail: http://static.nccpt.com/images/151002-fats.jpg
+    title: "Is Competition Won or Lost with Fat?"
+    ceus: 0.05
   - 
-    excerpt: "But do you know how to help clients avoid it?"
-    link: "http://blog.nccpt.com/the-easiest-injury-to-avoid-and-how-to-avoid-it/"
-    more: "Learn How&hellip;"
-    subhead: "It's the easiest injury to avoid&hellip;"
-    thumbnail: http://static.nccpt.com/images/150904-blog-02.jpg
-    title: 
+    excerpt: "The postpartum woman is typically motivated to “lose the baby weight,” and this motivation can lead to injury and negative long term affects if not done properly and under proper supervision."
+    link: http://blog.nccpt.com/2015/coaching-the-postpartum-athlete/
+    more: "Read more."
+    subhead: "Diversify your Skills"
+    thumbnail: http://static.nccpt.com/images/151002-postpartum.jpg
+    title: "Shedding baby weight the right way."
     ceus: 0.1
 
 #featured trainer
 featured: 
   ready: true
-  image: http:///static.nccpt.com/images/150904-trainer.jpg
-  link: http://blog.nccpt.com/alison-hager/
-  name: "Alison Hager"
-  excerpt: "No matter what job or profession you&apos;re in, it is the level of inspiration that will forever forecast the depths of your success.  For Alison Hager, she believes, &ldquo;You only fail when you quit trying.&rdquo;"
+  image: http:///static.nccpt.com/images/151002-trainer.jpg
+  link: http://blog.nccpt.com/2015/anton-kidd/
+  name: "Anton Kidd"
+  excerpt: ""
 
 pres-message: 
   ready: true
@@ -63,32 +63,32 @@ pres-message:
 
 oneUp: 
   ready: true
-  blurb: "The Certified Weight Management Course has been revised. The most current information is now availble to help your keep your client's on the right track to achieving their goals."
-  headline: "Reintroducing! The Certified Weight Management Course"
-  link: http://www.nccpt.com/certified-weight-management-specialist
-  linkText: "Enroll Now"
-  price: "$299"
+  blurb: "More Babyboomers than ever are looking for personal trainers. Learn how to work with this client pool and how to deal with any limitations that they may have."
+  headline: "Coming soon, Certified Senior Fitness Instructor."
+  link: http://www.nccpt.com/get-certified
+  linkText: "Learn more."
+  price: 100
   promoCode: 
-  thumbnail: http://static.nccpt.com/images/150907-cwms.jpg
+  thumbnail: http://static.nccpt.com/images/
 
 twoUpAds: true
 twoUps: 
   - 
-    blurb: "Become a pillar of strength, learn how to coach the Big Three and help people hit those PR's Buy now for $350"
-    link: https://www.nccpt.com/store/products/certified-powerlifting-instructor/1726
+    blurb: "The Certified Weight Management Course has been revised. The most current information is now availble to help your keep your client's on the right track to achieving their goals."
+    link: http://www.nccpt.com/certified-weight-management-specialist
     link-text: "Start today"
-    promo-code: PWR5
-    thumbnail: http://static.nccpt.com/images/150904-ad-pl.jpg
-    title: "Coaches Lift More"
+    promo-code: CWMS1510
+    thumbnail: http://static.nccpt.com/images/151001-cwms.jpg
+    title: "Expertise Needed Now."
   - 
-    blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today!"
+    blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
     link: http://profitjobs.com/
     link-text: "What are you waiting for?"
     promo-code: 
     thumbnail: http://static.nccpt.com/images/150807-pro-fit-jobs.jpg
     title: ProFitJobs.com
 
-threeUpAds: true
+threeUpAds: false
 threeUps: 
   - 
     blurb: 'Start a Career in Personal Training with NCCPT, and work from anywhere. <span class="small"> expires 9/10/15</span>'
@@ -118,11 +118,23 @@ threeUps:
 workshops:
   ready: true
   link: http://www.nccpt.com/live-workshops
-  linkText: "Find one near you!"
+  linkText: "Find a Workshop near you."
   thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
   headline: "Learn hands-on how to become a personal trainer with our two-day workshop!"
   copy: '<p class="p light-text">This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.</p> <p class="p light-text">In addition to sixteen hours of hands-on experience with industry veterans, you&apos;ll receive: </p><ul> <li class="p light-text">NCCPT textbook and *one time exam attempt (*proctoring fee is not included)</li><li class="p light-text">Access to all personal training course videos online.</li><li class="p light-text">Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).</li><li class="p light-text"> 1.6 CEUs if you are currently a personal trainer looking for more experience.</li>'
   dates: 
     - 
-      date: "Sep 19, 2015"
+      date: "Oct 24, 2015"
+      location: "Aliso Viejo, CA - Renaissance ClubSport"
+    -
+      date: "Nov 13, 2015"
+      location: "Vantage Fitness, Falls Church, VA"
+    -
+      date: "Nov 14, 2015"
+      location: "Aliso Viejo, CA - Renaissance ClubSport"
+    -
+      date: "Dec 12, 2015"
+      location: "Bare Hills Raquet & Fitness Club, Baltimore, MD"
+    -
+      date: "Dec 12, 2015"
       location: "Aliso Viejo, CA - Renaissance ClubSport"
