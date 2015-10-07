@@ -2,7 +2,12 @@
 {{> preheader }}
 {{> nccpt-front-matter }}
 {{> cover }}
+
+{{#if nccpt-vars.articles.ceus}}
 {{> featured-articles }}
+{{/if}}
+
+
 {{> nccpt-pres-message }}
 {{ body }}
 {{> nccpt-banner }}		
