@@ -1,11 +1,12 @@
 {{> head }}
 {{> preheader }}
 {{> nccpt-front-matter }}
-{{> cover }}
 
-{{#if nccpt-vars.articles.ceus}}
-{{> featured-articles }}
+{{#if nccpt-vars.hero.ready}}
+{{> cover }}
 {{/if}}
+
+{{> featured-articles }}
 
 
 {{> nccpt-pres-message }}
