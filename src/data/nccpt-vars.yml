@@ -27,6 +27,13 @@ articles:
     thumbnail: http://static.nccpt.com/images/151002-senior-plyo.jpg
     title: "Plyometric training for seniors? Yes! And here&apos;s why&hellip;"
     ceus:
+  -
+    excerpt: " Noted strength expert, Tom DeLong (NCCPT&rsquo;s Director of Education), provides first class instruction on multiple types of exercises for increasing fitness capacity. Tom will show you the&rdquo; how and why&rdquo; behind the movements with in-depth mechanical assessment using Dartfish, the leading video analysis software available. "
+    link: http://blog.nccpt.com/2015/supported-squat-test-part-one/
+    more: "Jump to it."
+    thumbnail: http://static.nccpt.com/images/151002-dartfish.jpg
+    title: "Supported Squat Test&#58; Part One"
+    ceus:
 
 
 #featured blog articles
@@ -59,7 +66,7 @@ featured:
 pres-message: 
   ready: true
   title: "President&apos;s Message"
-  copy: "<p><strong> President&rsquo;s Message </strong></p><p>Our new <strong> Weight Management Specialist Certification </strong> is here! As you know, nutrition is a huge component of health and fitness. We have a brand new program to help you guide your clients to reach their goals in a more efficient manner. On the same nutrition note, I just watched the documentary &ldquo; <strong> Forks over Knives </strong> &rdquo; on Netflix. I highly recommend it.</p><p>Don&rsquo;t forget the NCCPT has its own <strong> Dartfish </strong> Channel. Check out the video analysis done by our Director of Education Tom Delong. You can download the app on your phone, take video footage of your clients and then have it analyzed! How cool is that? It&rsquo;s like having a biomechanics lab for your business!</p><p>Check out our Featured Personal Trainer <strong> Alison Hager </strong> , where quitting for her was never an option!</p><p>Once again we have a few <strong> CEU articles </strong> to add towards your recertification credits.</p><p>Don&rsquo;t forget to post your free profile on <strong> www.ProFitJobs.com </strong> so employers can find you.</p><p>On a personal note, I had a freaky accident and tore all my quadriceps off the bone! Extremely painful. Had surgery on August 19<sup>th</sup>. I&rsquo;ll document the entire rehabilitation process in case you ever have clients with the same condition.</p><p>That guy Murphy&hellip;&hellip;&hellip;</p><p>Stay Fit!</p><p><strong> John Platero </strong></p>"
+  copy: ""
 	
 #ads. 
 
