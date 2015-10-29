@@ -5,11 +5,18 @@
 /node_modules/
 /psd/
 /secrets.json
-/.sass-cache/
+/.sass-cache/**/*
 *.css.map
 /src/**/*.css
 /dist/
 /.DS_Store
 /src/css/.DS_Store
+<<<<<<< HEAD
 /bak/
 /bak/150904-nccpt.html
+=======
+/.sass-cache/
+/bak/
+>>>>>>> power-house
+/todo/
+/src/img/

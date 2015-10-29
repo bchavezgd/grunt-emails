@@ -19,7 +19,7 @@ $body-line-height: 1.4;
 
 //colors
 $primary-color: #000000; // Primary color for buttons and links
-$brand-primary: #d41313; // bright red
+$brand-primary: #670003; // #ec2127
 $brand-dark: darken($brand-primary, 20%) ;
 $gray-brand: #d1d1d1; // approx 18% grey
 $background-color: #fff; // Background color
@@ -40,10 +40,9 @@ $featured-trainer-bg: $primary-color;
 @import 'content';
 @import 'blog';
 
+@import 'power-house';
 
-table.body {
-	background-color: $brand-primary
-}
+
 // responsive imports last.
 //@media only screen
 //	and (max-width: 480px)
