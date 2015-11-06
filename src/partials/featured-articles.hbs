@@ -1,68 +1,69 @@
 <!-- featured articles -->
 <tr class="featured-articles">
-	<td>
-		<table class="container">
-			<tr>
-				<td>
-					<!-- header -->
-					<table class="header">
-						<tr height="16">
-							<td class="spacer-16" colspan="2">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
-						{{#each content.articles}}
-						<tr>
-							<!-- thumbnail -->
-							<td class="col-3">
-								<a href="{{ link }}" target="_blank">
-									<img src="{{ thumbnail }}" width="275">
-								</a>
-							</td>
-							<td class="col-3">
-								<!-- article -->
-								<table align="center" valign="top">
-									<tr>
-										<td class="h2 light-text">
-											{{{ title }}}
-											
-										</td>
-									</tr>
-									<tr height="16">
-										<td class="spacer-16">&nbsp;</td>
-									</tr>
-									<!-- spacer -->
-									<tr>
-										<td class="p light-text">
-											{{{ excerpt }}}
-										</td>
-									</tr>
-									<tr height="16">
-										<td class="spacer-16">&nbsp;</td>
-									</tr>
-									<!-- spacer -->
-									<tr>
-										<td align="center light-text">
-											{{#if this.ceus}}
-										 		Get: {{{ceus}}} CEU's &emsp;
-											{{/if}}
-											<a href="{{ link }}" target="_blank" class="btn btn-default">{{{ more }}}</a>
-										</td>
-									</tr>
-									<!-- spacer -->
-									<tr height="16">
-										<td class="spacer-16">&nbsp;</td>
-									</tr>
-								</table>
-								<!-- end article -->
-							</td>
-						</tr>
-						{{/each}}
-					</table>
-					<!-- end header -->
-				</td>
-			</tr>
-		</table>
-		<!-- end container -->
-	</td>
+  <td>
+    <table class="container">
+      <tr>
+        <td>
+          <!-- header -->
+          <table class="header">
+            <tr height="16">
+              <td class="spacer-16" colspan="2">&nbsp;</td>
+            </tr>
+            <!-- spacer -->
+            {{#each content.articles}}
+            <tr>
+              <td class="col-6">
+                <!-- article -->
+                <table align="center" valign="top">
+                  <tr>
+                    <td class="h2 light-text">
+                      {{{ title }}}
+                    </td>
+                  </tr>
+                  <tr height="16">
+                    <td class="spacer-16">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="{{ link }}" target="_blank">
+                        <img src="{{ thumbnail }}" width="590">
+                      </a>
+                    </td>
+                  </tr>
+                  <!-- spacer -->
+                  <tr height="32">
+                    <td class="spacer-32">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td class="p light-text">
+                      {{{ excerpt }}}
+                    </td>
+                  </tr>
+                  <tr height="16">
+                    <td class="spacer-16">&nbsp;</td>
+                  </tr>
+                  <!-- spacer -->
+                  <tr>
+                    <td align="center light-text">
+                      {{#if this.ceus}} Get: {{{ceus}}} CEU's &emsp; {{/if}}
+                      <a href="{{ link }}" target="_blank" class="btn btn-default">{{{ more }}}</a>
+                    </td>
+                  </tr>
+                  <!-- spacer -->
+                  <tr height="16">
+                    <td class="spacer-16">&nbsp;</td>
+                  </tr>
+                </table>
+                <!-- end article -->
+              </td>
+            </tr>
+            {{/each}}
+          </table>
+          <!-- end header -->
+        </td>
+      </tr>
+    </table>
+    <!-- end container -->
+  </td>
 </tr>
 <!-- end featured articles -->
