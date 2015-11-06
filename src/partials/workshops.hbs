@@ -1,0 +1,92 @@
+{{#if content.workshops.ready }}
+<!-- workshops -->
+<tr class="workshops">
+	<td>
+		<table class="container">
+			<tr height="32">
+				<td class="spacer-32">&nbsp;</td>
+			</tr>
+			<!-- spacer -->
+			<tr>
+				<td class="col-6">
+					<!-- workshop copy -->
+					<table>
+						<tr>
+							<td class="h2 light-text">
+								{{{ content.workshops.headline }}}
+							</td>
+						</tr>
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+						<tr>
+							<td>
+								<a href="{{ content.workshops.link }}" target="_blank">
+									<img src="{{ content.workshops.thumbnail }}" alt="{{ content.workshops.headline }}"> </a>
+							</td>
+						</tr>
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+						<!-- blurb -->
+						<tr>
+							<td class="p light-text">
+								{{{ content.workshops.copy }}}
+							</td>
+						</tr>
+						<tr height="16">
+							<td class="spacer-16">&nbsp;</td>
+						</tr>
+						<!-- spacer -->
+						<!-- link -->
+						<tr>
+							<td class="h2 align-center">
+								<a href="{{ content.workshops.link }}" target="_blank" class="btn btn-default" style="color: white">{{{ content.workshops.linkText }}}</a>
+							</td>
+						</tr>
+					</table>
+					<!-- end workshop copy -->
+				</td>
+			</tr>
+			<tr height="32">
+				<td class="spacer-32">&nbsp;</td>
+			</tr>
+			<!-- spacer -->
+			{{#if content.workshops.dates }}
+			<tr>
+				<td>
+					<table cellpadding="6" class="table">
+						<tr class="table-header" height="20">
+							<th class="light-text align-left col-2">
+								Date
+							</th>
+							<th class="light-text align-left col-4">
+								Location
+							</th>
+						</tr>
+						{{#each content.workshops.dates }}
+						<tr height="20">
+							<td class="light-text col-2">
+								{{ date }}
+							</td>
+							<td class="light-text col-4">
+								{{ location }}
+							</td>
+						</tr>
+						{{/each}}
+					</table>
+				</td>
+			</tr>
+			<tr height="32">
+				<td class="spacer-32">&nbsp;</td>
+			</tr>
+			<!-- spacer -->
+			{{/if}}
+		</table>
+		<!-- end container -->
+	</td>
+</tr>
+<!-- end workshops -->
+{{/if}}

@@ -30,18 +30,5 @@
         "thumbnail": "http://static.nccpt.com/images/sm-youtube.png"
       }
     ]
-  },
-  "smart-fitness": {
-    "company": "Smart Fitness",
-    "banner": "http://static.nccpt.com/images/150527-banner.jpg",
-    "logo": "http://static.nccpt.com/images/150527-smartfitness_logo.png",
-    "url": "http://www.smartfitness.com",
-    "phone": "(844)778-6060x1",
-    "email": "karenp@smartfitness.com",
-	"info": "info@smartfitness.com",
-    "blog": {
-      "name": "Check out what&apos;s Inside Smart Fitness!",
-      "url": "http://blog.smartfitness.com"
-    }
   }
 }

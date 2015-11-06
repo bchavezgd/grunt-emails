@@ -1,4 +1,4 @@
-{{#if nccpt-vars.oneUp.ready }}
+{{#if content.oneUp.ready }}
 <!-- oneUp -->
 <tr class="oneUp">
 	<td>
@@ -17,8 +17,8 @@
 						<!-- thumbnail -->
 						<tr>
 							<td>
-								<a href="{{ nccpt-vars.oneUp.link }}" target="_blank">
-									<img src="{{ nccpt-vars.oneUp.thumbnail }}">
+								<a href="{{ content.oneUp.link }}" target="_blank">
+									<img src="{{ content.oneUp.thumbnail }}">
 								</a>
 							</td>
 						</tr>
@@ -31,7 +31,7 @@
 						<!-- headline -->
 						<tr>
 							<td class="h1">
-								{{{ nccpt-vars.oneUp.headline }}}
+								{{{ content.oneUp.headline }}}
 							</td>
 						</tr>
 
@@ -43,7 +43,7 @@
 						<!-- blurb -->
 						<tr>
 							<td class="p">
-								{{{ nccpt-vars.oneUp.blurb }}}
+								{{{ content.oneUp.blurb }}}
 							</td>
 						</tr>
 						
@@ -53,7 +53,7 @@
 						<!-- price -->
 						<tr>
 							<td class="h3">
-								{{ nccpt-vars.oneUp.price }}
+								{{ content.oneUp.price }}
 							</td>
 						</tr>
 						
@@ -66,7 +66,7 @@
 						<!-- link button -->
 						<tr>
 							<td class="align-center">
-								<a href="{{ nccpt-vars.oneUp.link }}" target="_blank" class="btn btn-default align-center">{{{ nccpt-vars.oneUp.linkText }}}</a>
+								<a href="{{ content.oneUp.link }}" target="_blank" class="btn btn-default align-center">{{{ content.oneUp.linkText }}}</a>
 							</td>
 						</tr>
 
@@ -79,7 +79,7 @@
 						<!-- promocode -->
 						<tr>
 							<td class="p">
-								Coupon Code: {{ nccpt-vars.oneUp.promoCode }}
+								Coupon Code: {{ content.oneUp.promoCode }}
 							</td>
 						</tr>
 						{{/if}}

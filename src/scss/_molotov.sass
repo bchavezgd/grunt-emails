@@ -1,0 +1,27 @@
+// mixins and functions
+
+
+// making sure the text colors are legible.
+
+@function contrast-text ($c)
+	@if (lightness($c) > 50)
+		@return darken($gray-brand, 50%)
+	@else
+		@return lighten($gray-brand, 20%)
+
+=Auto-bg-text($c)
+	background-color: $c
+	color: contrast-text($c)
+
+
+@function contrast-border ($c)
+	@if (lightness($c) > 50)
+		@return darken($c, 20%)
+	@else
+		@return lighten($c, 20%)
+
+=heavy-border($c)
+	border-bottom: 3px solid contrast-border($c)
+
+=make-row()
+	padding: ($body-font-size * $body-line-height) 0

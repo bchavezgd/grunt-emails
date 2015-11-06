@@ -7,20 +7,28 @@
     "url": "https://github.com/leemunroe/grunt-email-design"
   },
   "devDependencies": {
+    "assemble-markdown-data": "0.0.2",
+    "autoprefixer": "^6.0.3",
+    "cssnano": "^3.3.2",
     "grunt": "~0.4.4",
     "grunt-assemble": "^0.4.0",
     "grunt-aws-s3": "^0.12.3",
     "grunt-cdn": "^0.6.1",
     "grunt-cloudfiles": "^0.3.0",
+    "grunt-contrib-connect": "^0.11.2",
     "grunt-contrib-imagemin": "^0.9.3",
-    "grunt-contrib-sass": "^0.7.3",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-litmus": "^0.1.8",
     "grunt-mailgun": "0.0.3",
     "grunt-newer": "^1.1.1",
+    "grunt-postcss": "^0.7.0",
     "grunt-premailer": "0.2.5",
     "grunt-replace": "^0.8.0",
+    "grunt-sass": "^1.1.0",
     "imagemin-mozjpeg": "^0.1.2",
-    "load-grunt-tasks": "^3.1.0"
+    "load-grunt-tasks": "^3.1.0",
+    "pixrem": "^3.0.0",
+    "postcss-scss": "^0.1.3",
+    "precss": "^1.3.0"
   }
 }

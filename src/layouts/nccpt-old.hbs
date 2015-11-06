@@ -16,26 +16,26 @@
 		{{> cover }}
 		{{> featured-articles }}
 		
-		{{#if nccpt-vars.pres-message.ready }}
+		{{#if content.pres-message.ready }}
 		{{> nccpt-pres-message }}
 		{{/if}}
 		
 		{{ body }}
 		
 		{{> nccpt-banner }}
-		{{#if nccpt-vars.featured.ready }}
+		{{#if content.featured.ready }}
 		{{> nccpt-featured-trainer }}
 		{{/if}}
 		<tr height="32">
 			<td class="spacer-32">&nbsp;</td>
 		</tr>
 		<!-- spacer -->
-		{{#each nccpt-vars.blog }}
+		{{#each content.blog }}
 		{{> blog-loop }}
 		{{/each}}
 
 		<!-- ads go here -->
-		{{#if nccpt-vars.has-ads }}
+		{{#if content.has-ads }}
 			{{> nccpt-ads }}
 		{{/if}}
 		{{> nccpt-footer }}

@@ -1,22 +1,30 @@
 {{> head }}
 {{> preheader }}
-{{> nccpt-front-matter }}
+{{> front-matter }}
 
-{{#if nccpt-vars.hero.ready}}
+{{#if content.hero.ready}}
 {{> cover }}
 {{/if}}
 
 {{> featured-articles }}
 
+{{#if content.pres-message.ready }}
+	{{> pres-message }}
+{{/if}}
 
-{{> nccpt-pres-message }}
 {{ body }}
-{{> nccpt-banner }}		
-{{> nccpt-featured-trainer }}
+{{> banner }}
+
+{{#if content.featured-trainer.ready}}
+	{{> featured-trainer }}
+	{{else}}
+		{{> billmurray}}
+{{/if}}
+
 {{> twoUp }}
 {{> blog-loop }}
 {{> threeUp }}
-{{> nccpt-workshops }}
+{{> workshops }}
 {{> oneUp }}	
-{{> nccpt-footer }}
+{{> footer }}
 {{> foot }}
