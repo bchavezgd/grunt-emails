@@ -23,5 +23,9 @@
 =heavy-border($c)
 	border-bottom: 3px solid contrast-border($c)
 
+=heavy-border-placement($p, $c)
+	border-#{$p}: 3px solid contrast-border($c)
+
+
 =make-row()
 	padding: ($body-font-size * $body-line-height) 0

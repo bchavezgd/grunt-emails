@@ -12,7 +12,7 @@ hero:
   ready: true
   ceus: 0.3
   title: "Forks over Knives"
-  image: /img/151106-forks-knives.jpg
+  image: http://static.nccpt.com/images/151106-forks-knives.jpg
   alt: "Watch a movie, get CEU's"
   link: https://www.nccpt.com/store/products/forks-over-knives-3ceus-/1750
   linkText: "Check it out now"
@@ -55,7 +55,7 @@ blog:
     subhead: "Posture: "
     thumbnail: http://blog.nccpt.com/wp-content/uploads/posture.jpg
     title: "What is ideal and what is faulty?"
-    ceus: 0.1
+    ceus: 0.15
   -
     excerpt:
       markdown: |
@@ -74,24 +74,31 @@ featured:
   image: http://static.nccpt.com/images/151002-trainer.jpg
   link: http://blog.nccpt.com/2015/anton-kidd/
   name: "Anton Kidd"
-  excerpt: "Born and raised in Canton, Ohio by a single mom, Anton Kidd grew up passionate about baseball, basketball and football. Later on, he became obsessed with professional wrestling mainly because of the immaculate physique the athletes were in. He says, &ldquo;I saw them as what a man is supposed to look like.&rdquo; A role model of his at the time was Bo Jackson, because to him, he was the greatest and most diverse athlete there ever was."
+  excerpt:
+    markdown: |
+      Born and raised in Canton, Ohio by a single mom, Anton Kidd grew up passionate about baseball, basketball and football. Later on, he became obsessed with professional wrestling mainly because of the immaculate physique the athletes were in. He says, &ldquo;I saw them as what a man is supposed to look like.&rdquo; A role model of his at the time was Bo Jackson, because to him, he was the greatest and most diverse athlete there ever was.
 
 pres-message:
   ready: true
   title: "President&apos;s Message"
-  copy: ""
+  copy:
+    markdown: |
+      this
 
 #ads.
 
 oneUp:
   ready: true
-  blurb: "It's not what's done in the gym that will make you a superhero trainer. It's what your client does in the kitchen that will raise your status from personal trainer to personal transformer! Using the latest research the Weight Management Specialist course II guides you through the essential nutrition knowledge. This course is indispensable for anyone who wants to ensure client compliance to healthier nutrition habits and attain unbelievable fitness results. Earn 0.8 CEUs."
-  headline: "Certified Weight Management Specialist"
-  link: http://www.nccpt.com/certified-weight-management-specialist
+  blurb:
+    markdown: |
+      As the growth of the aging population continues, so do the issues of longevity and quality of life, which will lead to significant implications for personal trainers. The role of exercise becomes crucial to ensure that these individuals can improve and maintain functional independence, offering many opportunities for personal trainers to help enhance their well being. Earn 0.8 CEUs.
+
+  headline: "Certified Senior Fitness Specialist"
+  link: http://www.nccpt.com/store/products/certified-senior-fitness-specialist/1746
   linkText: "Learn more."
   price:
   promoCode:
-  thumbnail: http://static.nccpt.com/images/150907-cwms.jpg
+  thumbnail: http://static.nccpt.com/images/151106-csfi-video.jpg
 
 twoUpAds: true
 twoUps:
@@ -99,7 +106,7 @@ twoUps:
     blurb: "The Certified Weight Management Course has been revised. The most current information is now availble to help your keep your client's on the right track to achieving their goals."
     link: http://www.nccpt.com/certified-weight-management-specialist
     link-text: "Start today"
-    promo-code: CWMS1510
+    promo-code:
     thumbnail: http://static.nccpt.com/images/151001-cwms.jpg
     title: "Expertise Needed Now."
   -
@@ -113,16 +120,16 @@ twoUps:
 threeUpAds: true
 threeUps:
   -
-    blurb: 'Start a Career in Personal Training with NCCPT, and work from anywhere. <span class="small"> expires 9/10/15</span>'
-    headline: "Be your own boss!"
-    link: http://www.nccpt.com/store/products/nccpt-online-premium-package/1459
+    blurb: "Unleash client potential and increase your client-base with the HOTTEST fitness training around. "
+    headline: "Get fit with HIIT"
+    link: http://www.nccpt.com/store/products/high-intensity-interval-training-hiit-hard-copy/1741
     linkText: "Learn more!"
-    price:
-    promoCode: LABOR
-    thumbnail: http://static.nccpt.com/images/150904-ad-labor.jpg
+    price: "$9.99"
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/151106-hiit.jpg
   -
-    blurb: "Summer is almost over, time to start prepping for those cooler fall morning training sessions. Cut the chill with DryFit Hoodies."
-    headline: "Winter is Coming."
+    blurb: "Summer is over, time to start prepping for those cooler fall morning training sessions. Cut the chill with DryFit Hoodies."
+    headline: "Winter is Here!"
     link: https://www.nccpt.com/store/products/dryshirt-hoodie-black/1601
     linkText: "Shop Now!"
     price:
@@ -143,20 +150,25 @@ workshops:
   linkText: "Find a Workshop near you."
   thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
   headline: "Learn hands-on how to become a personal trainer with our two-day workshop!"
-  copy: '<p class="p light-text">This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.</p> <p class="p light-text">In addition to sixteen hours of hands-on experience with industry veterans, you&apos;ll receive: </p><ul> <li class="p light-text">NCCPT textbook and *one time exam attempt (*proctoring fee is not included)</li><li class="p light-text">Access to all personal training course videos online.</li><li class="p light-text">Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).</li><li class="p light-text"> 1.6 CEUs if you are currently a personal trainer looking for more experience.</li>'
+  copy:
+    markdown: |
+      This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.
+      In addition to sixteen hours of hands-on experience with industry veterans, you'll receive&#58;
+      * NCCPT textbook and *one time exam attempt (*proctoring fee is not included)
+      * Access to all personal training course videos online.
+      * Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).
+      * 1.6 CEUs if you are currently a personal trainer looking for more experience.
+
   dates:
     -
-      date: "Oct 24, 2015"
-      location: "Aliso Viejo, CA - Renaissance ClubSport"
+        location: "Vantage Fitness"
+        date: "Nov 13, 2015 - Nov 15, 2015"
     -
-      date: "Nov 13, 2015"
-      location: "Vantage Fitness, Falls Church, VA"
+        location: "Aliso Viejo, CA - Renaissance ClubSport"
+        date: "Nov 14, 2015 - Nov 14, 2015"
     -
-      date: "Nov 14, 2015"
-      location: "Aliso Viejo, CA - Renaissance ClubSport"
+        location: "Bare Hills Raquet & Fitness Club"
+        date: "Dec 12, 2015 - Dec 13, 2015"
     -
-      date: "Dec 12, 2015"
-      location: "Bare Hills Raquet & Fitness Club, Baltimore, MD"
-    -
-      date: "Dec 12, 2015"
-      location: "Aliso Viejo, CA - Renaissance ClubSport"
+        location: "Aliso Viejo, CA - Renaissance ClubSport"
+        date: "Dec 12, 2015 - Dec 12, 2015"

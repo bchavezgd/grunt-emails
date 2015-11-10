@@ -48,13 +48,6 @@ module.exports = function (grunt) {
         */
 
         processors: [
-					//	flag for sass
-					require('precss')({
-            /* options */
-            import: {
-              extension: 'scss'
-            }
-          }),
 					//	add fallbacks for rem units
         	require('pixrem')(),
         	//	add vendor prefixes
@@ -184,13 +177,18 @@ module.exports = function (grunt) {
     // Watches for changes to css or email templates then runs grunt tasks
     watch: {
       files: [
-				'<%= paths.src %>/css/scss/*',
+				'<%= paths.src %>/scss/*',
 				'<%= paths.src %>/emails/*',
 				'<%= paths.src %>/layouts/*',
 				'<%= paths.src %>/partials/*',
 				'<%= paths.src %>/data/*'
 			],
-      tasks: ['sass','postcss', 'assemble', 'newer:imagemin'],
+      tasks: [
+				'sass',
+				'postcss',
+				'assemble',
+				'newer:imagemin'
+			],
       options: {
         spawn: false,
         event: 'all',
