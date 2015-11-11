@@ -1,69 +1,105 @@
-<tr height="16">
-	<td class="spacer-16">&nbsp;</td>
-</tr>
-<!-- spacer -->
+<!-- hero -->
+<tr class="hero">
+  <td>
+    <table class="container">
+      <tr>
+        <td>
+          <tr height="16">
+            <td class="spacer-16">&nbsp;</td>
+          </tr>
+          <!-- spacer -->
 
-<!-- hero image -->
-<tr>
-	<td>
-		<table class="container">
-			<tr>
-				<td>
-					<a href="{{content.hero.link }}" target="_blank">
-						<img src="{{ content.hero.image }}" alt="{{ content.hero.alt }}">
-					</a>
-				</td>
-			</tr>
-		</table>
-	</td>
+          <!-- hero image -->
+
+          <tr>
+            <td class="col-6 align-center">
+              <a href="{{content.hero.link }}" target="_blank">
+                <img src="{{ content.hero.image }}" alt="{{ content.hero.alt }}">
+              </a>
+            </td>
+          </tr>
+
+          <!-- end hero -->
+
+          <tr height="32">
+            <td class="spacer-32">&nbsp;</td>
+          </tr>
+          <!-- spacer -->
+
+          <!-- lead -->
+          <tr class="main">
+            <td class="h1">
+              {{{ content.hero.title }}}
+            </td>
+          </tr>
+          <tr height="16">
+            <td class="spacer-16">&nbsp;</td>
+          </tr>
+          <!-- spacer -->
+
+          <tr>
+            <td class="p">
+              {{{ content.hero.excerpt }}}
+            </td>
+          </tr>
+          <!-- spacer -->
+          <tr height="16">
+            <td class="spacer-16">&nbsp;</td>
+          </tr>
+
+          {{#if content.hero.ceus}}
+          <tr>
+            <td class="col-6">
+
+              <table align="center" class="ceu">
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                  <td valign="center">
+                    <span class="ceus">
+                      <a href="{{ content.hero.link }}" target="_blank" class="">
+                  Click here and earn {{{content.hero.ceus}}} CEU's &emsp;
+                    </a>
+                  </span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+
+          <tr height="16" class="spacer-16">
+            <td>&nbsp;</td>
+          </tr>
+          <!-- spacer -->
+          {{else}}
+
+          <tr>
+            <td>
+              <a href="{{ content.hero.link }}" target="_blank" class="btn btn-default">{{{content.hero.linkText}}}</a>
+            </td>
+          </tr>
+
+
+          <tr height="32">
+            <td class="spacer-32">&nbsp;</td>
+          </tr>
+          <!-- spacer -->
+          {{/if}}
+          <!-- end lead -->
+
+
+        </td>
+      </tr>
+    </table>
+    <!-- end container -->
+  </td>
 </tr>
 <!-- end hero -->
-
-<tr height="32">
-	<td class="spacer-32">&nbsp;</td>
-</tr>
-<!-- spacer -->
-
-<!-- lead -->
-<tr class="main">
-	<td>
-		<table class="container">
-			<tr>
-				<td class="h1">
-					{{{ content.hero.title }}}
-				</td>
-			</tr>
-			<tr height="16">
-				<td class="spacer-16">&nbsp;</td>
-			</tr>
-			<!-- spacer -->
-
-			<tr>
-				<td class="p">
-					{{{ content.hero.excerpt }}}
-				</td>
-			</tr>
-			<!-- spacer -->
-			<tr height="16">
-				<td class="spacer-16">&nbsp;</td>
-			</tr>
-
-			<tr>
-				<td class="h2">
-					{{#if this.ceus}} 
-						Get: {{{ceus}}} CEU's &emsp; 
-					{{/if}}
-					<a href="{{content.hero.link }}" target="_blank" class="btn btn-default">{{{content.hero.linkText }}}</a>
-				</td>
-			</tr>
-
-		</table>
-		<!-- end container -->
-	</td>
-</tr>
-<!-- end lead -->
-
-<tr height="32">
-	<td class="spacer-32">&nbsp;</td>
-</tr>
-<!-- spacer -->
