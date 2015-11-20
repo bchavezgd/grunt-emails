@@ -10,7 +10,7 @@
               <td class="spacer-16" colspan="2">&nbsp;</td>
             </tr>
             <!-- spacer -->
-            {{#each content.articles}}
+            {{#each content.articles}} {{#if ready}}
             <tr>
               <td class="col-6">
 
@@ -86,8 +86,7 @@
                 <!-- end article -->
               </td>
             </tr>
-
-            {{/each}}
+            {{/if}} {{/each}}
           </table>
           <!-- end header -->
         </td>

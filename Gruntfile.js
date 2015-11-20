@@ -211,7 +211,7 @@ module.exports = function (grunt) {
 		'assemble',
 		'premailer',
 		'newer:imagemin',
-		'replace:src_images'
+		'newer:replace:src_images'
 	]);
 
   grunt.registerTask('default', [

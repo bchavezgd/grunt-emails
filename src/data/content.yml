@@ -7,6 +7,8 @@
 # quotes "left  right" => &ldquo;   &rdquo;
 # nccpt reusable data
 
+#Check out the **Dartfish** analysis on the bench press by our **Director of Education, Tom Delong.** Do you know you can download the app, take video and then send it to us for a biomechanical analysis? How cool is that?
+
 #featured articles
 hero:
   ready: true
@@ -31,6 +33,7 @@ articles:
     thumbnail: http://static.nccpt.com/images/151106-dartfish.jpg
     title: "Bench Press Technique Seminar Part One"
     ceus:
+    ready: true
 
   -
     excerpt:
@@ -41,6 +44,7 @@ articles:
     thumbnail: http://blog.nccpt.com/wp-content/uploads/lots-of-lemons.jpg
     title: "16 Health Benefits Of Drinking Warm Lemon Water"
     ceus:
+    ready: true
 
 
 
@@ -61,7 +65,7 @@ blog:
       markdown: |
         Personal Trainers, if you’re making any of these mistakes implement the suggested corrections and you will know happiness! Miraculously, your schedule will grow fatter! If you already have a stacked schedule and are making over six figures in the fitness business, or if your name is above the doors on a big box gym, feel free to stop reading. Not you? Then press on fitness sales soldier! This is for you.
 
-    link: http://blog.nccpt.com/2015/coaching-the-postpartum-athlete/
+    link: http://blog.nccpt.com/2015/three-reasons-you-might-not-be-making-any-money/
     more: "Read more."
     subhead: "Diversify your Skills"
     thumbnail: http://blog.nccpt.com/wp-content/uploads/18929522_s.jpg
@@ -84,15 +88,18 @@ pres-message:
   copy:
     markdown: |
       Holidays are here! Your clients are going to be onslaught with food and drink from every direction. We’re working on getting you and your clients some supplemental help to for the exorbitant amounts of foods. A little surprise will be coming your way very soon to help suppress appetite, build muscle and lose fat. Stay tuned!
-      Lately, since I’ve been injured I’ve been watching a lot more documentaries. This month we’re featured the documentary “ **Forks over Knives** .” This is an extremely powerful film. We’ve actually created a CEU quiz for it. Watch the movie, pass the quiz and you earn .3 CEU’s!
-      Check out the **Dartfish** analysis on the bench press by our **Director of Education, Tom Delong.** Do you know you can download the app, take video and then send it to us for a biomechanical analysis? How cool is that?
+
+      Check out the [**Dartfish**](http://blog.nccpt.com/2015/bench-press-technique-seminar-part-one/) analysis on the bench press by our **Director of Education, Tom Delong.** Do you know you can download the app, take video and then send it to us for a biomechanical analysis? How cool is that?
+
+      Lately, since I’ve been injured I’ve been watching a lot more documentaries. This month we’re featured the documentary [&ldquo;**Forks over Knives**.&rdquo;](https://www.nccpt.com/store/products/forks-over-knives-3ceus-/1750) This is an extremely powerful film. We’ve actually created a CEU quiz for it. Watch the movie, pass the quiz and you earn .3 CEU’s!
+
       We have a few **CEU articles:**
-      * **What is ideal and what is faulty Posture**
-      * **Three reasons why you might not be making any money as a trainer.**
+      * [**What is ideal and what is faulty posture.**](http://blog.nccpt.com/2015/posture-what-is-ideal-and-what-is-faulty/)
+      * [**Three reasons why you might not be making any money as a trainer.**](http://blog.nccpt.com/2015/three-reasons-you-might-not-be-making-any-money/)
 
       We could all use a reminder on our posture and everyone needs more money!
 
-      We’ve scheduled a few **live workshops** back East and of course here in California for those of you who like the live interaction. I personally like the live workshops.
+      We’ve scheduled a few [**live workshops**](https://www.nccpt.com/live-workshops) back East and of course here in California for those of you who like the live interaction. I personally like the live workshops.
 
       Happy Holidays!
 
@@ -141,7 +148,7 @@ threeUps:
   -
     blurb: "Summer is over, time to start prepping for those cooler fall morning training sessions. Cut the chill with DryFit Hoodies."
     headline: "Winter is Here!"
-    link: https://www.nccpt.com/store/products/dryshirt-hoodie-black/1601
+    link: https://www.nccpt.com/store/products/dryshirt-hoodie/1585
     linkText: "Shop Now!"
     price:
     promoCode: "Hoodies1510"
