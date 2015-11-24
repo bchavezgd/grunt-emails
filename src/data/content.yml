@@ -13,14 +13,14 @@
 hero:
   ready: true
   ceus: 0.3
-  title: "Forks over Knives"
-  image: http://static.nccpt.com/images/151106-forks-knives.jpg
-  alt: "Watch a movie, get CEU's"
-  link: https://www.nccpt.com/store/products/forks-over-knives-3ceus-/1750
-  linkText: "Check it out now"
+  title: "xx"
+  image: http://placehold.it/600x200
+  alt: "xxx"
+  link: '#'
+  linkText: "nope"
   excerpt:
     markdown: |
-      The film, which received rave reviews from medical experts and entertainment critics alike, has been viewed by millions of people around the world and has become one of the most influential documentaries of our time.
+      Cronut wayfarers echo park fingerstache, irony hashtag YOLO cardigan blog cornhole cray. Quinoa shoreditch beard, butcher messenger bag brunch locavore letterpress. Craft beer drinking vinegar deep v photo booth, health goth fanny pack hoodie actually roof party vice tofu butcher heirloom kitsch celiac. Marfa everyday carry whatever literally. You probably haven't heard of them flannel street art pitchfork, bespoke gastropub wolf cold-pressed readymade whatever bicycle rights. Chillwave pour-over marfa, godard forage sartorial asymmetrical cronut organic sustainable kogi disrupt bicycle rights. Seitan small batch next level, lumbersexual four loko selfies vinyl raw denim chartreuse.
 
 # displays as stack,
 articles:
@@ -38,11 +38,11 @@ articles:
   -
     excerpt:
       markdown: |
-        Lemons are vitamin C rich citrus fruits that enhance your beauty, by rejuvenating skin from within bringing a glow to your face. One of the major health benefits of drinking warm lemon water is that it paves way for losing weight faster, thus acting as a great weight loss remedy.
-    link: http://blog.nccpt.com/2015/16-health-benefits-of-drinking-warm-lemon-water-every-day/
-    more: "Drink it up"
-    thumbnail: http://blog.nccpt.com/wp-content/uploads/lots-of-lemons.jpg
-    title: "16 Health Benefits Of Drinking Warm Lemon Water"
+        Dagobah calamari dagobah lando solo gonk. Mace grievous darth kessel darth yavin moff solo maul. Palpatine bespin twi'lek skywalker palpatine. Fett anakin dantooine leia ponda darth grievous owen organa. C-3po mon wicket maul lars ackbar. Leia palpatine luuke c-3po bothan sith jade fett wicket. Ventress yoda owen wedge yoda jinn boba wookiee skywalker. Grievous mace mace utapau hutt lando mara organa wedge. Organa sidious yoda solo jade. Solo antilles leia fisto antilles qui-gonn. Darth dooku moff luke calrissian solo.
+    link: "#"
+    more: "nope"
+    thumbnail: http://placehold.it/600x200
+    title: "Join the Dark Side"
     ceus:
     ready: true
 
@@ -53,55 +53,43 @@ blog:
   -
     excerpt:
       markdown: |
-        In our modern day society, good posture is becoming more and more essential to the integrity or our health and well-being. Most of our jobs and transportation involve a seated position for hours at a time. Even the exercise equipment in the gym involves sitting! According to the research of Nachemson, this is the worst position for our spine.
-    link: http://blog.nccpt.com/2015/posture-what-is-ideal-and-what-is-faulty/
-    more: "Read more"
-    subhead: "Posture: "
-    thumbnail: http://blog.nccpt.com/wp-content/uploads/posture.jpg
-    title: "What is ideal and what is faulty?"
-    ceus: 0.15
+        Fett palpatine yoda antilles dantooine lars jade sidious. Utapau watto naboo moff anakin mandalorians wampa. Wampa hutt moff baba darth. Anakin lobot skywalker skywalker antilles grievous wicket dagobah windu. Yoda dagobah mara darth tatooine. Skywalker alderaan skywalker binks chewbacca jabba. Amidala baba tatooine antilles solo owen ben solo skywalker. Darth jabba owen wedge fisto ben calamari. Dagobah calamari mara luke. Solo windu watto darth darth vader mace. Bothan yoda grievous maul windu grievous lobot.
+    link: "#"
+    more: "Force push"
+    subhead: "choosing your alignment."
+    thumbnail: http://placehold.it/300x200
+    title: "cost benifiet analysis of the darkside "
+    ceus: 0
   -
     excerpt:
       markdown: |
-        Personal Trainers, if you’re making any of these mistakes implement the suggested corrections and you will know happiness! Miraculously, your schedule will grow fatter! If you already have a stacked schedule and are making over six figures in the fitness business, or if your name is above the doors on a big box gym, feel free to stop reading. Not you? Then press on fitness sales soldier! This is for you.
+        Gank sidious hssis calrissian dunhausen falleen. Iv palpatine lars warrick vao tarpals phlog. Nass glymphid vima-da-boda clawdite letaki biggs. Droopy hoth jobal zhell. **Cliegg** gonk yavin san cornelius. Falleen sluis iktotchi bib. Natasi brak bane celegian pa'lowick gavyn jerec. Naboo geonosis iktotchi kastolar sola. Quelli wampa hutt falleen ulic. Ruwee galen aurra droopy tenel snivvian. Vor maximilian isolder max qel-droma yuvernian. Sykes pellaeon antonio abyssin tahiri gwurran lah padmé. Raa kalee luke thul tierce kit.
 
-    link: http://blog.nccpt.com/2015/three-reasons-you-might-not-be-making-any-money/
+    link: '#'
     more: "Read more."
-    subhead: "Diversify your Skills"
-    thumbnail: http://blog.nccpt.com/wp-content/uploads/18929522_s.jpg
-    title: "Three Reasons You Might Not be Making Any Money as a Trainer!"
-    ceus: 0.1
+    subhead: "Embrace the Darkside"
+    thumbnail: http://placehold.it/300x200
+    title: "Three Reasons You Might Not be ready for Jedi Training!"
+    ceus: 0
 
 #featured trainer
 featured:
   ready: false
-  image: http://static.nccpt.com/images/151002-trainer.jpg
-  link: http://blog.nccpt.com/2015/anton-kidd/
-  name: "Anton Kidd"
+  image: http://placehold.it/600x200
+  link: "#"
+  name: "Qui-Gon Jinn"
   excerpt:
     markdown: |
-      Born and raised in Canton, Ohio by a single mom, Anton Kidd grew up passionate about baseball, basketball and football. Later on, he became obsessed with professional wrestling mainly because of the immaculate physique the athletes were in. He says, &ldquo;I saw them as what a man is supposed to look like.&rdquo; A role model of his at the time was Bo Jackson, because to him, he was the greatest and most diverse athlete there ever was.
+      Qui-Gon Jinn was a revered, yet maverick and unconventional Human male Jedi Master. He was the Padawan to Count Dooku, and the mentor to Obi-Wan Kenobi and briefly Anakin Skywalker. Jinn often placed himself in conflict with the Jedi High Council. He was deeply attuned to the Living Force, which contributed to him frequently taking side trips to help seemingly weak and useless life-forms. Despite his opposition to the council, he was regarded by many Jedi as sharp-witted and possessing great wisdom.
 
 pres-message:
   ready: true
   title: "President&apos;s Message"
   copy:
     markdown: |
-      Holidays are here! Your clients are going to be onslaught with food and drink from every direction. We’re working on getting you and your clients some supplemental help to for the exorbitant amounts of foods. A little surprise will be coming your way very soon to help suppress appetite, build muscle and lose fat. Stay tuned!
-
-      Check out the [**Dartfish**](http://blog.nccpt.com/2015/bench-press-technique-seminar-part-one/) analysis on the bench press by our **Director of Education, Tom Delong.** Do you know you can download the app, take video and then send it to us for a biomechanical analysis? How cool is that?
-
-      Lately, since I’ve been injured I’ve been watching a lot more documentaries. This month we’re featured the documentary [&ldquo;**Forks over Knives**.&rdquo;](https://www.nccpt.com/store/products/forks-over-knives-3ceus-/1750) This is an extremely powerful film. We’ve actually created a CEU quiz for it. Watch the movie, pass the quiz and you earn .3 CEU’s!
-
-      We have a few **CEU articles:**
-      * [**What is ideal and what is faulty posture.**](http://blog.nccpt.com/2015/posture-what-is-ideal-and-what-is-faulty/)
-      * [**Three reasons why you might not be making any money as a trainer.**](http://blog.nccpt.com/2015/three-reasons-you-might-not-be-making-any-money/)
-
-      We could all use a reminder on our posture and everyone needs more money!
-
-      We’ve scheduled a few [**live workshops**](https://www.nccpt.com/live-workshops) back East and of course here in California for those of you who like the live interaction. I personally like the live workshops.
-
-      Happy Holidays!
+      Wampa moff jinn k-3po biggs k-3po darth. Greedo padmé skywalker biggs boba moff organa anakin. Lobot organa darth jabba dagobah. Chewbacca amidala mustafar antilles. Fett mace darth darth c-3po calamari. Jade jabba skywalker grievous skywalker. Droid jango jango naboo darth hutt jinn organa padmé. Chewbacca darth gamorrean wookiee grievous. Maul windu dooku mandalore hutt mon. Moff grievous kamino darth wicket vader calrissian baba. Antilles gonk jar skywalker vader thrawn. Jade hutt gamorrean dooku mandalore organa endor.
+      Grievous grievous hutt skywalker kashyyyk skywalker yoda secura grievous. Darth sith moff wedge moff solo calamari organa. Calrissian gamorrean sith antilles. Vader qui-gon tatooine tatooine palpatine. Bothan kit mustafar coruscant sith organa jar lando baba. Luke hutt wicket solo baba dooku. Wookiee owen lando binks skywalker darth aayla droid moff. Mara lando darth darth jinn tatooine. Darth amidala secura luke biggs mara darth. Dagobah yoda antilles chewbacca antilles bothan sith. Sidious ackbar dooku chewbacca tusken raider dantooine yoda.
+      Kessel calrissian mandalorians ben endor biggs luuke coruscant droid. Mon moff palpatine r2-d2. Han windu moff lando solo. Mothma hutt greedo owen. Dagobah lars mara dagobah jade palpatine jabba amidala. Fisto boba alderaan skywalker organa jinn twi&apos;lek biggs. Bothan leia han boba sith darth vader mandalorians. Utapau yoda hutt han ewok jango darth. Ackbar maul greedo fett skywalker. Luke ackbar lando calamari. Fett ackbar boba utapau mandalorians. Organa lando mara dooku lars hutt utapau. Darth obi-wan endor darth chewbacca watto han organa mace.
 
 #ads.
 
@@ -109,23 +97,23 @@ oneUp:
   ready: true
   blurb:
     markdown: |
-      As the growth of the aging population continues, so do the issues of longevity and quality of life, which will lead to significant implications for personal trainers. The role of exercise becomes crucial to ensure that these individuals can improve and maintain functional independence, offering many opportunities for personal trainers to help enhance their well being. Earn 0.8 CEUs.
+      Wampa moff jinn k-3po biggs k-3po darth. Greedo padmé skywalker biggs boba moff organa anakin. Lobot organa darth jabba dagobah. Chewbacca amidala mustafar antilles. Fett mace darth darth c-3po calamari. Jade jabba skywalker grievous skywalker. Droid jango jango naboo darth hutt jinn organa padmé. Chewbacca darth gamorrean wookiee grievous. Maul windu dooku mandalore hutt mon. Moff grievous kamino darth wicket vader calrissian baba. Antilles gonk jar skywalker vader thrawn. Jade hutt gamorrean dooku mandalore organa endor.
 
-  headline: "Certified Senior Fitness Specialist"
-  link: http://www.nccpt.com/store/products/certified-senior-fitness-specialist/1746
+  headline: "Certified Jedi Specialist"
+  link: "#"
   linkText: "Learn more."
   price:
   promoCode:
-  thumbnail: http://static.nccpt.com/images/151106-csfi-video.jpg
+  thumbnail: http://placehold.it/600x200
 
 twoUpAds: true
 twoUps:
   -
-    blurb: "The Certified Weight Management Course has been revised. The most current information is now availble to help your keep your client's on the right track to achieving their goals."
-    link: http://www.nccpt.com/certified-weight-management-specialist
+    blurb: "Hlep me Obi-wan, You're my only hope!"
+    link: "#"
     link-text: "Start today"
     promo-code:
-    thumbnail: http://static.nccpt.com/images/151001-cwms.jpg
+    thumbnail: http://placehold.it/200x100
     title: "Expertise Needed Now."
   -
     blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
@@ -146,13 +134,13 @@ threeUps:
     promoCode:
     thumbnail: http://static.nccpt.com/images/151106-hiit.jpg
   -
-    blurb: "Summer is over, time to start prepping for those cooler fall morning training sessions. Cut the chill with DryFit Hoodies."
-    headline: "Winter is Here!"
+    blurb: "It gets cold on Hoth"
+    headline: "smell like the inside of a tauntaun?"
     link: https://www.nccpt.com/store/products/dryshirt-hoodie/1585
     linkText: "Shop Now!"
     price:
-    promoCode: "Hoodies1510"
-    thumbnail: http://static.nccpt.com/images/150904-ad-hoodie.jpg
+    promoCode: "hoth2015"
+    thumbnail: http://placehold.it/200x100
   -
     blurb: "When you buy the New Certified Weight Management Course, recieve a free Body Fat Caliper! Call in only."
     headline: "Introductory deal"

@@ -30,5 +30,6 @@
         "thumbnail": "http://static.nccpt.com/images/sm-youtube.png"
       }
     ]
-  }
+  },
+	"cdnUrl": "http://static.nccpt.com/images"
 }

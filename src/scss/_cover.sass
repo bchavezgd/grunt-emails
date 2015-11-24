@@ -1,12 +1,3 @@
-.cover
-	vertical-align: top
-  text-align: center
-  font-size: 0
-  line-height: 0
-
-.header p
-  color: #fff
-
 .front-matter
 	width: $width
   background-color: #000
@@ -21,11 +12,25 @@
     padding-bottom: 12px
 		color: #fff
 
-.masthead
-  background-color: #152831
+//hero
+.cover
+	vertical-align: top
+  text-align: center
+  font-size: 1em
+  line-height: 0
 
+.header p
+  color: #fff
+
+
+
+// content settings.
+.masthead
+	+Auto-bg-text($brand-dark)
+
+//article list
 .article-list
-  background-color: #703d16
+  +Auto-bg-text(opacify($brand-primary, 0.7))
   width: 100%
   h2
     color: #fff
@@ -37,6 +42,7 @@
   padding-left: 35px
   width: $width / 3
   text-align: center
+	white-space: nowrap
   a
     color: #fff
     border: none
