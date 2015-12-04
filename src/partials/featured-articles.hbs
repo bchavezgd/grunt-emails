@@ -54,11 +54,22 @@
 
                   {{#if ceus}}
                   <tr>
-                    <td align="center light-text">
-
-                      Get: {{{ceus}}} CEUs
-
-                      <a href="{{ link }}" target="_blank" class="btn btn-default">{{{ more }}}</a>
+                    <td class="col-6">
+                      <table width="590" class="align-center">
+                        <tr>
+                          <td class="h3 light-text col-3">
+                            Get: {{{ceus}}} CEUs
+                          </td>
+                          <td class="col-spacer"></td>
+                          <td class="col-3">
+                            <a href="{{ link }}" title="Get: {{ceus}} CEUs" target="_blank">
+                              <button role="button" class="btn btn-default">
+                                {{{ more }}}
+                              </button>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
 
@@ -70,8 +81,13 @@
                   {{else}}
 
                   <tr>
-                    <td align="center light-text">
-                      <a href="{{ link }}" target="_blank" class="btn btn-default">{{{ more }}}</a>
+                    <td class="col-6 align-center light-text">
+                      <a href="{{ link }}" title="{{more}}" target="_blank">
+                        <button role="button" class="btn btn-default">
+                          {{{ more }}}
+                        </button>
+
+                      </a>
                     </td>
                   </tr>
 

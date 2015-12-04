@@ -5,44 +5,56 @@
 # apostropy ' => &apos;
 #	ellipsis ... => &hellip;
 # quotes "left  right" => &ldquo;   &rdquo;
-# nccpt reusable data
 
-#Check out the **Dartfish** analysis on the bench press by our **Director of Education, Tom Delong.** Do you know you can download the app, take video and then send it to us for a biomechanical analysis? How cool is that?
+# nccpt reusable data
 
 #featured articles
 hero:
   ready: true
-  ceus: 0.3
-  title: "xx"
-  image: http://placehold.it/600x200
-  alt: "xxx"
-  link: '#'
-  linkText: "nope"
+  ceus: 0.1
+  title: "Holiday Strategies &mdash; Three French Hens, Two Turtle Doves and a Change Your Client Can Stick With"
+  image: http://blog.nccpt.com/wp-content/uploads/store_2106386535.800x800.jpg
+  alt: "Beat the Slump"
+  link: http://blog.nccpt.com/2015/holiday-strategies/
+  linkText: "Beat the Slump"
   excerpt:
     markdown: |
-      Cronut wayfarers echo park fingerstache, irony hashtag YOLO cardigan blog cornhole cray. Quinoa shoreditch beard, butcher messenger bag brunch locavore letterpress. Craft beer drinking vinegar deep v photo booth, health goth fanny pack hoodie actually roof party vice tofu butcher heirloom kitsch celiac. Marfa everyday carry whatever literally. You probably haven't heard of them flannel street art pitchfork, bespoke gastropub wolf cold-pressed readymade whatever bicycle rights. Chillwave pour-over marfa, godard forage sartorial asymmetrical cronut organic sustainable kogi disrupt bicycle rights. Seitan small batch next level, lumbersexual four loko selfies vinyl raw denim chartreuse.
+      The holidays. That wonderful time of year filled with family, fun, happiness and cheer. It&apos;s a time to enjoy one another, relax, renew personal ties and reflect on the year as a whole. But with all the wonder of the season, there&apos;s a dirty downside clients face within the busiest six weeks of the year: stress, anxiety, depression, monetary pressure, time constraints, and an abundance of emotions (and not just for the clients).
 
 # displays as stack,
 articles:
   -
     excerpt:
       markdown: |
-        Tom DeLong, Director of Education, will post a new Dartfish video on the basics of the bench press movement.  This video covers the basics of performing the bench from the fitness industry's point of  view for this exercise.  Included in this video will be: set up (7 points of contact), bar path (descent and ascent), primary plane of motion utilized, internal versus external lines of force as well as which section of the pectoralis major is primarily targeted depending of the position of the bar when it reaches the sternum.  This is part one of a series of bench press videos to compare and contrast fitness versus competition bench press movement patterns.
-    link: http://blog.nccpt.com/2015/bench-press-technique-seminar-part-one/
-    more: "Ready to press"
-    thumbnail: http://static.nccpt.com/images/151106-dartfish.jpg
-    title: "Bench Press Technique Seminar Part One"
+    link: "http://blog.nccpt.com/2015/nccpt-in-the-news"
+    more: "See the Video."
+    thumbnail: http://static.nccpt.com/images/151204-news-thumb.jpg
+    title: 'NCCPT in the news! Recently John was featured on <a href="http://abc7.com/health/plyometrics-good-for-the-elderly-to-help-prevent-falls/1081280/" target="_blank"> ABC 7 News</a> showing off our new <a href="https://www.nccpt.com/store/products/certified-senior-fitness-specialist/1746" target="_blank">Senior Fitness Specialist course</a>.'
     ceus:
     ready: true
+
 
   -
     excerpt:
       markdown: |
-        Dagobah calamari dagobah lando solo gonk. Mace grievous darth kessel darth yavin moff solo maul. Palpatine bespin twi'lek skywalker palpatine. Fett anakin dantooine leia ponda darth grievous owen organa. C-3po mon wicket maul lars ackbar. Leia palpatine luuke c-3po bothan sith jade fett wicket. Ventress yoda owen wedge yoda jinn boba wookiee skywalker. Grievous mace mace utapau hutt lando mara organa wedge. Organa sidious yoda solo jade. Solo antilles leia fisto antilles qui-gonn. Darth dooku moff luke calrissian solo.
-    link: "#"
-    more: "nope"
-    thumbnail: http://placehold.it/600x200
-    title: "Join the Dark Side"
+        It's now confirmed what we already new.
+
+        What no one really talks about is the ECONOMICS of eating meat and how costly it is, how ineffective it is to produce adequate amounts of food and worst of all, how devastating it is to the planet. Eating meat worked when there was less than a billion people, but with 7.125 billion people, the animals are basically drinking all of our water and eating all of our food. Every cow drinks about 20-25 gallons of water and 150 pounds of grain a day. Not to mention its affect on climate change. Yep! Climate change.
+    link: http://blog.nccpt.com/2015/cows-cash-and-climate-change/
+    more: "Learn More"
+
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/151204-cowspiracy.jpg
+    title: "Cows, Cash, and Climate Change?"
+    ceus: 0.3
+    ready: true
+  -
+    excerpt:
+      markdown: |
+        [**Click here**](https://www.nccpt.com/store/products/certified-senior-fitness-specialist/1746) and use Promocode **LIFT25** to get 50% off the retail price.
+    link: https://www.nccpt.com/store/products/certified-senior-fitness-specialist/1746
+    more: "Check out the course."
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/151204-sfi.jpg
+    title:
     ceus:
     ready: true
 
@@ -53,24 +65,46 @@ blog:
   -
     excerpt:
       markdown: |
-        Fett palpatine yoda antilles dantooine lars jade sidious. Utapau watto naboo moff anakin mandalorians wampa. Wampa hutt moff baba darth. Anakin lobot skywalker skywalker antilles grievous wicket dagobah windu. Yoda dagobah mara darth tatooine. Skywalker alderaan skywalker binks chewbacca jabba. Amidala baba tatooine antilles solo owen ben solo skywalker. Darth jabba owen wedge fisto ben calamari. Dagobah calamari mara luke. Solo windu watto darth darth vader mace. Bothan yoda grievous maul windu grievous lobot.
-    link: "#"
-    more: "Force push"
-    subhead: "choosing your alignment."
-    thumbnail: http://placehold.it/300x200
-    title: "cost benifiet analysis of the darkside "
+        Tom DeLong, Director of Education, will post a new Dartfish video on the basics of the bench press movement.  This video covers the basics of performing the bench from the fitness industry's point of  view for this exercise.  Included in this video will be: set up (7 points of contact), bar path (descent and ascent), primary plane of motion utilized, internal versus external lines of force as well as which section of the pectoralis major is primarily targeted depending of the position of the bar when it reaches the sternum.  This is part one of a series of bench press videos to compare and contrast fitness versus competition bench press movement patterns.
+    link: http://blog.nccpt.com/2015/bench-press-technique-seminar-part-two/
+    more: "Ready to press"
+    thumbnail: http://static.nccpt.com/images/151204-dartfish.jpg
+    title: "Bench Press Technique Seminar Part Two"
+    ceus:
+  -
+    excerpt:
+      markdown: |
+        My friend Gordon Gray has daughters that have been diagnosed with Batten CNL6, a rare neurodegenerative brain disease that is fatal. Children with this disease lose their ability to walk, talk, feed themselves, breathe on their own and eventually pass away. The disease progresses rapidly and children usually do not live past the age of 12. Their daughter Charlotte is already showing signs and in the last few months, walking and talking has become very difficult for her. If you have a moment, please view the short video about their story.
+    link: http://blog.nccpt.com/2015/help-save-charlotte-and-gwenyth-gray/
+    more: "Learn More."
+    subhead:
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/kidssquarelogo-563cf22cc6537-300x300.jpg
+    title: "HELP SAVE CHARLOTTE AND GWENYTH GRAY"
+    ceus: 0
+
+  -
+    excerpt:
+      markdown: |
+        Childhood obesity is a growing epidemic and is a national concern with lasting effects on health and wellbeing. Research shows childhood obesity has doubled in children and quadrupled in adolescents over the past 30 years (1). Statistics from the Centers for Disease Control and Prevention (CDC) estimate 17% (or 12.7 million) of today’s youth (between 2-19 yrs.) are now considered obese (2). Health related consequences of childhood obesity include increased incidents of high cholesterol, hypertension, type 2 diabetes, sleep apnea, joint/bone problems and poor self-esteem (1). Consequently, children who are obese are more likely to remain obese as adults, perpetuating the obesity epidemic (3). As such, today’s fitness professional must understand the basics of childhood obesity and strategies for helping their young clients live active and healthy lifestyles.
+
+    link: http://blog.nccpt.com/2015/understanding-childhood-obesity/
+    more: "Read more."
+    subhead:
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/13898786_m-730x550.jpg
+    title: "Understanding Childhood Obesity"
     ceus: 0
   -
     excerpt:
       markdown: |
-        Gank sidious hssis calrissian dunhausen falleen. Iv palpatine lars warrick vao tarpals phlog. Nass glymphid vima-da-boda clawdite letaki biggs. Droopy hoth jobal zhell. **Cliegg** gonk yavin san cornelius. Falleen sluis iktotchi bib. Natasi brak bane celegian pa'lowick gavyn jerec. Naboo geonosis iktotchi kastolar sola. Quelli wampa hutt falleen ulic. Ruwee galen aurra droopy tenel snivvian. Vor maximilian isolder max qel-droma yuvernian. Sykes pellaeon antonio abyssin tahiri gwurran lah padmé. Raa kalee luke thul tierce kit.
-
-    link: '#'
-    more: "Read more."
-    subhead: "Embrace the Darkside"
-    thumbnail: http://placehold.it/300x200
-    title: "Three Reasons You Might Not be ready for Jedi Training!"
+       Greg Joujon Rouche (age 48) has recently&nbsp;been diagnosed with a rare cancer in his liver and bile ducts called Cholangiocarcinoma. He has a wife and two young children (Dylan and Helena ages 11&nbsp;and 8) he is not able to work (as a fitness trainer) for a while. He&rsquo;s been coming back to California to work while his wife and kids are in Sydney trying to start a business&hellip;and we got this diagnosis in May.
+    link: http://blog.nccpt.com/2015/gregs-medical-fund/
+    more: "Help here"
+    subhead:
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/151204-greg.jpg
+    title: "Greg&apos;s medical fund"
     ceus: 0
+
+
 
 #featured trainer
 featured:
@@ -87,9 +121,25 @@ pres-message:
   title: "President&apos;s Message"
   copy:
     markdown: |
-      Wampa moff jinn k-3po biggs k-3po darth. Greedo padmé skywalker biggs boba moff organa anakin. Lobot organa darth jabba dagobah. Chewbacca amidala mustafar antilles. Fett mace darth darth c-3po calamari. Jade jabba skywalker grievous skywalker. Droid jango jango naboo darth hutt jinn organa padmé. Chewbacca darth gamorrean wookiee grievous. Maul windu dooku mandalore hutt mon. Moff grievous kamino darth wicket vader calrissian baba. Antilles gonk jar skywalker vader thrawn. Jade hutt gamorrean dooku mandalore organa endor.
-      Grievous grievous hutt skywalker kashyyyk skywalker yoda secura grievous. Darth sith moff wedge moff solo calamari organa. Calrissian gamorrean sith antilles. Vader qui-gon tatooine tatooine palpatine. Bothan kit mustafar coruscant sith organa jar lando baba. Luke hutt wicket solo baba dooku. Wookiee owen lando binks skywalker darth aayla droid moff. Mara lando darth darth jinn tatooine. Darth amidala secura luke biggs mara darth. Dagobah yoda antilles chewbacca antilles bothan sith. Sidious ackbar dooku chewbacca tusken raider dantooine yoda.
-      Kessel calrissian mandalorians ben endor biggs luuke coruscant droid. Mon moff palpatine r2-d2. Han windu moff lando solo. Mothma hutt greedo owen. Dagobah lars mara dagobah jade palpatine jabba amidala. Fisto boba alderaan skywalker organa jinn twi&apos;lek biggs. Bothan leia han boba sith darth vader mandalorians. Utapau yoda hutt han ewok jango darth. Ackbar maul greedo fett skywalker. Luke ackbar lando calamari. Fett ackbar boba utapau mandalorians. Organa lando mara dooku lars hutt utapau. Darth obi-wan endor darth chewbacca watto han organa mace.
+      **President’s Message**
+
+      Tis the season&hellip;
+
+      We have much to be grateful for. Every day I’m thankful for where we live and what we have. I personally am thankful to just to be somewhat walking again.
+
+      In this newsletter, we have two charities or benefits. One is for celebrity trainer Greg Joujon Rouche. Greg has trained Demi Moore, Leonardo DiCaprio, Toby Maguire, Pierce Brosnan, Brad Pitt and on and on. This wonderful man not only is a Father, friend and a great tribute to who a personal trainer should be—he has cancer. The other is Gordon Gray, a long-time friend of mine who has produced some of the best family entertainment there is: Million Dollar Arm, 42 and Secretariat are just three of the movies he has produced. Gordon is a kind man who always had a smile on his face and a positive word. Both of his young daughters that have been diagnosed with Batten CNL6, a rare neurodegenerative brain disease that is fatal. Children with this disease lose their ability to walk, talk, feed themselves, breathe on their own and eventually pass away. The disease progresses rapidly and children usually do not live past the age of 12\. There is no cure however Gordon and his wife Kristen have spent this past year tirelessly fundraising and have put together a medical research team that is working on a treatment which can potentially save their daughters. Please give whatever you can to these people
+
+      Our new **Senior Fitness Certification was featured on ABC News**! You’ll be able to learn what issues to be concerned with and train this demographic safely and effectively. The baby boomers is such a huge demographic, this distinction will help you get more clientele and increase your business.
+
+      Watch this movie **Cowspiracy.** It is shocking. I didn’t know about this subject matter and it’s frightening that no one speaks up about it. The producers have given us the rights to give you CEU’s for watching it and passing the quiz.
+
+      Check out the **Dartfish** analysis on the bench press by our **Director of Education, Tom Delong.** Do you know you can download the app, take video and then send it to us for a biomechanical analysis? How cool is that?
+
+      We have a few **CEU articles** to help you recertify and we’ve scheduled a few **live workshops** back East and of course here in California for those of you who like the live interaction. I personally like the live workshops.
+
+      Remember how lucky we are to live where we live and be thankful for your health &mdash; there’s nothing better than being healthy.
+
+      Happy Holidays!
 
 #ads.
 
@@ -97,24 +147,37 @@ oneUp:
   ready: true
   blurb:
     markdown: |
-      Wampa moff jinn k-3po biggs k-3po darth. Greedo padmé skywalker biggs boba moff organa anakin. Lobot organa darth jabba dagobah. Chewbacca amidala mustafar antilles. Fett mace darth darth c-3po calamari. Jade jabba skywalker grievous skywalker. Droid jango jango naboo darth hutt jinn organa padmé. Chewbacca darth gamorrean wookiee grievous. Maul windu dooku mandalore hutt mon. Moff grievous kamino darth wicket vader calrissian baba. Antilles gonk jar skywalker vader thrawn. Jade hutt gamorrean dooku mandalore organa endor.
+      ## Become a Certified Powerlifting Instructor (1.6 CEUs)
 
-  headline: "Certified Jedi Specialist"
-  link: "#"
+      Join the ranks of some of the most sought after strength coaches in the world by becoming a certified powerlifting instructor. Thousands of clients are hitting the gym hoping to increase their strength and compete at various levels of fitness competitions. This certification will introduce, educate, and coach any trainee, whose goal is to increase maximum strength with an applied science approach using powerlifting movements and training methodologies for developing an individualized and optimized strength training program.
+
+      ### What can you expect to learn?
+
+      * You&apos;ll learn the three foundational movements for humans: squat, bench and deadlift; which are effective in building a substantial foundation of strength for everyday activities.
+      * Basics of structure and function.
+      * Rigid-body mechanics.
+      * Exercise physiology.
+      * Energy systems.
+      * Basic movement evaluations to identify movement deficits that may cause injury.
+      * Exercise technique.
+      * How to create an “individualized” program for developing the trainee based on their individual needs.
+
+  headline: "Powerlifting Specialist"
+  link: "https://www.nccpt.com/store/products/certified-powerlifting-instructor/1726"
   linkText: "Learn more."
-  price:
-  promoCode:
-  thumbnail: http://placehold.it/600x200
+  price: $119
+  promoCode: LIFT1512
+  thumbnail: http://static.nccpt.com/images/151204-ad-powerlifting.jpg
 
 twoUpAds: true
 twoUps:
   -
-    blurb: "Hlep me Obi-wan, You're my only hope!"
-    link: "#"
-    link-text: "Start today"
+    blurb: "Highly breathable 100% wicking polyester will help keep you cool and dry and protected from the sun with a UPF rating of 30. Pro-Fit fabrics are specially designed to provide not only superior moisture management, but also to enhance the wearer's comfort through a remarkably soft hand."
+    link: "https://www.nccpt.com/store/products/true-sport-long-sleeve-moisture-management-shirts/1568"
+    link-text: "Get one today!"
     promo-code:
-    thumbnail: http://placehold.it/200x100
-    title: "Expertise Needed Now."
+    thumbnail: http://static.nccpt.com/images/151204-shirt.jpg
+    title: "True Sport Long Sleeve Moisture Management Shirts"
   -
     blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
     link: http://profitjobs.com/
@@ -134,13 +197,17 @@ threeUps:
     promoCode:
     thumbnail: http://static.nccpt.com/images/151106-hiit.jpg
   -
-    blurb: "It gets cold on Hoth"
-    headline: "smell like the inside of a tauntaun?"
-    link: https://www.nccpt.com/store/products/dryshirt-hoodie/1585
+    blurb:
+      markdown: |
+        *One for all, and all for one&hellip; goal.*
+
+        People who sweat together, lose together. Learn how to group your training to save money, gain motivation, and make friends.
+    headline: "Small Group Training"
+    link: http://www.nccpt.com/store/products/small-group-training-course-02-ceus/1455
     linkText: "Shop Now!"
     price:
-    promoCode: "hoth2015"
-    thumbnail: http://placehold.it/200x100
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/151204-ad-sge.jpg
   -
     blurb: "When you buy the New Certified Weight Management Course, recieve a free Body Fat Caliper! Call in only."
     headline: "Introductory deal"
@@ -167,14 +234,9 @@ workshops:
 
   dates:
     -
-        location: "Vantage Fitness"
-        date: "Nov 13, 2015 - Nov 15, 2015"
-    -
-        location: "Aliso Viejo, CA - Renaissance ClubSport"
-        date: "Nov 14, 2015 - Nov 14, 2015"
-    -
-        location: "Bare Hills Raquet & Fitness Club"
+        location: "Bare Hills Raquet & Fitness Club - Baltimore, MD 21209"
         date: "Dec 12, 2015 - Dec 13, 2015"
     -
         location: "Aliso Viejo, CA - Renaissance ClubSport"
-        date: "Dec 12, 2015 - Dec 12, 2015"
+        date: "Dec 12, 2015"
+
