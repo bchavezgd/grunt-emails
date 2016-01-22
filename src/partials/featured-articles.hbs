@@ -11,104 +11,116 @@
             </tr>
             <!-- spacer -->
             {{#each content.articles}} {{#if ready}}
+
             <tr>
               <td class="col-6">
 
                 <!-- article -->
                 <table align="center" valign="top">
-
+                  {{#if ceus }}
                   <tr>
-                    <td class="h2 light-text">
+
+
+                    <td class="h2 light-text align-center" style="vertical-align: baseline;">
                       {{{ title }}}
                     </td>
                   </tr>
-
-                  <tr height="16">
-                    <td class="spacer-16">&nbsp;</td>
-                  </tr>
-
                   <tr>
-                    <td>
-                      <a href="{{ link }}" target="_blank">
-                        <img src="{{ thumbnail }}" width="590">
-                      </a>
-                    </td>
+                    <tr class="spacer-16"></tr>
                   </tr>
-
-                  <!-- spacer -->
-                  <tr height="32">
-                    <td class="spacer-32">&nbsp;</td>
-                  </tr>
-
-
                   <tr>
-                    <td class="p light-text">
-                      {{{ excerpt }}}
-                    </td>
-                  </tr>
 
-                  <tr height="16">
-                    <td class="spacer-16">&nbsp;</td>
-                  </tr>
-                  <!-- spacer -->
-
-                  {{#if ceus}}
-                  <tr>
-                    <td class="col-6">
-                      <table width="590" class="align-center">
-                        <tr>
-                          <td class="h3 light-text col-3">
-                            Get: {{{ceus}}} CEUs
-                          </td>
-                          <td class="col-spacer"></td>
-                          <td class="col-3">
-                            <a href="{{ link }}" title="Get: {{ceus}} CEUs" target="_blank">
-                              <button role="button" class="btn btn-default">
-                                {{{ more }}}
-                              </button>
-                            </a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-
-                  <!-- spacer -->
-                  <tr height="16">
-                    <td class="spacer-16">&nbsp;</td>
-                  </tr>
-
-                  {{else}}
-
-                  <tr>
-                    <td class="col-6 align-center light-text">
+                    <td class="h3 dark-text" bgcolor="#0f0" style="vertical-align: baseline;">
+                      <p class="h3 align-center" style="margin: 1rem">
                       <a href="{{ link }}" title="{{more}}" target="_blank">
-                        <button role="button" class="btn btn-default">
-                          {{{ more }}}
-                        </button>
-
-                      </a>
+                        GET: {{ceus}} CEU's
+                        </a>
+                        </p>
                     </td>
                   </tr>
 
-                  <!-- spacer -->
-                  <tr height="16">
-                    <td class="spacer-16">&nbsp;</td>
-                  </tr>
+            </tr>
+            <tr height="16">
+              <td class="spacer-16">&nbsp;</td>
+            </tr>
+            {{else}}
 
-                  {{/if}}
-
-                </table>
-                <!-- end article -->
+            <tr>
+              <td class="h2 light-text align-center">
+                {{{ title }}}
               </td>
             </tr>
-            {{/if}} {{/each}}
-          </table>
-          <!-- end header -->
-        </td>
+
+            <tr height="16">
+              <td class="spacer-16">&nbsp;</td>
+            </tr>
+            {{/if}}
+
+            <tr>
+              <td>
+                <a href="{{ link }}" target="_blank">
+                  <img src="{{ thumbnail }}" width="590">
+                </a>
+              </td>
+            </tr>
+
+            <!-- spacer -->
+            <tr height="32">
+              <td class="spacer-32">&nbsp;</td>
+            </tr>
+
+
+            <tr>
+              <td class="p light-text">
+                {{{ excerpt }}}
+              </td>
+            </tr>
+
+            <tr height="16">
+              <td class="spacer-16">&nbsp;</td>
+            </tr>
+            <!-- spacer -->
+
+            <tr>
+              <td class="col-6 align-center light-text">
+                <a href="{{ link }}" title="{{more}}" target="_blank">
+                  <button role="button" class="btn btn-default">
+                    {{{ more }}}
+                  </button>
+
+                </a>
+              </td>
+            </tr>
+
+            <!-- spacer -->
+            <tr height="16">
+              <td class="spacer-16">&nbsp;</td>
+            </tr>
+            {{#if ceus}}
+            <tr>
+              <td class="h3 dark-text" bgcolor="#0f0" style="vertical-align: baseline;">
+                <p class="h3 align-center" style="margin: 1rem">
+                <a href="{{ link }}" title="{{more}}" target="_blank">
+                GET: {{ceus}} CEU's
+                  </a>
+                  </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="spacer-32"></td>
+            </tr>
+            {{/if}}
+            </table>
+            <!-- end article -->
+            </td>
       </tr>
-    </table>
-    <!-- end container -->
-  </td>
+      {{/if}} {{/each}}
+      </table>
+      <!-- end header -->
+      </td>
+</tr>
+</table>
+<!-- end container -->
+</td>
 </tr>
 <!-- end featured articles -->
