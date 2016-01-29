@@ -7,14 +7,51 @@
 
 {{> featured-articles }}
 
-
-	{{> pres-message }}
-
+<!-- main -->
+<tr class="main">
+  <td>
+    <table class="container">
+      <!-- spacer -->
+      <tr height="32">
+        <td class="spacer-32">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="content">
+          <table>
+            <tr>
+              <td colspan="3" class="h1">
+                {{{ content.pres-message.title }}}
+              </td>
+            </tr>
+            <tr>
+              <td height="32" class="spacer-32">&nbsp;</td>
+            </tr>
+            <!-- spacer -->
+            <tr>
+              <td class="col-spacer"></td>
+              <!-- content -->
+              <td class="p">
+                {{#markdown}} {{> body }} {{/markdown}}
+              </td>
+              <td class="col-spacer"></td>
+              <!-- end intro -->
+            </tr>
+          </table>
+          <!-- end content -->
+        </td>
+      </tr>
+    </table>
+    <!-- end container -->
+  </td>
+</tr>
+<!-- end main -->
+<tr>
+  <td height="32" class="spacer-32">&nbsp;</td>
+</tr>
+<!-- spacer -->
 
 {{> oneUp }}
-
 {{> banner }}
-
 {{#if content.featured.ready }}
 	{{#if altLayout }}
 		{{> altLayout }}
