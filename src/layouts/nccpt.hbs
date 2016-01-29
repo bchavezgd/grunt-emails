@@ -6,24 +6,26 @@
 {{/if}}
 
 {{> featured-articles }}
-{{> oneUp }}
-{{#if content.pres-message.ready }}
-	{{> pres-message }}
-{{/if}}
 
-{{ body }}
+
+	{{> pres-message }}
+
+
+{{> oneUp }}
 
 {{> banner }}
 
-{{#if content.featured-trainer.ready}}
-	{{> featured-trainer }}
+{{#if content.featured.ready }}
+	{{#if altLayout }}
+		{{> altLayout }}
+	{{else}}
+		{{> featured-trainer }}
+	{{/if}}
 {{/if}}
 
 {{> twoUp }}
 {{> blog-loop }}
 {{> threeUp }}
 {{> workshops }}
-
-
 {{> footer }}
 {{> foot }}

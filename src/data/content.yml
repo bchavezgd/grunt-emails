@@ -9,137 +9,148 @@
 # nccpt reusable data
 
 #featured articles
+
 hero:
   ready: true
-  ceus: 0.1
-  title: "Holiday Strategies &mdash; Three French Hens, Two Turtle Doves and a Change Your Client Can Stick With"
-  image: http://blog.nccpt.com/wp-content/uploads/store_2106386535.800x800.jpg
-  alt: "Beat the Slump"
-  link: http://blog.nccpt.com/2015/holiday-strategies/
-  linkText: "Beat the Slump"
+  ceus:
+  title:
+  image:  http://static.nccpt.com/images/160205-redesign.jpg
+  alt: "Newly Redesigned Site"
+  link: http://nccpt.com
+  linkText: "Take a look"
   excerpt:
     markdown: |
-      The holidays. That wonderful time of year filled with family, fun, happiness and cheer. It&apos;s a time to enjoy one another, relax, renew personal ties and reflect on the year as a whole. But with all the wonder of the season, there&apos;s a dirty downside clients face within the busiest six weeks of the year: stress, anxiety, depression, monetary pressure, time constraints, and an abundance of emotions (and not just for the clients).
+      NCCPT.com has been redesigned for mobile devices. We've optmized our site for phones and tablets to bring you a better experience while browsing.
 
 # displays as stack,
 articles:
   -
     excerpt:
       markdown: |
-    link: "http://blog.nccpt.com/2015/nccpt-in-the-news"
-    more: "See the Video."
-    thumbnail: http://static.nccpt.com/images/151204-news-thumb.jpg
-    title: 'NCCPT in the news! Recently John was featured on <a href="http://abc7.com/health/plyometrics-good-for-the-elderly-to-help-prevent-falls/1081280/" target="_blank"> ABC 7 News</a> showing off our new <a href="https://www.nccpt.com/store/products/certified-senior-fitness-specialist/1746" target="_blank">Senior Fitness Specialist course</a>.'
-    ceus:
+        Help clients achieve their ideal weight goals with this amazing bundle
+
+        Retail Price: $299
+
+        NOW: $119! This bundle includes the flagship Weight Management Certification as well as 6 additional courses that will help you dominate the fitness nutrition industry!
+
+        * Weight Management Specialist Certification (.8 CEUs)
+        * Super Foods (.1 CEUs)
+        * Three Reasons Your Clients Are Still Fat (.1 CEUs)
+        * Holiday Strategies ( .1 CEUs)
+        * Fasting Diets ( .1 CEUs)
+        * Sales Three Pack ( .3 CEUs)
+        * 30-Day Weight Loss Solution ( Client Program)
+
+    link: https://www.nccpt.com/store/products/weight-management-specialist-certification-super-pack/1766
+    more: "Get the Details"
+    thumbnail: http://static.nccpt.com/images/160205-superbowl.jpg
+    title: "Super Bowl Special"
+    ceus: 1.5
     ready: true
-
-
   -
     excerpt:
       markdown: |
-        It's now confirmed what we already new.
+        Of all the body segments, the core is ultimately the most important when it comes to achieving and maintaining a certain level of strength. It doesn’t matter if your client is concerned with sports performance or merely getting through the day pain free, conditioned core musculature is the place to start.
 
-        What no one really talks about is the ECONOMICS of eating meat and how costly it is, how ineffective it is to produce adequate amounts of food and worst of all, how devastating it is to the planet. Eating meat worked when there was less than a billion people, but with 7.125 billion people, the animals are basically drinking all of our water and eating all of our food. Every cow drinks about 20-25 gallons of water and 150 pounds of grain a day. Not to mention its affect on climate change. Yep! Climate change.
-    link: http://blog.nccpt.com/2015/cows-cash-and-climate-change/
+    link: http://wp.me/p70251-db
     more: "Learn More"
-
-    thumbnail: http://blog.nccpt.com/wp-content/uploads/151204-cowspiracy.jpg
-    title: "Cows, Cash, and Climate Change?"
-    ceus: 0.3
+    thumbnail: http://static.nccpt.com/images/160205-core.jpg
+    title: "Superiority of Isometric Core Training"
+    ceus: 0.1
     ready: true
   -
     excerpt:
       markdown: |
-        [**Click here**](https://www.nccpt.com/store/products/certified-senior-fitness-specialist/1746) and use Promocode **LIFT25** to get 50% off the retail price.
-    link: https://www.nccpt.com/store/products/certified-senior-fitness-specialist/1746
-    more: "Check out the course."
-    thumbnail: http://blog.nccpt.com/wp-content/uploads/151204-sfi.jpg
-    title:
-    ceus:
+        There's no need to break a sweat at the grocery store checkout. Adopting a healthy diet doesn't have to mean taking out a second mortgage, and you don't have to sacrifice good nutrition for a reasonable grocery bill, either. I've collected a few smart strategies to help keep your receipt within reason. Here's how to beat inflation, one aisle at a time.
+    link: http://wp.me/p70251-dA
+    more: "Learn to Save!"
+    thumbnail: https://www.nccpt.com/data/store/store_980252665.800x800.jpg
+    title: "15 BARGAIN GROCERY SHOPPING TIPS"
+    ceus: 0.1
     ready: true
+
+
 
 
 
 #featured blog articles
 blog:
   -
+    ready: true
     excerpt:
       markdown: |
-        Tom DeLong, Director of Education, will post a new Dartfish video on the basics of the bench press movement.  This video covers the basics of performing the bench from the fitness industry's point of  view for this exercise.  Included in this video will be: set up (7 points of contact), bar path (descent and ascent), primary plane of motion utilized, internal versus external lines of force as well as which section of the pectoralis major is primarily targeted depending of the position of the bar when it reaches the sternum.  This is part one of a series of bench press videos to compare and contrast fitness versus competition bench press movement patterns.
-    link: http://blog.nccpt.com/2015/bench-press-technique-seminar-part-two/
+        Tom DeLong, Director of Education, will post a new Dartfish video on the basics of the bench press movement.
+
+        These videos address the mechanics of the powerlifting bench press as compared to the fitness/bodybuilding industry. Most in the training industry are very unfamiliar with applying biomechanical principles to this movement. Please note that the technique used for powerlifting is for performance enhancement in competition; however,  the basic movement patterns are very similar and can be used for the fitness public, if applied correctly.
+    link: http://wp.me/p70251-d5
     more: "Ready to press"
     thumbnail: http://static.nccpt.com/images/151204-dartfish.jpg
-    title: "Bench Press Technique Seminar Part Two"
+    title: "Bench Press Technique Seminar Part Three"
     ceus:
+
   -
+    ready: true
     excerpt:
       markdown: |
-        My friend Gordon Gray has daughters that have been diagnosed with Batten CNL6, a rare neurodegenerative brain disease that is fatal. Children with this disease lose their ability to walk, talk, feed themselves, breathe on their own and eventually pass away. The disease progresses rapidly and children usually do not live past the age of 12. Their daughter Charlotte is already showing signs and in the last few months, walking and talking has become very difficult for her. If you have a moment, please view the short video about their story.
-    link: https://www.crowdrise.com/nccpthelpsavecharlot
-    more: "Learn More."
+        The fitness industry is constantly changing and evolving. As such, continuing education is required for fitness professionals to stay current with the latest guidelines and skills required to keep their clients safe while implementing innovative exercise techniques. Overall, continuing education is considered a way for fitness professionals to keep abreast of fitness industry trends and training strategies so they don’t lag behind or provide their clients with antiquated training or nutrition strategies.
+    link: http://wp.me/p70251-d2
+    more: "Read More."
     subhead:
-    thumbnail: http://blog.nccpt.com/wp-content/uploads/kidssquarelogo-563cf22cc6537-300x300.jpg
-    title: "HELP SAVE CHARLOTTE AND GWENYTH GRAY"
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/Slide-71.jpg
+    title: "The Importance of Continuing Education"
     ceus: 0
 
   -
+    ready: 0
     excerpt:
       markdown: |
-        Childhood obesity is a growing epidemic and is a national concern with lasting effects on health and wellbeing. Research shows childhood obesity has doubled in children and quadrupled in adolescents over the past 30 years (1). Statistics from the Centers for Disease Control and Prevention (CDC) estimate 17% (or 12.7 million) of today’s youth (between 2-19 yrs.) are now considered obese (2). Health related consequences of childhood obesity include increased incidents of high cholesterol, hypertension, type 2 diabetes, sleep apnea, joint/bone problems and poor self-esteem (1). Consequently, children who are obese are more likely to remain obese as adults, perpetuating the obesity epidemic (3). As such, today’s fitness professional must understand the basics of childhood obesity and strategies for helping their young clients live active and healthy lifestyles.
+         Need a description/marketing text.
 
-    link: http://blog.nccpt.com/2015/understanding-childhood-obesity/
+    link:
     more: "Read more."
-    subhead:
-    thumbnail: http://blog.nccpt.com/wp-content/uploads/13898786_m-730x550.jpg
-    title: "Understanding Childhood Obesity"
+    subhead: "Coming soon"
+    thumbnail: "http://placehold.it/350"
+    title: "Musical Therapy for Personal Trainers"
     ceus: 0
   -
+    ready: true
     excerpt:
       markdown: |
-       Greg Joujon Rouche (age 48) has recently&nbsp;been diagnosed with a rare cancer in his liver and bile ducts called Cholangiocarcinoma. He has a wife and two young children (Dylan and Helena ages 11&nbsp;and 8) he is not able to work (as a fitness trainer) for a while. He&rsquo;s been coming back to California to work while his wife and kids are in Sydney trying to start a business&hellip;and we got this diagnosis in May.
-    link: https://www.gofundme.com/helpmybrotherGreg
-    more: "Help here"
-    subhead:
-    thumbnail: http://blog.nccpt.com/wp-content/uploads/151204-greg.jpg
-    title: "Greg&apos;s medical fund"
+        ### Featuring World Champion Desiree Morgan you’ll learn:
+        - How to create an "individualized" program for developing the trainee based on their individual needs
+        - The three foundational movements for humans (squat, bench, deadlift) which are effective in building a foundation of strength for everyday activities.
+        - Basics of structure and function
+        - Rigid-body mechanics
+        - Basic movement evaluations to identify movement deficits that may cause injury
+
+
+    link: https://player.vimeo.com/external/153306293.hd.mp4?s=7c958ef6c9dfba333a5ad8eb47b16894b3db6365&profile_id=113
+    more: "Check out the course."
+    subhead: "Coming Soon!"
+    thumbnail: http://static.nccpt.com/images/160205-powerlifting-videos.jpg
+    title: "Learn some of the most popular moves uses in Cross Fit"
     ceus: 0
 
 
 
 #featured trainer
 featured:
-  ready: false
-  image: http://placehold.it/600x200
-  link: "#"
-  name: "Qui-Gon Jinn"
+  ready: true
+  altLayout: true
+  image: http://blog.nccpt.com/wp-content/uploads/Kevin_Starkey_1-202x300.jpg
+  link: http://wp.me/p70251-cU
+  linkText: "Read More"
+  name: "Kevin Starkey"
   excerpt:
     markdown: |
-      Qui-Gon Jinn was a revered, yet maverick and unconventional Human male Jedi Master. He was the Padawan to Count Dooku, and the mentor to Obi-Wan Kenobi and briefly Anakin Skywalker. Jinn often placed himself in conflict with the Jedi High Council. He was deeply attuned to the Living Force, which contributed to him frequently taking side trips to help seemingly weak and useless life-forms. Despite his opposition to the council, he was regarded by many Jedi as sharp-witted and possessing great wisdom.
+      From his days in East Liverpool, Ohio, Kevin Starkey was destined to do great things in life. As the eldest of four kids, Kevin was his mother’s right hand man, caring for his siblings&hellip;
 
 pres-message:
   ready: true
   title: "President&apos;s Message"
   copy:
     markdown: |
-      **President’s Message**
 
-      Tis the season&hellip;
-
-      We have much to be grateful for. Every day I’m thankful for where we live and what we have. I personally am thankful to just to be somewhat walking again.
-
-      In this newsletter, we have two charities or benefits. One is for celebrity trainer Greg Joujon Rouche. Greg has trained Demi Moore, Leonardo DiCaprio, Toby Maguire, Pierce Brosnan, Brad Pitt and on and on. This wonderful man not only is a Father, friend and a great tribute to who a personal trainer should be—he has cancer. The other is Gordon Gray, a long-time friend of mine who has produced some of the best family entertainment there is: Million Dollar Arm, 42 and Secretariat are just three of the movies he has produced. Gordon is a kind man who always had a smile on his face and a positive word. Both of his young daughters that have been diagnosed with Batten CNL6, a rare neurodegenerative brain disease that is fatal. Children with this disease lose their ability to walk, talk, feed themselves, breathe on their own and eventually pass away. The disease progresses rapidly and children usually do not live past the age of 12\. There is no cure however Gordon and his wife Kristen have spent this past year tirelessly fundraising and have put together a medical research team that is working on a treatment which can potentially save their daughters. Please give whatever you can to these people
-
-      Our new **Senior Fitness Certification was featured on ABC News**! You’ll be able to learn what issues to be concerned with and train this demographic safely and effectively. The baby boomers is such a huge demographic, this distinction will help you get more clientele and increase your business.
-
-      Watch this movie **Cowspiracy.** It is shocking. I didn’t know about this subject matter and it’s frightening that no one speaks up about it. The producers have given us the rights to give you CEU’s for watching it and passing the quiz.
-
-      Check out the **Dartfish** analysis on the bench press by our **Director of Education, Tom Delong.** Do you know you can download the app, take video and then send it to us for a biomechanical analysis? How cool is that?
-
-      We have a few **CEU articles** to help you recertify and we’ve scheduled a few **live workshops** back East and of course here in California for those of you who like the live interaction. I personally like the live workshops.
-
-      Remember how lucky we are to live where we live and be thankful for your health &mdash; there’s nothing better than being healthy.
-
-      Happy Holidays!
 
 #ads.
 
@@ -147,37 +158,53 @@ oneUp:
   ready: true
   blurb:
     markdown: |
-      ## Become a Certified Powerlifting Instructor (1.6 CEUs)
+      ## Benefits
 
-      Join the ranks of some of the most sought after strength coaches in the world by becoming a certified powerlifting instructor. Thousands of clients are hitting the gym hoping to increase their strength and compete at various levels of fitness competitions. This certification will introduce, educate, and coach any trainee, whose goal is to increase maximum strength with an applied science approach using powerlifting movements and training methodologies for developing an individualized and optimized strength training program.
+      - Clinically proven to increase fat burning and reduce fat storage
+      - Suppresses Appetite
+      - Increases Energy
+      - Helps reduce hunger and cravings
+      - Reduces hip, waist and thigh circumference
 
-      ### What can you expect to learn?
+      ### Features
 
-      * You&apos;ll learn the three foundational movements for humans: squat, bench and deadlift; which are effective in building a substantial foundation of strength for everyday activities.
-      * Basics of structure and function.
-      * Rigid-body mechanics.
-      * Exercise physiology.
-      * Energy systems.
-      * Basic movement evaluations to identify movement deficits that may cause injury.
-      * Exercise technique.
-      * How to create an “individualized” program for developing the trainee based on their individual needs.
+      - Adiponectin is a protein hormone that impacts glucose in the blood and regulates the breakdown of fatty acids in the bloodstream
+      - Leptin - a hormone produced by your fat cells is directly involvedin weight regulation by signaling your brain when your fat cells are full and instructing your body to reduce hunger and cravings, increase fat burning, and reduce fat storage
+      - When you are leptin-resistant, your body can no longer "hear" the messages telling it to stop eating and burn fat, so you remain hungry, you crave sweets, and your body stores more fat
+      - 7 years of research and development at the University of Minnesota
+      - [Eight week clinical trial at the prestigious University of Connecticut Human Performance](https://www.smartfitnessonline.com/lms/admin/qc_imagerep/_docs/uconn_abstract_chart_final.pdf)
+      - [Study published in the European Journal of Applied Physiology](https://www.smartfitnessonline.com/lms/admin/qc_imagerep/_docs/ejap_publication.pdf)
 
-  headline: "Powerlifting Specialist"
-  link: "https://www.nccpt.com/store/products/certified-powerlifting-instructor/1726"
+      ## Buy Now and Receive Our Smart Fitness 30-day Weight Loss Solution Course!
+
+      ![30 Day Weight loss Solution Course](http://static.nccpt.com/images/160205-30day.jpg)
+
+      The Smart Fitness 30-Day New You Weight Loss Challenge Each day we have provided tips, guidance and advice on how to create healthy change and move towards reaching your health and fitness goals. We provide a food log for you to journal your day’s meals and record your water intake. In addition, there are several sections of questions and written exercises we will ask you to complete to help you focus on creating healthy changes.
+
+      ### Here is what you get: A 30-day downloadable guide that includes:
+
+
+      - Easy to understand weight loss education Day-to-day exercise and nutrition instructions and coaching tips
+      - Daily nutrition log to track food intake
+      - Daily exercise programs that can be performed both at the gym or at home
+      - Online presentations that educate you on what it takes to lose weight and guide you through the challenge on a weekly basis
+
+  headline: "Smart Fitness Crave Control"
+  link: "https://www.nccpt.com/crave-control"
   linkText: "Learn more."
-  price: $119
-  promoCode: LIFT1512
-  thumbnail: http://static.nccpt.com/images/151204-ad-powerlifting.jpg
+  price: $19.99
+  promoCode: Crave2
+  thumbnail: http://static.nccpt.com/images/160205-crave-02.jpg
 
 twoUpAds: true
 twoUps:
   -
-    blurb: "Highly breathable 100% wicking polyester will help keep you cool and dry and protected from the sun with a UPF rating of 30. Pro-Fit fabrics are specially designed to provide not only superior moisture management, but also to enhance the wearer's comfort through a remarkably soft hand."
-    link: "https://www.nccpt.com/store/products/true-sport-long-sleeve-moisture-management-shirts/1568"
-    link-text: "Get one today!"
-    promo-code:
-    thumbnail: http://static.nccpt.com/images/151204-shirt.jpg
-    title: "True Sport Long Sleeve Moisture Management Shirts"
+    blurb: "Join the ranks of some of the most sought after strength coaches in the world by becoming a certified powerlifting instructor. \n Taught by World Reknown Powerlifting Coach Tom DeLong."
+    link: https://www.nccpt.com/store/products/certified-powerlifting-instructor/1726
+    link-text: "Learn More!"
+    promo-code: POWERUP
+    thumbnail: http://static.nccpt.com/images/160205-powerlifting.jpg
+    title: "Become a Certified Powerlifting Instructor"
   -
     blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
     link: http://profitjobs.com/
@@ -209,13 +236,13 @@ threeUps:
     promoCode:
     thumbnail: http://static.nccpt.com/images/151204-ad-sge.jpg
   -
-    blurb: "When you buy the New Certified Weight Management Course, recieve a free Body Fat Caliper! Call in only."
-    headline: "Introductory deal"
-    link: http://www.nccpt.com/store/products/body-calipers/1586
+    blurb: "A New Training log to help keep track of your clients progress!"
+    headline: "Track Your Victories"
+    link: https://www.nccpt.com/store/products/personal-training-and-daily-nutrition-journal/1767
     linkText: "Take a look."
-    price: 800-778-6060
+    price: "$15.00"
     promoCode:
-    thumbnail: http://static.nccpt.com/images/150904-ad-caliper.jpg
+    thumbnail: http://static.nccpt.com/images/160205-training-log.jpg
 
 workshops:
   ready: true
@@ -234,9 +261,10 @@ workshops:
 
   dates:
     -
-        location: "Bare Hills Raquet & Fitness Club - Baltimore, MD 21209"
-        date: "Dec 12, 2015 - Dec 13, 2015"
+        location: "Aliso Viejo, CA - Renaissance ClubSport"
+        date: "Feb 20, 2016 8:00 AM"
+
     -
         location: "Aliso Viejo, CA - Renaissance ClubSport"
-        date: "Dec 12, 2015"
+        date: "Mar 19, 2016 8:00 AM"
 

@@ -61,7 +61,9 @@ module.exports = function (grunt) {
 				flatten: true
 			},
 			pages: {
-				src: ['<%= paths.src %>/emails/*.hbs'],
+        expand: true,
+        cwd: '<%= paths.src %>/emails/',
+				src: ['*.{hbs,md}'],
 				dest: '<%= paths.dist %>/'
 			}
 		},

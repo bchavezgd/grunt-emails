@@ -1,3 +1,4 @@
+
 <!-- main -->
 <tr class="main">
   <td>
@@ -22,7 +23,10 @@
               <td class="col-spacer"></td>
               <!-- content -->
               <td class="p">
-                {{{ content.pres-message.copy }}}
+<!-- {{{ content.pres-message.copy }}}-->
+             {{#markdown}}
+                {{> body }}
+               {{/markdown}}
                 <p>Stay Fit, </p>
                 <p>&emsp;&mdash;John Platero</p>
               </td>

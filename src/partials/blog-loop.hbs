@@ -1,7 +1,7 @@
 <!-- blog articles -->
 
 {{#each content.blog }}
-
+{{#if ready}}
 <tr class="blog">
   <td>
     <table class="container">
@@ -49,7 +49,7 @@
                 <table class="blog-panel">
                   <tr>
                     <!-- thumbnail -->
-                    <td class="col-2">
+                    <td class="col-2" style="vertical-align: middle">
                      <a href="{{ link }}" target="_blank" title="{{title}}">
                       <img src="{{ thumbnail }}" class="blog-thumbnail" width="194">
                       </a>
@@ -59,7 +59,7 @@
                     <td width="16" class="col-spacer hidden-sm">&nbsp;</td>
                     <!-- end space -->
                     <!-- blog copy -->
-                    <td class="col-4">
+                    <td class="col-4" style="vertical-align: middle">
                       <table class="blog-copy">
                         <tr>
                           <td>
@@ -141,4 +141,5 @@
     <!-- end container -->
   </td>
 </tr>
+{{/if}}
 {{/each}}
