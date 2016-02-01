@@ -1,20 +1,14 @@
 # https://git-scm.com/docs/gitignore
 # https://help.github.com/articles/ignoring-files
 # Example .gitignore files: https://github.com/github/gitignore
+
 /bower_components/
 /node_modules/
-/psd/
-/secrets.json
-/.sass-cache/**/*
+secrets.json
+/.sass-cache
 *.css.map
-/src/**/*.css
+*.css
 /dist/
-/.DS_Store
-/src/css/.DS_Store
-/bak/
-/bak/150904-nccpt.html
+.DS_Store
 /.sass-cache/
-/bak/
-/todo/
-/src/img/
-/src/.DS_Store
+/src/img/*
