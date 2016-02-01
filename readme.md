@@ -203,3 +203,15 @@ I've added two templates here to help you get started.
 * For more transactional email templates check out [Mailgun's collection of templates](http://github.com/mailgun/transactional-email-templates).
 * [Things I've learned about sending email](http://www.leemunroe.com/sending-email-designers-developers/)
 * [Things I've learned about building HTML email templates](http://www.leemunroe.com/building-html-email/)
+
+
+found problem. 
+
+```
+[NOTE]
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+Bug reports are welcome.
+For details: http://www.ruby-lang.org/bugreport.html
+```
+
+this was happening when the `dist` folder had to many files that the `premailer` gem to parse. 

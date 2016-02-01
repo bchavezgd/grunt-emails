@@ -204,10 +204,10 @@ module.exports = function (grunt) {
 		'sass',
 		'postcss',
 		'assemble',
-		//'premailer',
+		'premailer',
 		'newer:imagemin',
-		'newer:replace:src_images',
-        'juice'
+		'newer:replace:src_images'
+    //'juice'
 	]);
 
       grunt.registerTask('default', [
