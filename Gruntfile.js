@@ -11,6 +11,7 @@ module.exports = function (grunt) {
 
     // Re-usable filesystem paths
     paths: {
+      site: './_site/2016',
       src: './src',
       src_img: './src/img',
       dist: './dist',
@@ -21,13 +22,24 @@ module.exports = function (grunt) {
 
 
     sass: {
-      options: {
-        style: 'expanded',
-        sourceComments: true
+      dev: {
+        options: {
+          outputStyle: 'expanded',
+          sourceComments: true
+        },
+        file: {
+          src: '<%= paths.src %>/scss/nccpt.scss',
+          dest: '<%= paths.dist %>/nccpt.css'
+        }
       },
-      file: {
-        src: '<%= paths.src %>/scss/nccpt.scss',
-        dest: '<%= paths.dist %>/css/nccpt.css'
+      static: {
+        options: {
+          outputStyle: 'compressed',
+          sourceComments: true
+        },
+        files: {
+          '<%= paths.site %>/nccpt.css': '<%= paths.src %>/scss/nccpt.scss'
+        }
       }
     },
 
@@ -46,6 +58,22 @@ module.exports = function (grunt) {
       file: {
         src: '<%= paths.dist %>/css/nccpt.css',
         dest: '<%= paths.dist %>/css/nccpt.css'
+      },
+      static: {
+        options: {
+          processors: [
+            //	add fallbacks for rem units
+            require('pixrem')(),
+            //	add vendor prefixes
+            require('autoprefixer')({
+              browsers: 'last 2 versions'
+            }),
+          ]
+        },
+        file: {
+          src: '<%= paths.site %>/css/nccpt.css',
+          dest: '<%= paths.site %>/css/nccpt.css'
+        }
       }
     },
 
@@ -65,6 +93,12 @@ module.exports = function (grunt) {
         cwd: '<%= paths.src %>/emails/',
         src: ['*.{hbs,md}'],
         dest: '<%= paths.dist %>/'
+      },
+      static: {
+        expand: true,
+        cwd: '<%= paths.src %>/emails/',
+        src: ['*.{hbs,md}'],
+        dest: '<%= paths.site %>/'
       }
     },
 
@@ -121,20 +155,18 @@ module.exports = function (grunt) {
 
     // Optimize images
     imagemin: {
-      dynamic: {
-        options: {
-          optimizationLevel: 0,
-          svgoPlugins: [{
-            removeViewBox: false
-					}]
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= paths.src_img %>',
-          src: ['**/*.{png,jpg,gif}'],
-          dest: '<%= paths.dist_img %>'
-       }]
-      }
+      options: {
+        optimizationLevel: 0,
+        svgoPlugins: [{
+          removeViewBox: false
+        }]
+      },
+      files: [{
+        expand: true,
+        cwd: '<%= paths.src_img %>',
+        src: ['**/*.{png,jpg,gif}'],
+        dest: '<%= paths.dist_img %>'
+     }]
     },
 
     // setting up dev server with livereload
@@ -177,12 +209,19 @@ module.exports = function (grunt) {
 
   // registering grunt tasks.
   grunt.registerTask('done', [
-		'sass',
+		'sass:dev',
 		'postcss',
 		'assemble',
 		'premailer',
 		'newer:imagemin',
-		'newer:replace:src_images'
+		'newer:replace:src_images',
+    'static'
+	]);
+
+  grunt.registerTask('static', [
+		'sass:static',
+		'postcss:static',
+		'assemble:static',
 	]);
 
   grunt.registerTask('default', [
