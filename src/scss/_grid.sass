@@ -4,9 +4,7 @@
 
 .container
 	.col-#{$columns}
-		width: $width
-		margin: 0
-	@for $i from 1 to $columns
+	@for $i from 1 through $columns
 		.col-#{$i}
 			// converting px width to %100% * [below] / $width
 			width:  floor( ($i * ($width / $columns)) - $gutter)
@@ -14,9 +12,7 @@
 
 /* nested columns. */
 [class*="col"]
-	.col-#{$columns}
-		width: 100%
-	@for $i from 1 to $columns
+	@for $i from 1 through $columns
 		.col-#{$i}
 			// converting px width to %100% *
 			width: round(100% * ( ( ($i * ($width / $columns)) - $gutter) / $width))
@@ -39,6 +35,5 @@ td.col-spacer
 		@extend .spacer
 		height: $body-line-height * ($i * 8px)
 
-.grid
-	td.col-spacer:last-of-type
-		display: none
+.grid td.col-spacer:last-of-type
+  display: none

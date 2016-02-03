@@ -10,5 +10,5 @@ secrets.json
 /dist/
 .DS_Store
 /.sass-cache/
-/src/img/*
+/src/img/*.jpg
 /_site/

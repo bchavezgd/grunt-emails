@@ -14,6 +14,7 @@ hero:
   ready: true
   ceus:
   title:
+  # min size of images: 600 x 315 px
   image:  http://static.nccpt.com/images/160205-redesign.jpg
   alt: "Newly Redesigned Site"
   link: http://nccpt.com
