@@ -29,38 +29,40 @@ module.exports = function ( grunt ) {
         options: {
           outputStyle: 'expanded'
         },
-        files: [{
+        files: [ {
           src: '<%= paths.src %>/scss/nccpt.scss',
           dest: '<%= paths.dist %>/nccpt.css'
-        }]
+        } ]
       },
       static: {
         options: {
           outputStyle: 'compact'
         },
-        files: [{
+        files: [ {
           src: '<%= paths.src %>/scss/nccpt.scss',
           dest: '<%= paths.site %>/nccpt.css'
-        }]
+        } ]
       }
     },
 
 
     postcss: {
-      options: {
-        processors: [
-          // add fallbacks for rem units
-          require( 'pixrem' )(),
-          // add vendor prefixes
-          require( 'autoprefixer' )( {
-            browsers: 'last 5 versions'
-          } ),
-        ]
+      dev: {
+        options: {
+          processors: [
+            // add fallbacks for rem units
+            require( 'pixrem' )(),
+            // add vendor prefixes
+            require( 'autoprefixer' )( {
+              browsers: 'last 5 versions'
+            } ),
+          ]
+        },
+        files: [ {
+          src: '<%= paths.dist %>/nccpt.css',
+          dest: '<%= paths.dist %>/nccpt.css'
+        } ]
       },
-      files: [{
-        src: '<%= paths.dist %>/nccpt.css',
-        dest: '<%= paths.dist %>/nccpt.css'
-      }],
       static: {
         options: {
           processors: [
@@ -72,10 +74,10 @@ module.exports = function ( grunt ) {
             } ),
           ]
         },
-        files: [{
+        files: [ {
           src: '<%= paths.site %>/nccpt.css',
           dest: '<%= paths.site %>/nccpt.css'
-        }]
+        } ]
       }
     },
 
@@ -189,23 +191,26 @@ module.exports = function ( grunt ) {
 
     // Watches for changes to source files
     watch: {
-    
-      files: [
-        '<%= paths.src %>/scss/*',
-        '<%= paths.src %>/emails/*',
-        '<%= paths.src %>/layouts/*',
-        '<%= paths.src %>/partials/*',
-        '<%= paths.src %>/data/*'
-      ],
-      tasks: [
-        'sass',
-        'postcss',
-        'assemble',
-        'newer:imagemin'
-      ],
+      content: {
+        files: [
+          '<%= paths.src %>/emails/*',
+          '<%= paths.src %>/layouts/*',
+          '<%= paths.src %>/partials/*',
+          '<%= paths.src %>/data/*'
+        ],
+        tasks: [ 'assemble:pages' ]
+      },
+      styles: {
+        files: [ '<%= paths.src %>/scss/*' ],
+        tasks: [ 'sass:dev', 'postcss:dev' ]
+      },
+      graphics: {
+        files: [ '<%= paths.src_img %>/*' ],
+        tasks: [ 'newer:imagemin:dev' ]
+      },
       options: {
         spawn: false,
-        event: ['all'],
+        event: [ 'all' ],
         livereload: true
       }
     }
@@ -224,7 +229,7 @@ module.exports = function ( grunt ) {
   grunt.registerTask( 'dev', [
     'sass:dev',
     'postcss:dev',
-    'assemble:dev',
+    'assemble:pages',
     'newer:imagemin:dev',
   ] );
 
@@ -235,10 +240,8 @@ module.exports = function ( grunt ) {
   ] );
 
   grunt.registerTask( 'default', [
-    'sass',
-    'postcss',
-    'assemble',
-    'newer:imagemin',
+    'dev',
+    'static',
     'connect',
     'watch'
   ] );
