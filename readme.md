@@ -1,3 +1,7 @@
+Forked from an early version of [Lee Munroe's Grunt Email Design Workflow.](https://github.com/leemunroe/grunt-email-workflow)
+
+Newer vesions have removed the ruby dependencies. 
+
 # Grunt Email Design Workflow
 
 Designing and testing emails is a pain. HTML tables, inline CSS, various devices and clients to test, and varying support for the latest web standards.

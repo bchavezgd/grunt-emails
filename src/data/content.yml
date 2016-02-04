@@ -14,13 +14,14 @@ hero:
   ready: true
   ceus:
   title:
+  # min size of images: 600 x 315 px
   image:  http://static.nccpt.com/images/160205-redesign.jpg
   alt: "Newly Redesigned Site"
   link: http://nccpt.com
   linkText: "Take a look"
   excerpt:
     markdown: |
-      NCCPT.com has been redesigned for mobile devices. We've optmized our site for phones and tablets to bring you a better experience while browsing.
+      [NCCPT.com](http://www.nccpt.com) has been redesigned for mobile devices. We've optmized our site for phones and tablets to bring you a better experience while browsing.
 
 # displays as stack,
 articles:
@@ -267,4 +268,3 @@ workshops:
     -
         location: "Aliso Viejo, CA - Renaissance ClubSport"
         date: "Mar 19, 2016 8:00 AM"
-

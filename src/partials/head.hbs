@@ -2,12 +2,24 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width" />
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>{{ subject }}</title>
-	<link href="nccpt.css" media="all" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>{{ subject }}</title>
+  <meta property="og:title" content="{{ subject }}" />
+  <meta property="og:image" content="{{ og.image }}" />
+  <meta property="og:site_name" content="{{ data.company }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ og.description}}" />
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@NCCPT">
+  <meta name="twitter:title" content="{{ subject }}">
+  <meta name="twitter:description" content="{{ og.description}}" />  
+  <meta name="twitter:image" content="{{ cdnUrl }}/{{ twitter.image }}">
+  
+  <link href="nccpt.css" media="all" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<span class="preheader"> {{ subject }} </span>
-<table class="body" cellspacing="0" cellpadding="0" border="0">
+  <span class="preheader"> {{ subject }} </span>
+  <table class="body" cellspacing="0" cellpadding="0" border="0">
