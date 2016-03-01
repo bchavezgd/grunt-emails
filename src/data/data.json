@@ -1,35 +1,33 @@
 {
-  "nccpt": {
-    "company": "NCCPT",
-    "logo": "http://static.nccpt.com/images/newsletter-nccpt-logo.png",
-    "url": "http://www.nccpt.com",
-    "phone": "(800)778-6060",
-    "blog": {
-      "name": "NCCPT Lift",
-      "url": "http://blog.nccpt.com"
-    },
-    "social": [
-      {
-        "alt": "Faceboook",
-        "url": "https://www.facebook.com/nccpt",
-        "thumbnail": "http://static.nccpt.com/images/sm-facebook.png"
-      },
-      {
-        "alt": "instagram",
-        "url": "http://www.instagram.com/nccptco",
-        "thumbnail": "http://static.nccpt.com/images/sm-instagram.png"
-      },
-      {
-        "alt": "linkedin",
-        "url": "https://www.linkedin.com/company/3588036",
-        "thumbnail": "http://static.nccpt.com/images/sm-linkedin.png"
-      },
-      {
-        "alt": "youtube",
-        "url": "https://www.youtube.com/user/TheNCCPT",
-        "thumbnail": "http://static.nccpt.com/images/sm-youtube.png"
-      }
-    ]
+  "company": "NCCPT",
+  "logo": "http://static.nccpt.com/images/newsletter-nccpt-logo.png",
+  "url": "http://www.nccpt.com",
+  "phone": "(800)778-6060",
+  "blog": {
+    "name": "NCCPT Lift",
+    "url": "http://blog.nccpt.com"
   },
-	"cdnUrl": "http://static.nccpt.com/images"
+  "social": [
+    {
+      "alt": "Faceboook",
+      "url": "https://www.facebook.com/nccpt",
+      "thumbnail": "http://static.nccpt.com/images/sm-facebook.png"
+      },
+    {
+      "alt": "instagram",
+      "url": "http://www.instagram.com/nccptco",
+      "thumbnail": "http://static.nccpt.com/images/sm-instagram.png"
+      },
+    {
+      "alt": "linkedin",
+      "url": "https://www.linkedin.com/company/3588036",
+      "thumbnail": "http://static.nccpt.com/images/sm-linkedin.png"
+      },
+    {
+      "alt": "youtube",
+      "url": "https://www.youtube.com/user/TheNCCPT",
+      "thumbnail": "http://static.nccpt.com/images/sm-youtube.png"
+      }
+    ],
+  "cdnUrl": "http://static.nccpt.com/images"
 }

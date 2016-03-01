@@ -26,6 +26,9 @@ styles for tags go in global.scss
 		color: inherit !important;
 		border-bottom: 1px solid inherit;
 		text-decoration: none;
+    &:hover, &:focus {
+      border: 1px dotted inherit
+    }
 	}
 }
 

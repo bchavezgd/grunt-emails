@@ -6,56 +6,73 @@
 #	ellipsis ... => &hellip;
 # quotes "left  right" => &ldquo;   &rdquo;
 
+# nccpt reusable data
+
 #featured articles
 
 hero:
   ready: true
-  ceus: 0.1
-  title: "Less is More: Strategies for Keeping Children Active"
+  ceus:
+  title:
   # min size of images: 600 x 315 px
-  image: http://static.nccpt.com/images/160304-kids-ceu.jpg
+  image:  http://static.nccpt.com/images/160205-redesign.jpg
   alt: "Newly Redesigned Site"
-  link: https://blog.nccpt.com/?p=924
-  linkText: "Read More"
+  link: http://nccpt.com
+  linkText: "Take a look"
   excerpt:
     markdown: |
-      Keeping kids active has become increasingly difficult. Find out how to make exercise and fitness more fun for children.
+      [NCCPT.com](http://www.nccpt.com) has been redesigned for mobile devices. We've optmized our site for phones and tablets to bring you a better experience while browsing.
 
 # displays as stack,
 articles:
   -
     excerpt:
       markdown: |
+        Help clients achieve their ideal weight goals with this amazing bundle
 
+        Retail Price: $299
 
-    link:
-    more: "Read More"
-    thumbnail:
-    title:
-    ceus: 0.1
-    ready: false
+        NOW: $119! This bundle includes the flagship Weight Management Certification as well as 6 additional courses that will help you dominate the fitness nutrition industry!
+
+        * Weight Management Specialist Certification (.8 CEUs)
+        * Super Foods (.1 CEUs)
+        * Three Reasons Your Clients Are Still Fat (.1 CEUs)
+        * Holiday Strategies ( .1 CEUs)
+        * Fasting Diets ( .1 CEUs)
+        * Sales Three Pack ( .3 CEUs)
+        * 30-Day Weight Loss Solution ( Client Program)
+
+    link: https://www.nccpt.com/store/products/weight-management-specialist-certification-super-pack/1766
+    more: "Get the Details"
+    thumbnail: http://static.nccpt.com/images/160205-superbowl.jpg
+    title: "Super Bowl Special"
+    ceus: 1.5
+    ready: true
   -
     excerpt:
       markdown: |
-        Music Therapy for Personal Trainers
-    link: https://www.nccpt.com/store/products/music_therapy_for_personal_trainers/1761
+        Of all the body segments, the core is ultimately the most important when it comes to achieving and maintaining a certain level of strength. It doesn’t matter if your client is concerned with sports performance or merely getting through the day pain free, conditioned core musculature is the place to start.
+
+    link: http://wp.me/p70251-db
     more: "Learn More"
-    thumbnail: https://www.nccpt.com/data/store/store_929055500.800x800.jpg
-    title: "Music Therapy for Personal Trainers"
-    ceus: 0.3
+    thumbnail: http://static.nccpt.com/images/160205-core.jpg
+    title: "Superiority of Isometric Core Training"
+    ceus: 0.1
     ready: true
   -
     excerpt:
       markdown: |
-        ## New Course
-
-        Understanding the concept of "Moment Arm" helps you (the trainer) select the most appropriate  and safe exercises and where to apply the greatest force in the range of motion.
-    link: https://www.nccpt.com/store/products/moment_arm_exercise_course_6_ceus_/1764
-    more: "Learn More!"
-    thumbnail: https://www.nccpt.com/data/store/store_540563528.800x800.jpg
-    title: ""
-    ceus: 0.6
+        There's no need to break a sweat at the grocery store checkout. Adopting a healthy diet doesn't have to mean taking out a second mortgage, and you don't have to sacrifice good nutrition for a reasonable grocery bill, either. I've collected a few smart strategies to help keep your receipt within reason. Here's how to beat inflation, one aisle at a time.
+    link: http://wp.me/p70251-dA
+    more: "Learn to Save!"
+    thumbnail: https://www.nccpt.com/data/store/store_980252665.800x800.jpg
+    title: "15 BARGAIN GROCERY SHOPPING TIPS"
+    ceus: 0.1
     ready: true
+
+
+
+
 
 #featured blog articles
 blog:
@@ -63,15 +80,39 @@ blog:
     ready: true
     excerpt:
       markdown: |
-        In most sports, single-leg movements are an integral part of an athlete’s success.  With respect to the specificity of training, it wouldn’t make sense for an athlete making cuts or jumping off one leg to solely strength train their lower extremities with two feet on the ground.  If the majority of their sport is performed on one leg, movements in strength programs should provide stimulus to increase strength, decrease the chance of injury and improve performance.  Santana (2001) stated “because of the lighter loads and the more functional positions used in this unilateral training approach, single-leg training could be instrumental in prolonging athletic careers while enhancing performance”.  With single-leg training, an athlete can increase the cross-over of their training which is ultimately is the purpose of incorporating a strength training program.
+        Tom DeLong, Director of Education, will post a new Dartfish video on the basics of the bench press movement.
 
-    link: https://blog.nccpt.com/?p=888
+        These videos address the mechanics of the powerlifting bench press as compared to the fitness/bodybuilding industry. Most in the training industry are very unfamiliar with applying biomechanical principles to this movement. Please note that the technique used for powerlifting is for performance enhancement in competition; however,  the basic movement patterns are very similar and can be used for the fitness public, if applied correctly.
+    link: http://wp.me/p70251-d5
     more: "Ready to press"
-    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/02/DSC_0056-e1456174425761-730x550.jpg
-    subhead: "5 Exercises to Improve Training for Strength Performance"
-    title:
+    thumbnail: http://static.nccpt.com/images/151204-dartfish.jpg
+    title: "Bench Press Technique Seminar Part Three"
     ceus:
 
+  -
+    ready: true
+    excerpt:
+      markdown: |
+        The fitness industry is constantly changing and evolving. As such, continuing education is required for fitness professionals to stay current with the latest guidelines and skills required to keep their clients safe while implementing innovative exercise techniques. Overall, continuing education is considered a way for fitness professionals to keep abreast of fitness industry trends and training strategies so they don’t lag behind or provide their clients with antiquated training or nutrition strategies.
+    link: http://wp.me/p70251-d2
+    more: "Read More."
+    subhead:
+    thumbnail: http://blog.nccpt.com/wp-content/uploads/Slide-71.jpg
+    title: "The Importance of Continuing Education"
+    ceus: 0
+
+  -
+    ready: 0
+    excerpt:
+      markdown: |
+         Need a description/marketing text.
+
+    link:
+    more: "Read more."
+    subhead: "Coming soon"
+    thumbnail: "http://placehold.it/350"
+    title: "Musical Therapy for Personal Trainers"
+    ceus: 0
   -
     ready: true
     excerpt:
@@ -91,25 +132,11 @@ blog:
     title: "Learn some of the most popular moves uses in Cross Fit"
     ceus: 0
 
-  -
-    ready: true
-    excerpt:
-      markdown: |
-        A whole new manual, with new content and updated videos
-
-
-    link:
-    more: "Check out the course."
-    subhead: "Coming Soon!"
-    thumbnail: http://static.nccpt.com/images/160304-yoga.jpg
-    title: "Learn and Practice Yoga"
-    ceus: 0
-
 
 
 #featured trainer
 featured:
-  ready: false
+  ready: true
   altLayout: true
   image: http://blog.nccpt.com/wp-content/uploads/Kevin_Starkey_1-202x300.jpg
   link: http://wp.me/p70251-cU
@@ -122,11 +149,14 @@ featured:
 pres-message:
   ready: true
   title: "President&apos;s Message"
+  copy:
+    markdown: |
+
 
 #ads.
 
 oneUp:
-  ready: false
+  ready: true
   blurb:
     markdown: |
       ## Benefits
@@ -170,14 +200,12 @@ oneUp:
 twoUpAds: true
 twoUps:
   -
-    blurb:
-      markdown: |
-        "Yes, You Can! - Fitness After 40: A New Beginning" is a book designed to provide information for people over 40 years old, so they can make better decision concerning their health and fitness.
-    link: https://www.nccpt.com/store/products/yes_you_can_fitness_after_40_0_5_ceus_/1646
+    blurb: "Join the ranks of some of the most sought after strength coaches in the world by becoming a certified powerlifting instructor. \n Taught by World Reknown Powerlifting Coach Tom DeLong."
+    link: https://www.nccpt.com/store/products/certified-powerlifting-instructor/1726
     link-text: "Learn More!"
-    promo-code:
-    thumbnail: http://static.nccpt.com/images/160304-yesyoucan.jpg
-    title: "Get a Signed Copy of this amazing book!"
+    promo-code: POWERUP
+    thumbnail: http://static.nccpt.com/images/160205-powerlifting.jpg
+    title: "Become a Certified Powerlifting Instructor"
   -
     blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
     link: http://profitjobs.com/
@@ -189,29 +217,31 @@ twoUps:
 threeUpAds: true
 threeUps:
   -
-    blurb: "Complete your Personal Training toolbox with these Body Fat Caliper!"
-    headline: "Are you missing something?"
-    link: http://www.nccpt.com/store/products/body-calipers/1586
-    linkText: "Take a look."
-    price:
+    blurb: "Unleash client potential and increase your client-base with the HOTTEST fitness training around. "
+    headline: "Get fit with HIIT"
+    link: http://www.nccpt.com/store/products/high-intensity-interval-training-hiit-hard-copy/1741
+    linkText: "Learn more!"
+    price: "$9.99"
     promoCode:
-    thumbnail: http://static.nccpt.com/images/150904-ad-caliper.jpg
+    thumbnail: http://static.nccpt.com/images/151106-hiit.jpg
   -
     blurb:
       markdown: |
-        Femoroacetabular impingement or "FAI" is a condition of too much friction in the hip joint. Basically, the femoral head (ball) and acetabulum (socket) rub abnormally creating damage to the hip joint.
-    headline: "Femoroacetabular Impingement (FAI) (Hard Copy)"
-    link: https://www.nccpt.com/store/products/femoroacetabular_impingement_fai_hard_copy_/1743
+        *One for all, and all for one&hellip; goal.*
+
+        People who sweat together, lose together. Learn how to group your training to save money, gain motivation, and make friends.
+    headline: "Small Group Training"
+    link: http://www.nccpt.com/store/products/small-group-training-course-02-ceus/1455
     linkText: "Shop Now!"
     price:
     promoCode:
-    thumbnail: https://www.nccpt.com/data/store/store_9734161.800x800.jpg
+    thumbnail: http://static.nccpt.com/images/151204-ad-sge.jpg
   -
     blurb: "A New Training log to help keep track of your clients progress!"
     headline: "Track Your Victories"
     link: https://www.nccpt.com/store/products/personal-training-and-daily-nutrition-journal/1767
     linkText: "Take a look."
-    price: "$12.95"
+    price: "$15.00"
     promoCode:
     thumbnail: http://static.nccpt.com/images/160205-training-log.jpg
 
@@ -231,6 +261,10 @@ workshops:
       * 1.6 CEUs if you are currently a personal trainer looking for more experience.
 
   dates:
+    -
+        location: "Aliso Viejo, CA - Renaissance ClubSport"
+        date: "Feb 20, 2016 8:00 AM"
+
     -
         location: "Aliso Viejo, CA - Renaissance ClubSport"
         date: "Mar 19, 2016 8:00 AM"
