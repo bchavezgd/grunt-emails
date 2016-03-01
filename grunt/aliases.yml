@@ -1,13 +1,14 @@
 done:
   - 'dev'
-  - 'premailer'
+  #- 'premailer'
   - 'static'
+  - 'juice'
 
 dev:
   - 'sass:dev'
   - 'postcss:dev'
   - 'assemble:pages'
-  - 'newer:imagemin:dev'
+  - 'newer:imagemin'
 
 static:
   - 'sass:static'
