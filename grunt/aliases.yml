@@ -1,0 +1,21 @@
+done:
+  - 'dev'
+  - 'premailer'
+  - 'static'
+
+dev:
+  - 'sass:dev'
+  - 'postcss:dev'
+  - 'assemble:pages'
+  - 'newer:imagemin:dev'
+
+static:
+  - 'sass:static'
+  - 'postcss:static'
+  - 'assemble:static'
+
+default:
+  - 'dev'
+  - 'static'
+  - 'connect'
+  - 'watch'
