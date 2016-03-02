@@ -1,8 +1,8 @@
 done:
   - 'dev'
-  #- 'premailer'
   - 'static'
   - 'juice'
+  - 'htmlmin'
 
 dev:
   - 'sass:dev'
