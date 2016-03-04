@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   src_images: {
     options: {
       usePrefix: false,

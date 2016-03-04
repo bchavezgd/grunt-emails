@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   content: {
     files: [
           '<%= paths.src %>/emails/*',

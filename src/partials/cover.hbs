@@ -2,9 +2,6 @@
 <tr class="hero">
   <td>
     <table class="container">
-
-      <tr>
-        <td>
           <tr height="16">
             <td class="spacer-16">&nbsp;</td>
           </tr>
@@ -49,58 +46,56 @@
           </tr>
 
           {{#if content.hero.ceus}}
-          <tr>
-            <td class="col-6">
+            <tr>
+              <td class="col-6">
 
-              <table align="center" class="ceu">
-                <tr>
-                  <td>&nbsp;</td>
-                </tr>
+                <table align="center" class="ceu">
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
 
-                <tr>
-                  <td valign="center">
-                    <span class="ceus">
-                      <a href="{{ content.hero.link }}" target="_blank" class="">
-                  Click here and earn {{{content.hero.ceus}}} CEU's &emsp;
-                    </a>
-                  </span>
-                  </td>
-                </tr>
+                  <tr>
+                    <td valign="center">
+                      <span class="ceus">
+                        <a href="{{ content.hero.link }}" target="_blank" class="">
+                    Click here and earn {{{content.hero.ceus}}} CEU's &emsp;
+                      </a>
+                    </span>
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td>&nbsp;</td>
-                </tr>
-              </table>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table>
 
-            </td>
-          </tr>
+              </td>
+            </tr>
 
 
-          <tr height="16" class="spacer-16">
+            <tr height="16" class="spacer-16">
             <td>&nbsp;</td>
           </tr>
-          <!-- spacer -->
-          {{else}}
+            <!-- spacer -->
+            {{else}}
 
-          <tr>
-            <td class="align-center">
-              <a href="{{ content.hero.link }}" target="_blank" class="btn btn-default">{{{ content.hero.linkText }}}</a>
-            </td>
-          </tr>
+            <tr>
+              <td class="align-center">
+                <a href="{{ content.hero.link }}" target="_blank" class="btn btn-default">{{{ content.hero.linkText }}}</a>
+              </td>
+            </tr>
 
 
-          <tr height="32">
-            <td class="spacer-32">&nbsp;</td>
-          </tr>
-          <!-- spacer -->
+            <tr height="32">
+              <td class="spacer-32">&nbsp;</td>
+            </tr>
+            <!-- spacer -->
           {{/if}}
           <!-- end lead -->
 
 
-        </td>
-      </tr>
-    </tbody>
-    <!-- end container -->
+    </table>
+      <!-- end container -->
   </td>
 </tr>
 <!-- end hero -->

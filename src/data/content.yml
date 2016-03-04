@@ -26,18 +26,12 @@ articles:
   -
     excerpt:
       markdown: |
+        This course includes:
+        Online Manual
+        Bonus Video of percussion instruction. Video is also available in Spanish.
 
 
-    link:
-    more: "Read More"
-    thumbnail:
-    title:
-    ceus: 0.1
-    ready: false
-  -
-    excerpt:
-      markdown: |
-        Music Therapy for Personal Trainers
+        Training special populations is rapidly becoming a new focus of personal training across the world. Trainers have welcomed changes in techniques and programming to help them keep clients engaged and meeting their goals.
     link: https://www.nccpt.com/store/products/music_therapy_for_personal_trainers/1761
     more: "Learn More"
     thumbnail: https://www.nccpt.com/data/store/store_929055500.800x800.jpg
@@ -98,7 +92,7 @@ blog:
         A whole new manual, with new content and updated videos
 
 
-    link:
+    link: https://www.nccpt.com/certified-yoga-instructor
     more: "Check out the course."
     subhead: "Coming Soon!"
     thumbnail: http://static.nccpt.com/images/160304-yoga.jpg
@@ -126,46 +120,27 @@ pres-message:
 #ads.
 
 oneUp:
-  ready: false
+  ready: true
   blurb:
     markdown: |
-      ## Benefits
+      The NCCPT has been developing a free app for trainers to use to attract new clientele and service their existing clientele. It’s called “Trainer on the Go” We need some of you to upload some photos and videos of exercises so we can further develop it. The app will be free so it will be a nice tool for you to use. Please fill out this form:
 
-      - Clinically proven to increase fat burning and reduce fat storage
-      - Suppresses Appetite
-      - Increases Energy
-      - Helps reduce hunger and cravings
-      - Reduces hip, waist and thigh circumference
+      [https://form.jotform.me/guest_53000969740050/trogo](https://form.jotform.me/guest_53000969740050/trogo)
 
-      ### Features
+      If you’d like to see the website for the app, go to:
 
-      - Adiponectin is a protein hormone that impacts glucose in the blood and regulates the breakdown of fatty acids in the bloodstream
-      - Leptin - a hormone produced by your fat cells is directly involvedin weight regulation by signaling your brain when your fat cells are full and instructing your body to reduce hunger and cravings, increase fat burning, and reduce fat storage
-      - When you are leptin-resistant, your body can no longer "hear" the messages telling it to stop eating and burn fat, so you remain hungry, you crave sweets, and your body stores more fat
-      - 7 years of research and development at the University of Minnesota
-      - [Eight week clinical trial at the prestigious University of Connecticut Human Performance](https://www.smartfitnessonline.com/lms/admin/qc_imagerep/_docs/uconn_abstract_chart_final.pdf)
-      - [Study published in the European Journal of Applied Physiology](https://www.smartfitnessonline.com/lms/admin/qc_imagerep/_docs/ejap_publication.pdf)
+      [TrainerOnTheGo.com](http://www.traineronthego.com/)
+      
+      TrainerOntheGo (TOG) is a new business start-up in the fitness app development business with headquarters based in Los Angeles, USA for reasons of operating efficiency and market access.  The business venture was founded in November 2014 with the business purpose of providing high-quality mobile app solutions for the fitness industry.
 
-      ## Buy Now and Receive Our Smart Fitness 30-day Weight Loss Solution Course!
+      The new Trainer on the Go fitness app gives the customer an easy‑to‑read dashboard of health and ﬁtness data as well as a wide selection of effective workouts, while connecting number of fitness professional to support their fitness needs. The app lets you keep all health and fitness information in one place on the device and under user control.
 
-      ![30 Day Weight loss Solution Course](http://static.nccpt.com/images/160205-30day.jpg)
-
-      The Smart Fitness 30-Day New You Weight Loss Challenge Each day we have provided tips, guidance and advice on how to create healthy change and move towards reaching your health and fitness goals. We provide a food log for you to journal your day’s meals and record your water intake. In addition, there are several sections of questions and written exercises we will ask you to complete to help you focus on creating healthy changes.
-
-      ### Here is what you get: A 30-day downloadable guide that includes:
-
-
-      - Easy to understand weight loss education Day-to-day exercise and nutrition instructions and coaching tips
-      - Daily nutrition log to track food intake
-      - Daily exercise programs that can be performed both at the gym or at home
-      - Online presentations that educate you on what it takes to lose weight and guide you through the challenge on a weekly basis
-
-  headline: "Smart Fitness Crave Control"
-  link: "https://www.nccpt.com/crave-control"
+  headline: "TrainerOntheGo"
+  link: "http://www.traineronthego.com/"
   linkText: "Learn more."
-  price: $19.99
-  promoCode: Crave2
-  thumbnail: http://static.nccpt.com/images/160205-crave-02.jpg
+  price:
+  promoCode: 
+  thumbnail: http://static.nccpt.com/images/160304-trainer-go.jpg
 
 twoUpAds: true
 twoUps:
@@ -173,9 +148,11 @@ twoUps:
     blurb:
       markdown: |
         "Yes, You Can! - Fitness After 40: A New Beginning" is a book designed to provide information for people over 40 years old, so they can make better decision concerning their health and fitness.
+        
+        **Call in to get yours, (800) 778-6060**
     link: https://www.nccpt.com/store/products/yes_you_can_fitness_after_40_0_5_ceus_/1646
     link-text: "Learn More!"
-    promo-code:
+    promo-code: 
     thumbnail: http://static.nccpt.com/images/160304-yesyoucan.jpg
     title: "Get a Signed Copy of this amazing book!"
   -

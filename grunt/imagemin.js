@@ -1,14 +1,16 @@
-module.export = {
+module.exports = {
   options: {
-    optimizationLevel: 0,
+    optimizationLevel: 3,
     svgoPlugins: [{
       removeViewBox: false
     }]
   },
-  files: [{
-    expand: true,
-    cwd: '<%= paths.src_img %>',
-    src: ['**/*.{png,jpg,gif}'],
-    dest: '<%= paths.dist_img %>'
+  dev: {
+    files: [{
+      expand: true,
+      cwd: '<%= paths.src_img %>',
+      src: ['**/*.{png,jpg,gif}'],
+      dest: '<%= paths.dist_img %>'
   }]
+  }
 };
