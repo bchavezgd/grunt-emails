@@ -1,80 +1,76 @@
 <!-- blog articles -->
 
 {{#each content.blog }}
-{{#if ready}}
-<tr class="blog">
-  <td>
-    <table class="container">
-      <tr>
-        <td height="32" class="spacer-32">&nbsp;</td>
-      </tr>
-      <!-- spacer -->
-      {{#if subhead}}
-      <!-- subhead	 -->
-      <tr>
-        <td>
-          <table class="container">
-            <tr>
-              <td class="subhead" width="16">&nbsp;</td>
-              <td class="h2">
-                {{{ subhead }}}
-              </td>
-            </tr>
-            <tr height="32">
-              <td class="spacer-32">&nbsp;</td>
-            </tr>
-            <!-- spacer -->
-          </table>
-          <!-- end container -->
-        </td>
-      </tr>
-      <!-- end subhead -->
-      {{/if}}
-      <!-- article -->
-      <tr>
-        <td>
-          <!-- panel, blog content will be in here. -->
-          <table class="col-6">
-            <tr>
-              <td class="h3">
-                {{{ title }}}
-              </td>
-            </tr>
-            <tr height="32">
-              <td class="spacer-32">&nbsp;</td>
-            </tr>
-            <!-- spacer -->
+  {{#if ready}}
+    <tr class="blog">
+      <td>
+        <table class="container">
+          <tr>
+            <td height="32" class="spacer-32">&nbsp;</td>
+          </tr>
+          <!-- title -->
+          <tr>
+            <td class="h2">
+              {{{ title }}}
+            </td>
+          </tr>
+          <!-- /title -->
+          <tr height="32">
+            <td class="spacer-32">&nbsp;</td>
+          </tr>
+          <!-- spacer -->
+          {{#if subhead}}
+            <!-- subhead -->
+            <!-- article -->
             <tr>
               <td>
-                <table class="blog-panel">
+                <!-- panel, blog content will be in here. -->
+                <table class="col-6">
                   <tr>
-                    <!-- thumbnail -->
-                    <td class="col-2" style="vertical-align: middle">
-                     <a href="{{ link }}" target="_blank" title="{{title}}">
-                      <img src="{{ thumbnail }}" class="blog-thumbnail" width="194">
-                      </a>
+                    <td class="h3">
+                      {{{ subhead }}}
                     </td>
-                    <!-- end thumbnail -->
-                    <!-- horizontal space -->
-                    <td width="16" class="col-spacer hidden-sm">&nbsp;</td>
-                    <!-- end space -->
-                    <!-- blog copy -->
-                    <td class="col-4" style="vertical-align: middle">
-                      <table class="blog-copy">
-                        <tr>
-                          <td>
-                            <!-- copy -->
-                            <table>
-                              <tr>
-                                <td class="p">
-                                  {{{ excerpt }}}
-                                </td>
-                              </tr>
-                              <tr height="16" class="spacer-16">
-                                <td>&nbsp;</td>
-                              </tr>
-                              <!-- spacer -->
-                              {{#if this.ceus}}
+                  </tr>
+                  <tr height="16">
+                    <td class="spacer-16">&nbsp;</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- spacer -->
+            <!-- end subhead -->
+          {{/if}}
+          <tr>
+            <td>
+              <table class="blog-panel">
+                <tr>
+                  <!-- thumbnail -->
+                  <td class="col-2" style="vertical-align: middle">
+                    <a href="{{ link }}" target="_blank" title="{{title}}">
+                      <img src="{{ thumbnail }}" class="blog-thumbnail" width="194">
+                    </a>
+                  </td>
+                  <!-- end thumbnail -->
+                  <!-- horizontal space -->
+                  <td width="16" class="col-spacer hidden-sm">&nbsp;</td>
+                  <!-- end space -->
+                  <!-- blog copy -->
+                  <td class="col-4" style="vertical-align: middle">
+                    <table class="blog-copy">
+                      <tr>
+                        <td>
+                          <!-- copy -->
+                          <table>
+                            <tr>
+                              <td class="p">
+                                {{{ excerpt }}}
+                              </td>
+                            </tr>
+                            <tr height="16" class="spacer-16">
+                              <td>&nbsp;</td>
+                            </tr>
+                            <!-- spacer -->
+                            {{#if this.ceus}}
                               <tr>
                                 <td class="col-6">
 
@@ -102,44 +98,43 @@
                                 <td>&nbsp;</td>
                               </tr>
                               <!-- spacer -->
-                              {{/if}}
-                              <tr>
-                                <td>
-                                  <a href="{{ link }}" target="_blank" title="{{title}}">
-                                    <button role="button" class="btn btn-default">
-                                      {{more}}
-                                    </button>
-                                  </a>
-                                </td>
-                              </tr>
-                              <!-- end button -->
-                              <tr height="16" class="spacer-16">
-                                <td>&nbsp;</td>
-                              </tr>
-                              <!-- spacer -->
-                            </table>
-                            <!-- end copy -->
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <!-- end blog copy -->
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-          <!-- end blog panel -->
-        </td>
-      </tr>
-      <!-- end article -->
-      <tr height="32" style="border-bottom: 1px solid #d1d1d1">
-        <td class="spacer-32">&nbsp;</td>
-      </tr>
-      <!-- spacer -->
-    </table>
+                            {{/if}}
+                            <tr>
+                              <td>
+                                <a href="{{ link }}" target="_blank" title="{{title}}">
+                                  <button role="button" class="btn btn-default">
+                                    {{more}}
+                                  </button>
+                                </a>
+                              </td>
+                            </tr>
+                            <!-- end button -->
+                            <tr height="16" class="spacer-16">
+                              <td>&nbsp;</td>
+                            </tr>
+                            <!-- spacer -->
+                          </table>
+                          <!-- end copy -->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- end blog copy -->
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- end blog panel -->
+      </td>
+    </tr>
+    <!-- end article -->
+    <tr height="32" style="border-bottom: 1px solid #d1d1d1">
+      <td class="spacer-32">&nbsp;</td>
+    </tr>
+    <!-- spacer -->
     <!-- end container -->
-  </td>
-</tr>
-{{/if}}
+    </td>
+    </tr>
+  {{/if}}
 {{/each}}

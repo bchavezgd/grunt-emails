@@ -1,9 +1,9 @@
 ---
 # for excerpt and other body copy, the punctuation must be escaped.
 # or else they break the template parsing function.
-# colon :   => &#58;
-# apostropy '   => &apos;
-# ellipsis ...  => &hellip;
+# colon	: => &#58;
+# apostropy ' => &apos;
+#	ellipsis ... => &hellip;
 # quotes "left  right" => &ldquo;   &rdquo;
 
 #featured articles
@@ -11,31 +11,44 @@
 hero:
   ready: true
   ceus: 0.1
-  title: "Summer is around the corner. Go Outside! "
+  title: "Less is More: Strategies for Keeping Children Active"
   # min size of images: 600 x 315 px
-  image: https://blog.nccpt.com/wp-content/uploads/28176642_s.jpg
-  alt: "Trail Running: What's all the hype, it's only dirt"
-  link: https://blog.nccpt.com/?p=859
+  image: http://static.nccpt.com/images/160304-kids-ceu.jpg
+  alt: "Newly Redesigned Site"
+  link: https://blog.nccpt.com/?p=924
   linkText: "Read More"
   excerpt:
     markdown: |
-      **Jeep wrangler or sleek sedan? Filet mignon or turkey burger?**
-
-      Enough metaphors already&hellip; Trail running vs. Road running. That’s the real question. Which are you? Trail runner or road runner?
-
-      The difference between trail runners and road runners isn’t what they wear on their feet or the car they drive or the even the meat they eat. *The difference lies between their ears.*
+      Keeping kids active has become increasingly difficult. Find out how to make exercise and fitness more fun for children.
 
 # displays as stack,
 articles:
   -
     excerpt:
       markdown: |
-        I am still amazed a portion of these ludicrous myths still exist. One of these lingering fairytales is the fitness industry’s continued belief women should not lift heavy weights. My head wants to explode when hearing the outdated and ridiculous mantra that, if a woman lifts heavy, she will eventually look like a man (from a muscular point of view).
-    link: https://blog.nccpt.com/2016/women-and-heavy-weight-training-no-longer-taboo/
+        This course includes:
+        Online Manual
+        Bonus Video of percussion instruction. Video is also available in Spanish.
+
+
+        Training special populations is rapidly becoming a new focus of personal training across the world. Trainers have welcomed changes in techniques and programming to help them keep clients engaged and meeting their goals.
+    link: https://www.nccpt.com/store/products/music_therapy_for_personal_trainers/1761
     more: "Learn More"
-    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/02/desiree-featured-image-730x382.jpg
-    title: "Women and Heavy Weight Training: No Longer Taboo"
-    ceus: 0
+    thumbnail: https://www.nccpt.com/data/store/store_929055500.800x800.jpg
+    title: "Music Therapy for Personal Trainers"
+    ceus: 0.3
+    ready: true
+  -
+    excerpt:
+      markdown: |
+        ## New Course
+
+        Understanding the concept of "Moment Arm" helps you (the trainer) select the most appropriate  and safe exercises and where to apply the greatest force in the range of motion.
+    link: https://www.nccpt.com/store/products/moment_arm_exercise_course_6_ceus_/1764
+    more: "Learn More!"
+    thumbnail: https://www.nccpt.com/data/store/store_540563528.800x800.jpg
+    title: ""
+    ceus: 0.6
     ready: true
 
 #featured blog articles
@@ -44,29 +57,32 @@ blog:
     ready: true
     excerpt:
       markdown: |
-       This video is the first in a series involving the conventional deadlift. Coach Tom Delong goes over foot position, path of the bar, trunk angle and other cues to optimize each deadlift.
+        In most sports, single-leg movements are an integral part of an athlete’s success.  With respect to the specificity of training, it wouldn’t make sense for an athlete making cuts or jumping off one leg to solely strength train their lower extremities with two feet on the ground.  If the majority of their sport is performed on one leg, movements in strength programs should provide stimulus to increase strength, decrease the chance of injury and improve performance.  Santana (2001) stated “because of the lighter loads and the more functional positions used in this unilateral training approach, single-leg training could be instrumental in prolonging athletic careers while enhancing performance”.  With single-leg training, an athlete can increase the cross-over of their training which is ultimately is the purpose of incorporating a strength training program.
 
-       This video builds on [part 1](https://blog.nccpt.com/2016/the-conventional-deadlift-part-one/) of the conventional deadlift video analysis.  This is shot from a different angle which allows you to see the movement from a different view.
-
-    link: https://blog.nccpt.com/2016/the-conventional-deadlift-part-one/
-    more: "Grip it and Rip it!"
-    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/04/Conventional-Deadlift-pt-2-730x516.png
-    subhead: "Part 2"
-    title: "The Conventional Deadlift"
+    link: https://blog.nccpt.com/?p=888
+    more: "Ready to press"
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/02/DSC_0056-e1456174425761-730x550.jpg
+    subhead: "5 Exercises to Improve Training for Strength Performance"
+    title:
     ceus:
 
   -
     ready: true
     excerpt:
       markdown: |
-        We all go through those moments... we love working out while we are doing it and feel great after, but getting motivated to start our regular fitness routines has been challenging lately. People are habitual creatures and we like routine, but that routine can also get boring over time and make fitness feel like a chore. It doesn’t even matter if you are someone who goes to the gym once a week or twice a day, every day; this mental blockage affects everyone at some point in time.
+        ### Featuring World Champion Desiree Morgan you’ll learn:
+        - How to create an "individualized" program for developing the trainee based on their individual needs
+        - The three foundational movements for humans (squat, bench, deadlift) which are effective in building a foundation of strength for everyday activities.
+        - Basics of structure and function
+        - Rigid-body mechanics
+        - Basic movement evaluations to identify movement deficits that may cause injury
 
-        What might be the problem? First it is a good idea to do a quick self-evaluation on your lifestyle as a whole.
-    link: https://blog.nccpt.com/2016/is-fitness-feeling-like-a-chore-just-add-yoga/
+
+    link: https://player.vimeo.com/external/153306293.hd.mp4?s=7c958ef6c9dfba333a5ad8eb47b16894b3db6365&profile_id=113
     more: "Check out the course."
-    subhead: ""
-    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/04/yogastretch24382133ml-copy-730x550.jpg
-    title: "Is Fitness Feeling like a Chore? Just add Yoga! "
+    subhead: "Coming Soon!"
+    thumbnail: http://static.nccpt.com/images/160205-powerlifting-videos.jpg
+    title: "Learn some of the most popular moves uses in Cross Fit"
     ceus: 0
 
   -
@@ -74,16 +90,18 @@ blog:
     excerpt:
       markdown: |
         A whole new manual, with new content and updated videos
-        Opportunities to teach the ancient and transformative benefits of Yoga are everywhere, and now with the NEW the Certified Yoga Instructor Course presents the foundation for teaching Vinyasa Flow Yoga classes online so you can study and learn at your own pace. The videos and manual cover the history and theory of Yoga, body structure and anatomy, yoga poses and sequencing, breath work, tools for teaching yoga effectively, instructing special populations, and the business of the Yoga profession.
+
 
     link: https://www.nccpt.com/certified-yoga-instructor
     more: "Check out the course."
-    subhead: "Available Now"
-    thumbnail: https://www.nccpt.com/images/theme/vinyasa-cover.jpg
+    subhead: "Coming Soon!"
+    thumbnail: http://static.nccpt.com/images/160304-yoga.jpg
     title: "Learn and Practice Yoga"
     ceus: 0
 
-# featured trainer
+
+
+#featured trainer
 featured:
   ready: false
   altLayout: true
@@ -99,7 +117,8 @@ pres-message:
   ready: true
   title: "President&apos;s Message"
 
-# ads.
+#ads.
+
 oneUp:
   ready: true
   blurb:
@@ -111,7 +130,7 @@ oneUp:
       If you’d like to see the website for the app, go to:
 
       [TrainerOnTheGo.com](http://www.traineronthego.com/)
-
+      
       TrainerOntheGo (TOG) is a new business start-up in the fitness app development business with headquarters based in Los Angeles, USA for reasons of operating efficiency and market access.  The business venture was founded in November 2014 with the business purpose of providing high-quality mobile app solutions for the fitness industry.
 
       The new Trainer on the Go fitness app gives the customer an easy‑to‑read dashboard of health and ﬁtness data as well as a wide selection of effective workouts, while connecting number of fitness professional to support their fitness needs. The app lets you keep all health and fitness information in one place on the device and under user control.
@@ -120,7 +139,7 @@ oneUp:
   link: "http://www.traineronthego.com/"
   linkText: "Learn more."
   price:
-  promoCode:
+  promoCode: 
   thumbnail: http://static.nccpt.com/images/160304-trainer-go.jpg
 
 twoUpAds: true
@@ -129,11 +148,11 @@ twoUps:
     blurb:
       markdown: |
         "Yes, You Can! - Fitness After 40: A New Beginning" is a book designed to provide information for people over 40 years old, so they can make better decision concerning their health and fitness.
-
+        
         **Call in to get yours, (800) 778-6060**
     link: https://www.nccpt.com/store/products/yes_you_can_fitness_after_40_0_5_ceus_/1646
     link-text: "Learn More!"
-    promo-code:
+    promo-code: 
     thumbnail: http://static.nccpt.com/images/160304-yesyoucan.jpg
     title: "Get a Signed Copy of this amazing book!"
   -
@@ -174,7 +193,7 @@ threeUps:
     thumbnail: http://static.nccpt.com/images/160205-training-log.jpg
 
 workshops:
-  ready: false
+  ready: true
   link: http://www.nccpt.com/live-workshops
   linkText: "Find a Workshop near you."
   thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
@@ -190,5 +209,5 @@ workshops:
 
   dates:
     -
-        location:
-        date:
+        location: "Aliso Viejo, CA - Renaissance ClubSport"
+        date: "Mar 19, 2016 8:00 AM"
