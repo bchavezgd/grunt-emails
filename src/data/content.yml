@@ -27,18 +27,32 @@ hero:
 
 # displays as stack,
 articles:
-  -
-    excerpt:
+  - excerpt:
       markdown: |
-        You’ve heard it before: “Eat your breakfast.” Should you eat in the morning? And what if your goal is weight loss? How does breakfast affect your ability to burn fat at the gym?
-
-        One of the interesting things about the fitness world is the prevalence of fitness myths. Some of these seem to make sense and may be based upon an incomplete understanding of the human body and metabolism while others outright ridiculous. This article will look at one such myth, whether one should eat prior to morning workouts.
-
-
-    link: https://blog.nccpt.com/?p=852
+        Sample workout after a bike ride.
+    link: https://blog.nccpt.com/2016/after-bike-workout-routine/
     more: "Learn More"
-    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/01/dotfit-011.jpg
-    title: "Why You Should Eat Before Morning Workouts"
+    thumbnail: http://static.nccpt.com/images/160509-upper-blast.jpg
+    title: "Upper Body Blast"
+    ceus: 0
+    ready: true
+  - excerpt:
+      markdown: |
+        Despite what many people would have you believe, personal training is something more than putting people through rigorous sweat breaking sessions; it’s also learning how to become a friend, a motivator, a mentor, and somebody who changes lives. It’s discovering what limits the capabilities of people, what drives them to success, and most importantly, what makes them tick. However, acquiring all these skills still amount to nothing if you haven’t garnered a solid, loyal clientele yet.
+    link: https://blog.nccpt.com/2016/key-tips-from-successful-personal-trainers/
+    more: "Learn More"
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/05/Tips-Successful-Personal-Trainers.jpg
+    title: "Key Tips from Successful Personal Trainers"
+    ceus: 0
+    ready: true
+
+  - excerpt:
+      markdown: |
+        Different types of tools a trainer might incorporate into their practice
+    link: https://blog.nccpt.com/2016/trainerss-bag/
+    more: "Learn More"
+    thumbnail: http://static.nccpt.com/images/160509-trainers-bag.jpg
+    title: "What's in your bag?"
     ceus: 0
     ready: true
 
@@ -83,6 +97,24 @@ blog:
     subhead: "Available Now"
     thumbnail: https://www.nccpt.com/images/theme/vinyasa-cover.jpg
     title: "Learn and Practice Yoga"
+    ceus: 0
+  -
+    ready: true
+    excerpt:
+      markdown: |
+        ### Featuring World Champion Desiree Morgan you’ll learn:
+        - How to create an "individualized" program for developing the trainee based on their individual needs
+        - The three foundational movements for humans (squat, bench, deadlift) which are effective in building a foundation of strength for everyday activities.
+        - Basics of structure and function
+        - Rigid-body mechanics
+        - Basic movement evaluations to identify movement deficits that may cause injury
+
+
+    link: https://player.vimeo.com/external/153306293.hd.mp4?s=7c958ef6c9dfba333a5ad8eb47b16894b3db6365&profile_id=113
+    more: "Check out the course."
+    subhead:
+    thumbnail: https://www.nccpt.com/images/theme/cpl.jpg
+    title: "Learn some of the most popular moves used in Cross Fit"
     ceus: 0
 
 # featured trainer
