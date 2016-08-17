@@ -1,8 +1,9 @@
 ---
 date: February 05, 2016
+content: <%= 1602_content %>
 subject: NCCPT February Lift Newsletter.
 layout: pres-message
-twitter: 
+twitter:
   image: 160502-og-twitter.jpg
 og:
   url: https://www.com/data/newsletters/20160205/index.html
