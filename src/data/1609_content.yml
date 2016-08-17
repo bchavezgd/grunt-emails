@@ -1,0 +1,187 @@
+---
+# for excerpt and other body copy, the punctuation must be escaped.
+# or else they break the template parsing function.
+# colon	: => &#58;
+# apostropy ' => &apos;
+#	ellipsis ... => &hellip;
+# quotes "left  right" => &ldquo;   &rdquo;
+
+#featured articles
+
+hero:
+  ready: 1
+  ceus: 0.1
+  title: " Fasting Diets, the Worst Secret to Dieting Success (And More)?"
+  # min size of images: 600 x 315 px
+  image: https://blog.nccpt.com/wp-content/uploads/5531588_s.jpg
+  alt: " Fasting Diets, the Worst Secret to Dieting Success (And More)?"
+  link: https://blog.nccpt.com/2015/fasting-diets-the-worst-secret-to-dieting-success-and-more
+  linkText: "The answer is surprising!"
+  excerpt:
+    markdown: |
+      Diet fads have stamped their place in history for the past several decades. From low fat, to low sugar to Atkins to Paleo – all of these “diets” have risen to mainstream media and caught the eye of weight watchers everywhere hoping the next diet will deliver the golden egg of getting (or staying) thin. Magic pills, magic doses, magic eating hours all have been discussed and discarded because the truth of it all is that calories matter. Even the guy who decided to eat Twinkies and Doritos for a few weeks but stay within a calorie deficit lost weight (albeit he probably felt like marshmallow crud). No matter how many diet books or celebrity weight loss articles hit our Facebook newsfeeds or Pinterest boards declaring the next new “miracle” promising to rip up your abs and shred your arms, we know the truth – calorie restriction is the key to weight loss. Eat less, move more and you’ll lose weight. Well, lately something “new” has entered our realm – fasting – and while in years past we’ve been taught fasting is the enemy and will force us into starvation mode – the new question arising from all the hubbub is this, is starvation really that bad for us?
+
+# displays as stack,
+articles:
+  - excerpt:
+      markdown: |
+        Good personal trainers don’t grow on trees! Especially in a commercial setting, where widely diverse people, coming from different backgrounds, fitness levels, ages, and health are expected to work together to achieve the common goals of steering them towards a better, healthier lifestyle. When it comes to personal fitness trainers, here’s what the clients are looking for.
+    link: https://wp.me/p70251-io
+    more: "Learn More"
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/08/employers-love-cpt.jpg
+    title: "What Employers Love in a Certified Personal Trainer"
+    ceus: 0
+    ready: true
+
+#featured blog articles
+blog:
+  -
+    ready: 1
+    excerpt:
+      markdown: |
+        If you completed your yoga instructor or certified personal trainer certification program quite some time ago, it may be time for a refresh of your skills! This can serve a few purposes, including keeping your fitness instructor certification valid. Importantly, it can also increase your skills and help provide you with fresh new ideas to incorporate into your work with clients. Taking time to shift focus to your own training and practice can also be rejuvenating. Self-care is an important aspect of any fitness trainer job, after giving plenty of energy into our daily work. Let learning bring you back to the basics and inspire you all over again!
+    link: https://wp.me/p70251-ie
+    more: "Learn More!"
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/08/keep-skill-current.jpg
+    subhead:
+    title: "Tips for Fitness Professionals – Keep your Skills Current"
+    ceus: 0
+  -
+    ready: 1
+    excerpt:
+      markdown: |
+        We all go through those moments&hellip; we love working out while we are doing it and feel great after, but getting motivated to start our regular fitness routines has been challenging lately. People are habitual creatures and we like routine, but that routine can also get boring over time and make fitness feel like a chore. It doesn’t even matter if you are someone who goes to the gym once a week or twice a day, every day; this mental blockage affects everyone at some point in time.
+    link: https://blog.nccpt.com/2016/is-fitness-feeling-like-a-chore-just-add-yoga/
+    more: "Stretch your Potential"
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/04/yogastretch24382133ml-copy-730x550.jpg
+    subhead: "Just add Yoga!"
+    title: "Is Fitness Feeling like a Chore? "
+    ceus: 0
+
+  -
+    ready: 1
+    excerpt:
+      markdown: |
+        One of the more interesting things about market research is the little pebbles of information that stimulate thought. Sometimes they’re not all that earth shattering, but often they’re worth contemplating for greater meaning. And the nuggets of good stuff can come from any report in almost any year.
+    link: https://blog.nccpt.com/2016/27-of-trainers-want-to-own-their-own-studio-if-youre-one-of-them-be-prepared/
+    more: "Learn more."
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/08/studio-be-prepaired.jpg
+    subhead: "Be Prepared"
+    title: "27% of Trainers Want to Own their Own Studio If You’re One of Them"
+    ceus: 0
+
+  -
+    ready: 1
+    excerpt:
+      markdown: |
+        Are you working for yourself as an independent contractor as a fitness professional? Do you want to protect your assets and limit your exposure to unforeseen accidents that may occur? If the answer is yes, then you have to have liability insurance. NCCPT is proud to offer personal trainers, group fitness, yoga, Pilates, bootcamp and dance instructors excellent liability coverage for the lowest annual price around. Whether you are teaching in homes, a studio, gym or park, you can rest assured that your policy has you covered.
+    link: http://keymaninsurance.com/home.php
+    more: "sign up now"
+    thumbnail: http://static.nccpt.com/images/1609-liability-insurance.jpg
+    subhead:
+    title:
+    ceus: 0
+
+
+
+
+#featured trainer
+featured:
+  ready: true
+  altLayout: false
+  image: https://blog.nccpt.com/wp-content/uploads/2016/08/Dunlop-katie-tn.jpg
+  link: https://wp.me/p70251-iu
+  linkText: "Read More"
+  name: "Katie Dunlop"
+  excerpt:
+    markdown: |
+      It takes a lot of time, energy and sweat to be a personal trainer. But in this day and age, it’s taking extra creativity to stay relevant, popular and successful to stay in the game.
+
+#ads.
+
+oneUp:
+  ready: true
+  blurb:
+    markdown: |
+      OnFitness® Magazine is about fitness and achievement, both physically & mentally. Regular topics include articles on fitness, smart training, clean nutrition, organic diet, nutrition and lifestyle, muscle science, personal training, weight training, outdoor sports, yoga, Pilates, meditation, sports psychology, east-west medicine; THE BEST health and advice from fitness experts with a personal training emphasis.
+
+  headline:
+  link: http://www.onfitnessmag.com/fitnesscert-refid216
+  linkText: "Subscribe to OnFitness Magazine Today! "
+  price:
+  promoCode:
+  thumbnail: http://static.nccpt.com/images/1608-on-fitness.jpg
+
+twoUpAds: true
+twoUps:
+  -
+    blurb:
+      markdown: |
+    link: http://smartfitness.com/pdf/smart-fitness-zip-recruiter.pdf
+    link-text: "Find the right employees (PDF)"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/160523-ziprecruiter.jpg
+    title: "Get a discount on listing with Zip Recruiter"
+  -
+    blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
+    link: http://profitjobs.com/
+    link-text: "What are you waiting for?"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/160523-profitjob.jpg
+    title: ProFitJobs.com
+
+threeUpAds: true
+threeUps:
+  -
+    blurb: "Complete your Personal Training toolbox with these handy tools!"
+    headline: "Are you missing something?"
+    link: http://nccpt.com/health
+    linkText: "Take a look."
+    price: $19.95
+    promoCode: CSF16
+    thumbnail: http://static.nccpt.com/images/1609-bpbf-sale.jpg
+  -
+    blurb:
+      markdown: |
+        Learn the deep and rich history of Yoga, practiced 5,000 years ago.
+    headline: "CYI - Vinyasa Flow Manual (Hard Copy)"
+    link: https://www.nccpt.com/store/products/certified_yoga_instructor_vinyasa_flow_manual/1778
+    linkText: "Shop Now!"
+    price:
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/1609-yoga-sm.jpg
+  -
+    blurb: "A New Training log to help keep track of your clients progress!"
+    headline: "Track Your Victories, or Your Clients"
+    link: https://www.nccpt.com/store/products/personal-training-and-daily-nutrition-journal/1767
+    linkText: "Take a look."
+    price: "$9.95"
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/160205-training-log.jpg
+
+workshops:
+  ready: true
+  link: http://www.nccpt.com/live-workshops
+  linkText: "Find a Workshop near you."
+  thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
+  headline: "Learn hands-on how to become a personal trainer with our two-day workshop!"
+  copy:
+    markdown: |
+      This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.
+      In addition to sixteen hours of hands-on experience with industry veterans, you'll receive&#58;
+      * NCCPT textbook and *one time exam attempt (*proctoring fee is not included)
+      * Access to all personal training course videos online.
+      * Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).
+      * 1.6 CEUs if you are currently a personal trainer looking for more experience.
+
+  dates:
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Aug 21, 2016"
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Sep 18, 2016"
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Oct 23, 2016"
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Nov 13, 2016"
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Dec 11, 2016"

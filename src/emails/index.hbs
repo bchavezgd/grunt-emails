@@ -1,10 +1,12 @@
 ---
 layout: index
+subject: Home | newsletter ToC
+date: <%= grunt.template.today("yyyy-mm-dd") %>
 ---
 
 <ul>
   {{#each  pages }}
   <li>
-    <a  href ="{{filename}}" target="_blank" > {{ data.subject }} </a >   </li>
+    <a  href ="{{filename}}" target="_blank" > {{ data.subject }} | {{ data.date }} </a >   </li>
   {{/each  }}
 </ul>

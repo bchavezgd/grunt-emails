@@ -1,6 +1,7 @@
 ---
 date: March 04, 2016
 due: 160304
+content: <%= 1603_content %>
 subject: March NCCPT Lift Newsletter.
 layout: pres-message
 twitter:
