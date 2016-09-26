@@ -13,7 +13,7 @@ module.exports = {
   },
   static: {
     options: {
-      outputStyle: 'compact'
+      outputStyle: 'compressed'
     },
     files: [{
       src: '<%= paths.src %>/scss/nccpt.scss',

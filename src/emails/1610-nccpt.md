@@ -5,11 +5,11 @@ content: <%= 1610_content %>
 subject: NCCPT Lift Newsletter.
 layout: pres-message
 twitter:
-  image: <%= cdnUrl %>/1610-fb-og-thumb.jpg
+  image: https://blog.nccpt.com/wp-content/uploads/2016/09/rieg-alysia-featured-image.jpg
 og:
   url: https://www.nccpt.com/data/newsletters/<%= grunt.template.today("yyyy") %>/<%= due %>-nccpt.html
-  image: <%= cdnUrl %>/1609-fb-og-thumb.jpg
-  description: Summer is in full swing, keep you clients on the right track, and plan your future.
+  image: https://blog.nccpt.com/wp-content/uploads/2016/09/rieg-alysia-featured-image.jpg
+  description: Fall has begun. TIME FOR PUMPKIN SPICE EVERYTHING!
 ---
 **<u>The National Fitness Hall of Fame presents the 2016 “Star Performers” Awards</u>**
 
