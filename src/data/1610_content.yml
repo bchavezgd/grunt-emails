@@ -1,0 +1,191 @@
+---
+# for excerpt and other body copy, the punctuation must be escaped.
+# or else they break the template parsing function.
+# colon	: => &#58;
+# apostropy ' => &apos;
+#	ellipsis ... => &hellip;
+# quotes "left  right" => &ldquo;   &rdquo;
+
+#featured articles
+
+hero:
+  ready: 1
+  ceus: 0.05
+  title: "Is Competition Won or Lost with Fat?"
+  # min size of images: 600 x 315 px
+  image: https://blog.nccpt.com/wp-content/uploads/20101989_m-730x550.jpg
+  alt: "Is Competition Won or Lost with Fat??"
+  link: https://blog.nccpt.com/2015/is-competition-won-or-lost-with-fat/
+  linkText: "I bet you already know!"
+  excerpt:
+    markdown: |
+      When people think of endurance events, they normally think of marathons, triathlons, cross-country races or events that last longer than three hours. The longer competition times would lend a coach, trainer or nutritionist to focus on the aerobic system. But in order to win an endurance event, one must be able to fuel the anaerobic system because that is really where the competition is won or lost.
+
+# displays as stack,
+articles:
+  - excerpt:
+      markdown: |
+        It’s trendy so you know you want it! A strong core – this is a catchy phrase that may bring images of the perfect bikini body, a flat tummy or a six-pack to mind. Just like anything trendy is usually kind of shallow, there’s much more important considerations to core strength than what we can see on the surface.
+    link: https://blog.nccpt.com/2016/do-more-with-a-strong-core/
+    more: "Keep Reading"
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/09/core-featured.jpg
+    title: "Do more with a Strong Core"
+    ceus: 0
+    ready: true
+
+#featured trainer
+featured:
+  ready: true
+  altLayout: true
+  image: https://blog.nccpt.com/wp-content/uploads/2016/09/IMG_4360.jpg
+  link: https://blog.nccpt.com/2016/featured-trainer-alysia-rieg
+  linkText: "Read More"
+  name: "Alysia Rieg"
+  excerpt:
+    markdown: |
+      For years, NCCPT has shed light on some of the most fascinating stories of triumph, courage and accomplishment. As the holidays slowly approach, we dedicate this article in the name of peace and gratitude. Born and raised as a military kid from Dallas, Texas, Alysia Rieg came from very humble beginnings.
+
+#featured blog articles
+blog:
+  -
+    ready: 1
+    excerpt:
+      markdown: |
+        Most people look forward to retirement. It’s a time to relax after years of work and a chance to pursue your hobbies. However, for some, it can be difficult to make the transition after spending so many years in the workforce. Post-retirement jobs are increasing in popularity and here are a few reasons why.
+    link: https://blog.nccpt.com/2016/3-benefits-of-working-through-retirement/
+    more: "First Benefit to follow"
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/08/working-through-retirement-300x169.jpg
+    subhead:
+    title: "3 Benefits of Working Through Retirement"
+    ceus: 0
+  -
+    ready: 1
+    excerpt:
+      markdown: |
+        Chances are that if you’re starting a workout program, ‘toning up’ is probably one of the most important outcomes that you want to achieve from your time spent sweating. Did you know that the term tone comes from ‘tonus’, which is the technical term for a state of contraction of a muscle fiber? If all of the fibers within a muscle stay in a state of semi-contraction it results in the shape we commonly associate with a well-defined muscle.
+    link: https://blog.nccpt.com/2016/is-fitness-feeling-like-a-chore-just-add-yoga/
+    more: "How many do you know?"
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/2016/07/MuscleFibers670j7-300x196.jpg
+    subhead:
+    title: "10 Things You Need to Know About Muscle Fibers."
+    ceus: 0
+
+  -
+    ready: 1
+    excerpt:
+      markdown: |
+        In a recent article in CNN Money titled “Best Jobs in America,” Certified Personal Trainer was listed as 18 out of 100 jobs in its category, with median pay being $56,000 and top pay averaging $128,000. (This is out of 251,400 total personal trainer jobs.) The personal training industry has grown 24% in the last ten years and is a potential financial windfall for those certified personal trainers who know how to build their client portfolio. The issue is, some personal trainers simply do not.
+    link: https://blog.nccpt.com/2015/three-steps-you-need-to-follow-to-be-a-six-figure-a-year-personal-trainer/
+    more: "Learn more."
+    thumbnail: https://blog.nccpt.com/wp-content/uploads/19893778_s.jpg
+    subhead:
+    title: "Three Steps You Need to Follow to Be a Six-Figure a Year Personal Trainer"
+    ceus: 0
+
+  -
+    ready: 1
+    excerpt:
+      markdown: |
+        Are you working for yourself as an independent contractor as a fitness professional? Do you want to protect your assets and limit your exposure to unforeseen accidents that may occur? If the answer is yes, then you have to have liability insurance. NCCPT is proud to offer personal trainers, group fitness, yoga, Pilates, bootcamp and dance instructors excellent liability coverage for the lowest annual price around. Whether you are teaching in homes, a studio, gym or park, you can rest assured that your policy has you covered.
+    link: http://keymaninsurance.com/home.php
+    more: "sign up now"
+    thumbnail: http://static.nccpt.com/images/1609-liability-insurance.jpg
+    subhead:
+    title:
+    ceus: 0
+
+
+
+
+
+#ads.
+
+oneUp:
+  ready: true
+  blurb:
+    markdown: |
+      ## Become an MFN Professional
+
+      **INCREASE YOUR CREDIBILITY AND ONLINE EXPOSURE**
+      **Create a full page profile listing on our site.**
+
+      The **[Medical Fitness Network](https://medicalfitnessnetwork.org/about/)**(MFN) is an online resource locator for consumers to find a fitness or allied healthcare professional.
+
+      MFN welcomes the following professionals to join our network: acupuncturists, chiropractors, dietitians, fitness/yoga/pilates, health & wellness coaches, massage therapists, mental health professionals and physical therapists.
+
+  headline: NCCPT is Proud to Present MFN Network to our Trainers!
+  link: https://medicalfitnessnetwork.org/professionals/welcome-nccpt/
+  linkText: "Learn More"
+  price:
+  promoCode:
+  thumbnail: http://static.nccpt.com/images/160929-Prof-graphic-mats.jpg
+
+twoUpAds: true
+twoUps:
+  -
+    blurb:
+      markdown: |
+    link: http://smartfitness.com/pdf/smart-fitness-zip-recruiter.pdf
+    link-text: "Find the right employees (PDF)"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/160523-ziprecruiter.jpg
+    title: "Get a discount on listing with Zip Recruiter"
+  -
+    blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
+    link: http://profitjobs.com/
+    link-text: "What are you waiting for?"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/160523-profitjob.jpg
+    title: ProFitJobs.com
+
+threeUpAds: true
+threeUps:
+  -
+    blurb: "Complete your Personal Training toolbox with these handy tools!"
+    headline: "Are you missing something?"
+    link: http://nccpt.com/health
+    linkText: "Take a look."
+    price:
+    promoCode: 
+    thumbnail: http://static.nccpt.com/images/1609-bpbf-sale.jpg
+  -
+    blurb:
+      markdown: |
+        Learn the deep and rich history of Yoga, practiced 5,000 years ago.
+    headline: "CYI - Vinyasa Flow Manual (Hard Copy)"
+    link: https://www.nccpt.com/store/products/certified_yoga_instructor_vinyasa_flow_manual/1778
+    linkText: "Shop Now!"
+    price:
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/1609-yoga-sm.jpg
+  -
+    blurb: "A New Training log to help keep track of your clients progress!"
+    headline: "Track Your Victories, or Your Clients"
+    link: https://www.nccpt.com/store/products/personal-training-and-daily-nutrition-journal/1767
+    linkText: "Take a look."
+    price:
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/160205-training-log.jpg
+
+workshops:
+  ready: true
+  link: http://www.nccpt.com/live-workshops
+  linkText: "Find a Workshop near you."
+  thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
+  headline: "Learn hands-on how to become a personal trainer with our two-day workshop!"
+  copy:
+    markdown: |
+      This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.
+      In addition to sixteen hours of hands-on experience with industry veterans, you'll receive&#58;
+      * NCCPT textbook and *one time exam attempt (*proctoring fee is not included)
+      * Access to all personal training course videos online.
+      * Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).
+      * 1.6 CEUs if you are currently a personal trainer looking for more experience.
+
+  dates:
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Oct 23, 2016"
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Nov 13, 2016"
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Dec 11, 2016"
