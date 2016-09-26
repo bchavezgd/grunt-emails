@@ -13,3 +13,4 @@ secrets.json
 /src/img/*.jpg
 /img/
 /_site/
+!/docs/nccpt.css
