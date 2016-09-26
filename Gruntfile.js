@@ -5,7 +5,7 @@ module.exports = function (grunt) {
       pkg: grunt.file.readJSON('package.json'),
       // Re-usable filesystem paths
       paths: {
-        site: './docs/2016',
+        site: './docs',
         src: './src',
         src_img: './src/img',
         dist: './dist',
