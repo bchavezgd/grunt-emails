@@ -8,7 +8,7 @@ dev:
   - 'sass:dev'
   - 'postcss:dev'
   - 'assemble:pages'
-  - 'newer:imagemin'
+  # - 'newer:imagemin'
 
 static:
   - 'sass:static'
