@@ -153,6 +153,107 @@ fieldset[disabled] .btn-default.active {
 	border-color: #ccc;
 }
 
+/**
+	* btn-dark
+	*/
+.btn-default {
+	color: lighten($gray-brand, 50%);
+	background-color: $brand-dark;
+	border-color: lighten($brand-dark, 10%);
+	a {
+		color: #fff;
+	}
+	&:hover,
+	&:focus,
+	&.focus,
+	&:active,
+	&.active {
+		color: #cbcbcb;
+		background-color: $brand-dark;
+		border-color: #adadad;
+	}
+}
+.btn-dark {
+	&:active, &.active {
+		background-image: none;
+	}
+}
+
+.btn-dark {
+	&.disabled, &[disabled] {
+		background-color: $brand-dark;
+		border-color: #ccc;
+	}
+}
+
+fieldset[disabled] .btn-dark {
+	background-color: $brand-dark;
+	border-color: #ccc;
+}
+
+.btn-dark {
+	&.disabled:hover, &[disabled]:hover {
+		background-color: $brand-dark;
+		border-color: #ccc;
+	}
+}
+
+fieldset[disabled] .btn-dark:hover {
+	background-color: $brand-dark;
+	border-color: #ccc;
+}
+
+.btn-dark {
+	&.disabled:focus, &[disabled]:focus {
+		background-color: $brand-dark;
+		border-color: #ccc;
+	}
+}
+
+fieldset[disabled] .btn-dark:focus {
+	background-color: $brand-dark;
+	border-color: #ccc;
+}
+
+.btn-dark {
+	&.disabled.focus, &[disabled].focus {
+		background-color: $brand-dark;
+		border-color: #ccc;
+	}
+}
+
+fieldset[disabled] .btn-dark.focus {
+	background-color: $brand-dark;
+	border-color: #ccc;
+}
+
+.btn-dark {
+	&.disabled:active, &[disabled]:active {
+		background-color: $brand-dark;
+		border-color: #ccc;
+	}
+}
+
+fieldset[disabled] .btn-dark:active {
+	background-color: $brand-dark;
+	border-color: #ccc;
+}
+
+.btn-dark {
+	&.disabled.active, &[disabled].active {
+		background-color: $brand-dark;
+		border-color: #ccc;
+	}
+}
+
+fieldset[disabled] .btn-dark.active {
+	background-color: $brand-dark;
+	border-color: #ccc;
+}
+.btn-dark:hover {
+	color: $brand-dark;
+}
+/* end btn-dark */
 a.btn {
 	text-align: center;
 	margin: 0 auto;

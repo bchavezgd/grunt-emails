@@ -3,12 +3,13 @@ date: February 05, 2016
 content: <%= 1602_content %>
 subject: NCCPT February Lift Newsletter.
 layout: pres-message
+published: true
 twitter:
   image: 160502-og-twitter.jpg
 og:
   url: https://www.com/data/newsletters/20160205/index.html
-  image: http://static.com/images/160205-og-image.jpg
-  description: com has been redesigned for mobile devices. We've optmized our site for phones and tablets to bring you a better experience while browsing.
+  image: http://static.NCCPT.com/images/160205-og-image.jpg
+  description: NCCPT.com has been redesigned for mobile devices. We've optimized our site for phones and tablets to bring you a better experience while browsing.
 ---
 2016! Wow&hellip; Really?
 

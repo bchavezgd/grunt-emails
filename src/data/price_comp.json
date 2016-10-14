@@ -1,0 +1,28 @@
+[
+  {
+    "company": "NESTA",
+    "accredited": "NCCA",
+    "price": "$477"
+  },
+  {
+    "company": "ACE",
+    "accredited": "NCCA",
+    "price": "$799"
+  },
+  {
+    "company": "AFAA",
+    "accredited": "N/A",
+    "price": "$499"
+  },
+  {
+    "company": "ISSA",
+    "accredited": "DEAC",
+    "price": "$499"
+  },
+
+  {
+    "company": "NASM",
+    "accredited": "NCCA",
+    "price": "$1399"
+  }
+]

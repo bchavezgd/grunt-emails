@@ -1,6 +1,6 @@
 Forked from an early version of [Lee Munroe's Grunt Email Design Workflow.](https://github.com/leemunroe/grunt-email-workflow)
 
-Newer vesions have removed the ruby dependencies. 
+I've removed Ruby dependencies.
 
 # Grunt Email Design Workflow
 
@@ -209,7 +209,7 @@ I've added two templates here to help you get started.
 * [Things I've learned about building HTML email templates](http://www.leemunroe.com/building-html-email/)
 
 
-found problem. 
+found problem.
 
 ```
 [NOTE]
@@ -218,4 +218,4 @@ Bug reports are welcome.
 For details: http://www.ruby-lang.org/bugreport.html
 ```
 
-this was happening when the `dist` folder had to many files that the `premailer` gem to parse. 
+this was happening when the `dist` folder had to many files that the `premailer` gem to parse.

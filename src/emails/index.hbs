@@ -3,10 +3,46 @@ layout: index
 subject: Home | newsletter ToC
 date: <%= grunt.template.today("yyyy-mm-dd") %>
 ---
+<style media="screen">
+  .article-container{
+    font-size: 18px;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+  }
+  .article-header{
+    margin-bottom: 1em;
+  }
+  .article-title{
+    margin-bottom: 1rem;
+  }
+  .article-thumb{
+    opacity: 0.7;
+  }
+  .article-thumb:hover{
+    opacity: 1;
+  }
+  .article-content{
 
-<ul>
-  {{#each  pages }}
-  <li>
-    <a  href ="{{filename}}" target="_blank" > {{ data.subject }} | {{ data.date }} </a >   </li>
+    padding: 0 1em;
+  }
+</style>
+
+<section class="container">
+  {{#each pages }}
+    {{#if data.published}}
+      <section class="article-container">
+        <header class="article-header">
+          <a class="article-title" href ="{{filename}}" target="_blank" > <h2>{{ data.subject }} | {{ data.date }}</h2> </a >
+          <a class="article-thumb" href ="{{filename}}" target="_blank" >
+            <img src="{{data.og.image}}" alt="{{data.subject }}" />
+          </a>
+        </header>
+        <article class="article-content">
+          <p>
+            {{{data.og.description}}}
+          </p>
+        </article>
+      </section>
+    {{/if}}
   {{/each  }}
-</ul>
+</section>

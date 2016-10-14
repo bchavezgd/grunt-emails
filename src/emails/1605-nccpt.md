@@ -4,6 +4,7 @@ due: 160506
 content: <%= 1603_content %>
 subject: May NCCPT Lift Newsletter.
 layout: pres-message
+published: true
 twitter:
   image: https://blog.nccpt.com/wp-content/uploads/28176642_s.jpg
 og:

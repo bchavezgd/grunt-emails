@@ -4,11 +4,12 @@ due: 160304
 content: <%= 1603_content %>
 subject: March NCCPT Lift Newsletter.
 layout: pres-message
+published: true
 twitter:
   image: 160304-kids-ceu.jpg
 og:
   url: https://www.com/data/newsletters/20160304/index.html
-  image: http://static.com/images/160304-kids-ceu.jpg
+  image: http://static.nccpt.com/images/160304-kids-ceu.jpg
   description: Spring is in the air! Remember, daylight savings time happens on March 13th. Don’t forget to move the clocks forward.
 ---
 

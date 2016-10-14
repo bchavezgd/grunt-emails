@@ -43,6 +43,7 @@ p, .p, ul, ol {
 	font-weight: normal;
 	margin: 0;
 	margin-bottom: 15px;
+	margin-bottom: 1em;
 }
 .p-small {
 	font-size: 12px;
@@ -64,5 +65,8 @@ td[class~="dark-text"] {
 }
 
 .small {
-	font-size: 0.75em
+	font-size: 0.75em;
+}
+.title {
+	text-transform: capitalize;
 }

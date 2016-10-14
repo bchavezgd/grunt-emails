@@ -4,14 +4,15 @@ due: 1610
 content: <%= 1610_content %>
 subject: NCCPT Lift Newsletter.
 layout: pres-message
+published: true
 twitter:
-  image: https://blog.nccpt.com/wp-content/uploads/2016/09/rieg-alysia-featured-image.jpg
+  image: <%= cdnUrl %>/1610-og-img.jpg
 og:
   url: https://www.nccpt.com/data/newsletters/<%= grunt.template.today("yyyy") %>/<%= due %>-nccpt.html
-  image: https://blog.nccpt.com/wp-content/uploads/2016/09/rieg-alysia-featured-image.jpg
+  image: <%= cdnUrl %>/1610-og-img.jpg
   description: Fall has begun. TIME FOR PUMPKIN SPICE EVERYTHING!
 ---
-**<u>The National Fitness Hall of Fame presents the 2016 “Star Performers” Awards</u>**
+**The National Fitness Hall of Fame presents the 2016 “Star Performers” Awards**
 
 National Council for Certified Personal Trainers (NCCPT) are encouraged to join the National Fitness Hall of Fame and apply for this great award. 
 
@@ -21,11 +22,11 @@ There are eight different recognition categories (see below) and three levels of
 
 (Gold | Silver | Bronze) 
 
-<u>Industry Professionals</u>: Trainers | Educators | Instructors | Medical Fitness
+Industry Professionals: Trainers | Educators | Instructors | Medical Fitness
 
-<u>Fitness Enthusiasts</u>: Running | Multi-Sport | “Fitness Warrior” | “Group Exercise Fanatics”
+Fitness Enthusiasts: Running | Multi-Sport | “Fitness Warrior” | “Group Exercise Fanatics”
 
-<u>NFHOF “Star Performers” will receive several terrific items, including</u>:
+NFHOF “Star Performers” will receive several terrific items, including:
 
 *   A Beautiful Medal which acknowledges your accomplishment. (Gold/Silver/Bronze)
 
@@ -37,9 +38,9 @@ There are eight different recognition categories (see below) and three levels of
 
 _One of the objectives of the National Fitness Hall of Fame is to “Promote the Future of Fitness”_ _and we do that by recognizing those individuals who are currently helping others “Get Fit & Stay Healthy” and those who are doing that very thing by participating in health & fitness activities._
 
-You can join as a NFHOF Fan Member today for just $15.00 (+S&H). There are numerous benefits for our members! <u>~ Free Professional Membership upgrades are also available for the next 100 trainers to join</u>. (Details at the website)
+You can join as a NFHOF Fan Member today for just $15.00 (+S&H). There are numerous benefits for our members! ~ Free Professional Membership upgrades are also available for the next 100 trainers to join. (Details at the website)
 
-<u>The criteria for earning</u> <u>GOLD “Star Performer” recognition in each category is listed below</u>: (Silver & Bronze criteria can be found at the NFHOF’s website: [www.nationalfitnesshalloffame.com](http://www.nationalfitnesshalloffame.com))
+The criteria for earning GOLD “Star Performer” recognition in each category is listed below: (Silver & Bronze criteria can be found at the NFHOF’s website: [www.nationalfitnesshalloffame.com](http://www.nationalfitnesshalloffame.com))
 
 Trainers (Personal trainers) – GOLD “Star Performer”
 
@@ -65,7 +66,7 @@ Medical Fitness Pro (Chiropractors, MDs & Allied Health professionals) - GOLD �
 *   600+ hours training/rehabbing clients
 *   5 testimonials from satisfied clients 
 
-<u>Fitness Enthusiasts</u>:
+Fitness Enthusiasts:
 
 Running - GOLD “Star Performer” (Includes Adventure Races)
 

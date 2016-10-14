@@ -4,6 +4,7 @@ due: 1609
 content: <%= 1609_content %>
 subject: NCCPT Lift Newsletter.
 layout: nccpt
+published: true
 twitter:
   image: <%= cdnUrl %>/1609-fb-og-thumb.jpg
 og:

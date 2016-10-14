@@ -1,0 +1,136 @@
+---
+date: October, 2016
+due: 1610
+#content: <%= 1610_content %>
+subject: price comparison
+layout: index
+published: true
+twitter:
+  image: <%= cdnUrl %>/1610-price-comp.jpg
+og:
+  url: https://www.nccpt.com/data/newsletters/<%= grunt.template.today("yyyy") %>/<%= due %>-nccpt.html
+  image: <%= cdnUrl %>/1610-price-comp.jpg
+  description: Better Price, Better Value.
+---
+<!-- inside .container tr td -->
+<table>
+  <tr>
+    <td>
+      <h1>Why go broke before making any money?</h1>
+    </td>
+  </tr>
+  <tr class="spacer-32">
+    <td>
+
+    </td>
+  </tr>
+  <tr>
+    <td class="hero">
+      <img src="{{og.image}}" alt="{{og.description}}" />
+    </td>
+  </tr>
+  <tr class="spacer-32">
+    <td>
+
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td>
+      <table width="595">
+      	<tr>
+      		<th class="h2" >
+      			Competition
+      		</th>
+          <td class="col-spacer" width="16"></td>
+          <th class="h2" >
+            Accreditation
+          </th>
+          <td class="col-spacer" width="16"></td>
+          <th class="h2"  align="right">
+            Cost to you
+          </th>
+      	</tr>
+        <tr class="spacer-8">
+          <td colspan="5">
+      <hr>    </td>
+        </tr>
+        {{#each price_comp}}
+        <tr>
+          <td class="h3">
+            {{company}}
+          </td>
+          <td class="col-spacer" width="16"></td>
+          <td class="h3">
+            {{accredited}}
+          </td>
+          <td class="col-spacer" width="16"></td>
+          <td class="h3" align="right">
+            {{price}}
+          </td>
+        </tr>
+        <tr class="spacer-8">
+          <td colspan="5">
+            &nbsp;
+          </td>
+        </tr>
+        {{/each}}
+        <tr class="spacer-8">
+          <td colspan="5">
+            <hr>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr class="spacer-32">
+    <td colspan="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <td >
+      <h2 >
+        <p class="h1 align-center">Get Certified with the <br> NCCPT NCCA CPT Program</p>
+        <p class="h2 align-center"> for as little as </p>
+        <p class="h1 align-center" style="color: #fe0000; text-align: center; font-size: 3em;">
+          $299!
+        </p>
+      </h2>
+    </td>
+  </tr>
+  <tr class="spacer-32">
+    <td colspan="5">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="p">
+      <h3 class="align-center h2" align="center">
+        <em>Same Value, Better Price.</em>
+      </h3>
+
+      <p>
+        At NCCPT we invest in creating the highest quality education in the industry. We don't spend our money on ads because we don't believe you should have to pay for them.
+      </p>
+      <p>
+        Our savings are passed on to you. Spend less money -- Equal earning potential!
+      </p>
+    </td>
+  </tr>
+
+  <tr class="spacer-32"><td>&nbsp;</td></tr>
+  <tr >
+    <td class="col-6">
+      <table width="595">
+        <tr class="align-center" align="center">
+          <td>
+            <a href="https://www.nccpt.com/certified-personal-trainer" target="_blank">
+              <button class="btn btn-default" type="button" name="link">See Details</button>
+            </a>
+          </td>
+          <td>
+              <button class="btn btn-dark" type="button" name="phone number">Call Now: (800) 778-6060</button>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
