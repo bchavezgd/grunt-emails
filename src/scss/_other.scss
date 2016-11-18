@@ -51,3 +51,41 @@
 .heavy-border {
 	@include heavy-border($brand-primary)
 }
+
+/**
+	* Styles for one offs.
+	* 161024
+	*/
+
+
+/**
+	*Affiliate
+	*/
+
+.affiliate {
+	@include heavy-border-placement(top, $brand-dark);
+}
+
+/**
+	* power house
+	*/
+table.body {
+	// background-color: $brand-primary;
+}
+
+[class^="ph-"] .container {
+	background-color: white;
+}
+
+
+
+.sales-copy .container {
+	background-color: white;
+
+	td.h2 {
+		text-align: center;
+	}
+	ul {
+		text-indent: -16px;
+	}
+}

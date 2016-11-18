@@ -47,6 +47,9 @@
 		box-shadow: none;
 		opacity: .65;
 	}
+	a {
+		color: inherit;
+	}
 }
 
 fieldset[disabled] .btn {
@@ -61,9 +64,7 @@ fieldset[disabled] .btn {
 	color: lighten($gray-brand, 50%);
 	background-color: $brand-primary;
 	border-color: $brand-primary;
-	a {
-		color: #fff;
-	}
+
 	&:hover,
 	&:focus,
 	&.focus,
@@ -156,13 +157,10 @@ fieldset[disabled] .btn-default.active {
 /**
 	* btn-dark
 	*/
-.btn-default {
+.btn-dark {
 	color: lighten($gray-brand, 50%);
 	background-color: $brand-dark;
 	border-color: lighten($brand-dark, 10%);
-	a {
-		color: #fff;
-	}
 	&:hover,
 	&:focus,
 	&.focus,
@@ -258,3 +256,105 @@ a.btn {
 	text-align: center;
 	margin: 0 auto;
 }
+
+/**
+	* btn-light
+	*/
+.btn-light {
+	color: $gray-dark;
+	background-color: $brand-light;
+	border-color: darken($brand-dark, 10%);
+	a {}
+	&:hover,
+	&:focus,
+	&.focus,
+	&:active,
+	&.active {
+		color: darken($brand-dark, 10%);
+		background-color: darken($brand-light, 10%);
+		border-color: darken($brand-dark, 20%);
+	}
+}
+.btn-light {
+	&:active, &.active {
+		background-image: none;
+	}
+}
+
+.btn-light {
+	&.disabled, &[disabled] {
+		background-color: desaturate($brand-light, 25%);
+		border-color: $gray-dark;
+	}
+}
+
+fieldset[disabled] .btn-light {
+	background-color: desaturate($brand-light, 25%);
+	border-color: $gray-dark;
+}
+
+.btn-light {
+	&.disabled:hover, &[disabled]:hover {
+		background-color: desaturate($brand-light, 25%);
+		border-color: $gray-dark;
+	}
+}
+
+fieldset[disabled] .btn-light:hover {
+	background-color: desaturate($brand-light, 25%);
+	border-color: $gray-dark;
+}
+
+.btn-light {
+	&.disabled:focus, &[disabled]:focus {
+		background-color: desaturate($brand-light, 25%);
+		border-color: $gray-dark;
+	}
+}
+
+fieldset[disabled] .btn-light:focus {
+	background-color: desaturate($brand-light, 25%);
+	border-color: $gray-dark;
+}
+
+.btn-light {
+	&.disabled.focus, &[disabled].focus {
+		background-color: desaturate($brand-light, 25%);
+		border-color: $gray-dark;
+	}
+}
+
+fieldset[disabled] .btn-light.focus {
+	background-color: desaturate($brand-light, 25%);
+	border-color: $gray-dark;
+}
+
+.btn-light {
+	&.disabled:active, &[disabled]:active {
+		background-color: desaturate($brand-light, 25%);
+		border-color: $gray-dark;
+	}
+}
+
+fieldset[disabled] .btn-light:active {
+	background-color: desaturate($brand-light, 25%);
+	border-color: $gray-dark;
+}
+
+.btn-light {
+	&.disabled.active, &[disabled].active {
+		background-color: desaturate($brand-light, 25%);
+		border-color: $gray-dark;
+	}
+}
+
+fieldset[disabled] .btn-light.active {
+	background-color: desaturate($brand-light, 25%);
+	border-color: $gray-dark;
+}
+.btn-light:hover {
+	// color: inherit;
+}
+/**
+	* end btn-light
+	*/

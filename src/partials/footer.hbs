@@ -39,9 +39,21 @@
 					<!-- end col 2 -->
 				</td>
 			</tr>
+			{{#if finePrint}}
+			{{spacer 8}}
+			<!-- fine print -->
+			<tr>
+				<td colspan="2" class="small light-text">
+					{{{finePrint}}}
+				</td>
+			</tr>
+			{{spacer 16}}
+			{{else}}
 			<tr height="32">
 				<td colspan="2" class="spacer-32">&nbsp;</td>
 			</tr>
+			{{/if}}
+
 			<!-- spacer -->
 		</table>
 		<!-- end container -->

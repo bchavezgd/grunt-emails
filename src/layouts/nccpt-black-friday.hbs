@@ -1,0 +1,37 @@
+---
+---
+{{> head }}
+{{> front-matter }}
+{{> black-friday }}
+{{#if content.hero.ready}}
+
+	{{> cover }}
+
+{{/if}}
+
+{{> featured-articles }}
+
+{{ body }}
+
+{{> oneUp }}
+{{> banner }}
+
+{{#if content.featured.altLayout }}
+  {{> altLayout }}
+  {{else}}
+  {{#if content.featured.ready }}
+    {{> featured-trainer }}
+  {{/if}}
+{{/if}}
+
+{{> twoUp }}
+{{> blog-loop }}
+{{> threeUp }}
+
+{{#if content.workshops.ready }}
+	{{> workshops }}
+	{{> workshop-video }}
+{{/if}}
+
+{{> footer }}
+{{> foot }}

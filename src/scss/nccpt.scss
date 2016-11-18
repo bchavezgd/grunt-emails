@@ -6,7 +6,7 @@ $padding: 30px; 	// For consistent padding
 $gutter: 10px;		// gutters... duh
 $width: 600px; 		// Width of the content area
 $br: 4px;					// Border radius
-$btn-br: 5px; 		// Border radius
+$btn-br: 5px; 		// Border radius for buttons
 $columns: 6; 			// number of columns
 
 $body-font-stack: helvetica, Roboto, arial, sans-serif;
@@ -26,8 +26,6 @@ $gray-brand: darken(#fff, 18%);
 $gray-dark: desaturate($brand-dark, 100%);
 $gray-light: desaturate($brand-light, 100%);
 
-
-
 $featured-trainer-bg: mix($brand-dark, $gray-brand, 50%); // for consistency.
 
 // Main scss styles
@@ -36,8 +34,8 @@ $featured-trainer-bg: mix($brand-dark, $gray-brand, 50%); // for consistency.
 @import 'global';
 @import 'layout';
 @import 'grid';
-@import 'type';
 @import 'buttons';
+@import 'type';
 @import 'other';
 @import 'front-matter';
 @import 'footer';
@@ -45,7 +43,6 @@ $featured-trainer-bg: mix($brand-dark, $gray-brand, 50%); // for consistency.
 @import 'blog';
 @import 'xups';
 @import 'workshops';
-@import 'affiliate';
 
 
 // responsive imports last.
@@ -54,4 +51,3 @@ $featured-trainer-bg: mix($brand-dark, $gray-brand, 50%); // for consistency.
 //	and (-webkit-min-device-pixel-ratio: 2) {
 //	@import 'responsive';
 //}
-

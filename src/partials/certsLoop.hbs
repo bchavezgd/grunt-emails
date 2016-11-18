@@ -1,0 +1,51 @@
+<tr >
+	<td>
+		<table class="container">
+			{{#each certs}}
+			<tr>
+				<td>
+					<table bgcolor="#eeeeee">
+						<tr class="spacer-16"><td>&nbsp;</td></tr>
+						<tr>
+							<td class="col-spacer">
+							<td width="200">
+								<a href="{{link}}">
+									<img src="{{image}}" alt="{{name}}" width="200"/>
+								</a>
+							</td>
+							<td class="col-spacer">
+
+							</td>
+							<td>
+								<table>
+									<tr>
+										<td>
+											<h2 style="text-transform: capitalize;">{{name}}</h2>
+										</td>
+									</tr>
+									<tr>
+										<td class="p">
+											{{{excerpt}}}
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<!-- <button type="button" name="button" > -->
+												<a class="btn btn-default" href="{{link}}">{{linkText}}</a>
+											<!-- </button> -->
+										</td>
+									</tr>
+								</table>
+
+							</td>
+							<td class="col-spacer">
+						</tr>
+						<tr class="spacer-16"><td>&nbsp;</td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="spacer-24"><td>&nbsp;</td></tr>
+			{{/each}}
+		</table>
+	</td>
+</tr>

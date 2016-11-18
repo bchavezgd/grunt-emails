@@ -1,22 +1,24 @@
 done:
   - 'dev'
   - 'static'
-  - 'juice'
-  - 'htmlmin'
 
 dev:
-  - 'sass:dev'
+  - 'newer:sass:dev'
   - 'postcss:dev'
-  - 'assemble:pages'
+  - 'newer:assemble:pages'
   # - 'newer:imagemin'
 
 static:
   - 'sass:static'
   - 'postcss:static'
   - 'assemble:static'
+  - 'strip_code'
+  - 'juice:done'
+  - 'htmlmin'
+
 
 default:
   - 'dev'
-  - 'static'
+  # - 'static'
   - 'connect'
   - 'watch'

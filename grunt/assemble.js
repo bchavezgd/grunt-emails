@@ -6,6 +6,7 @@ module.exports = {
     layoutdir: '<%= paths.src %>/layouts',
     partials: ['<%= paths.src %>/partials/**/*.hbs'],
     data: '<%= paths.src %>/data/*.{json,yml}',
+    helpers: '<%= paths.src %>/helpers/*.js',
     flatten: true
   },
   pages: {

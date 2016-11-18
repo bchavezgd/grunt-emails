@@ -2,25 +2,20 @@
 <tr class="front-matter ">
 	<td>
 		<table class="container">
-			<tr height="8" class="spacer-8">
-				<td>&nbsp;</td>
-			</tr>
+			{{spacer 8}}
 			<!-- spacer -->
 			<tr>
 				<td align="center" class="col-2 p-small light-text">
-								<a href="{{ url }}" target="_blank">{{ company }}</a>
+					<a href="{{ url }}" target="_blank">{{ company }}</a>
 				</td>
 				<!-- end col 4 -->
 				<!-- Second header column with ISSUE|DATE -->
 				<td align="center" class="col-4 p-small light-text">
-								{{ subject }} | {{ date }}
+					{{ subject }} | {{ date }}
 				</td>
 				<!-- end col 2 -->
 			</tr>
-			<tr height="8" class="spacer-8">
-				<td>&nbsp;</td>
-			</tr>
-			<!-- spacer -->
+			{{spacer 8}}
 		</table>
 		<!-- end container -->
 	</td>
@@ -50,10 +45,7 @@
 
 					<!-- social links -->
 					<table>
-						<tr height="32">
-							<td class="spacer-32">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 32}}
 						<tr>
 							<td height="32" class="social-links">
 								<!-- can create a loop here. using #each social -->
@@ -64,10 +56,7 @@
 								{{/each}}
 							</td>
 						</tr>
-						<tr height="32">
-							<td class="spacer-32">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 32}}
 					</table>
 					<!-- end social links -->
 				</td>

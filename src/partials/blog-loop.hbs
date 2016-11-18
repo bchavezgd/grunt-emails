@@ -47,7 +47,14 @@
                   <!-- thumbnail -->
                   <td class="col-2" style="vertical-align: middle">
                     <a href="{{ link }}" target="_blank" title="{{title}}">
-                      <img src="{{ thumbnail }}" class="blog-thumbnail" width="194">
+                      <img src="{{ thumbnail }}" class="blog-thumbnail" width="194" alt="{{title}}"
+												{{#if srcset}}
+													srcset="{{srcset}}"
+												{{/if}}
+												{{#if sizes}}
+													sizes="{{sizes}}"
+												{{/if}}
+											>
                     </a>
                   </td>
                   <!-- end thumbnail -->
@@ -134,7 +141,5 @@
     </tr>
     <!-- spacer -->
     <!-- end container -->
-    </td>
-    </tr>
   {{/if}}
 {{/each}}

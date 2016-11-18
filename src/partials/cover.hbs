@@ -2,10 +2,7 @@
 <tr class="hero">
   <td>
     <table class="container">
-          <tr height="16">
-            <td class="spacer-16">&nbsp;</td>
-          </tr>
-          <!-- spacer -->
+          {{spacer 16}}
 
           <!-- hero image -->
 
@@ -19,10 +16,7 @@
 
           <!-- end hero -->
 
-          <tr height="32">
-            <td class="spacer-32">&nbsp;</td>
-          </tr>
-          <!-- spacer -->
+          {{spacer 32}}
 
           <!-- lead -->
           <tr class="main">
@@ -30,20 +24,14 @@
               {{{ content.hero.title }}}
             </td>
           </tr>
-          <tr height="16">
-            <td class="spacer-16">&nbsp;</td>
-          </tr>
-          <!-- spacer -->
+          {{spacer 16}}
 
           <tr>
             <td class="p">
               {{{ content.hero.excerpt }}}
             </td>
           </tr>
-          <!-- spacer -->
-          <tr height="16">
-            <td class="spacer-16">&nbsp;</td>
-          </tr>
+          {{spacer 16}}
 
           {{#if content.hero.ceus}}
             <tr>
@@ -55,12 +43,12 @@
                   </tr>
 
                   <tr>
-                    <td valign="center">
+                    <td valign="middle">
                       <span class="ceus">
                         <a href="{{ content.hero.link }}" target="_blank" class="">
-                    Click here and earn {{{content.hero.ceus}}} CEU's &emsp;
-                      </a>
-                    </span>
+			                    Click here and earn {{{content.hero.ceus}}} CEU's &emsp;
+	                      </a>
+	                    </span>
                     </td>
                   </tr>
 
@@ -73,10 +61,7 @@
             </tr>
 
 
-            <tr height="16" class="spacer-16">
-            <td>&nbsp;</td>
-          </tr>
-            <!-- spacer -->
+            {{spacer 16}}
             {{else}}
 
             <tr>
@@ -86,10 +71,7 @@
             </tr>
 
 
-            <tr height="32">
-              <td class="spacer-32">&nbsp;</td>
-            </tr>
-            <!-- spacer -->
+            {{spacer 32}}
           {{/if}}
           <!-- end lead -->
 

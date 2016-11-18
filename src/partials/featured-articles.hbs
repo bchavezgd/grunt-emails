@@ -6,30 +6,28 @@
         <td>
           <!-- header -->
           <table class="header">
-            <tr height="16">
-              <td class="spacer-16" colspan="2">&nbsp;</td>
-            </tr>
-            <!-- spacer -->
+            {{spacer 16}}
             {{#each content.articles}} {{#if ready}}
 
             <tr>
               <td class="col-6">
-
                 <!-- article -->
-                <table align="center" valign="top">
-
-
-
+                <table align="center">
                   <tr>
                     <td>
                       <a href="{{ link }}" target="_blank">
-                        <img src="{{ thumbnail }}" width="590">
+                        <img src="{{ thumbnail }}" width="590" alt="{{title}}"
+													{{#if srcset}}
+														srcset="{{srcset}}"
+													{{/if}}
+													{{#if sizes}}
+														sizes="{{sizes}}"
+													{{/if}}>
                       </a>
                     </td>
                   </tr>
-                  <tr height="16">
-                    <td class="spacer-16">&nbsp;</td>
-                  </tr>
+
+                  {{spacer 16}}
 
                   <tr>
                     <td class="h2 light-text align-center">
@@ -39,10 +37,7 @@
 
 
 
-                  <!-- spacer -->
-                  <tr height="32">
-                    <td class="spacer-32">&nbsp;</td>
-                  </tr>
+                  {{spacer 32}}
 
 
                   <tr>
@@ -51,15 +46,12 @@
                     </td>
                   </tr>
 
-                  <tr height="16">
-                    <td class="spacer-16">&nbsp;</td>
-                  </tr>
-                  <!-- spacer -->
+                  {{spacer 16}}
 
                   <tr>
                     <td class="col-6 align-center light-text">
                       <a href="{{ link }}" title="{{more}}" target="_blank">
-                        <button role="button" class="btn btn-default">
+                        <button role="button" class="btn btn-light">
                           {{{ more }}}
                         </button>
 
@@ -67,29 +59,25 @@
                     </td>
                   </tr>
 
-                  <!-- spacer -->
-                  <tr height="16">
-                    <td class="spacer-16">&nbsp;</td>
-                  </tr>
+                  {{spacer 16}}
                   {{#if ceus}}
                   <tr>
                     <td class="h3 dark-text" bgcolor="#91d6e6" style="vertical-align: baseline;">
                       <p class="h3 align-center" style="margin: 1rem">
                         <a href="{{ link }}" title="{{more}}" target="_blank">
-                GET: {{ceus}} CEU's
-                  </a>
+                					GET: {{ceus}} CEU's
+                  			</a>
                       </p>
                     </td>
                   </tr>
-                  <tr height="32">
-                    <td class="spacer-32"></td>
-                  </tr>
+                  {{spacer 32}}
                   {{/if}}
                 </table>
                 <!-- end article -->
               </td>
             </tr>
-            {{/if}} {{/each}}
+            {{/if}}
+						{{/each}}
           </table>
           <!-- end header -->
         </td>

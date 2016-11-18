@@ -2,10 +2,7 @@
 <tr class="workshops">
 	<td>
 		<table class="container">
-			<tr height="32">
-				<td class="spacer-32">&nbsp;</td>
-			</tr>
-			<!-- spacer -->
+			{{spacer 32}}
 			<tr>
 				<td class="col-6">
 					<!-- workshop copy -->
@@ -15,30 +12,21 @@
 								{{{ content.workshops.headline }}}
 							</td>
 						</tr>
-						<tr height="16">
-							<td class="spacer-16">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 16}}
 						<tr>
 							<td>
 								<a href="{{ content.workshops.link }}" target="_blank">
 									<img src="{{ content.workshops.thumbnail }}" alt="{{ content.workshops.headline }}"> </a>
 							</td>
 						</tr>
-						<tr height="16">
-							<td class="spacer-16">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 16}}
 						<!-- blurb -->
 						<tr>
 							<td class="p light-text">
 								{{{ content.workshops.copy }}}
 							</td>
 						</tr>
-						<tr height="16">
-							<td class="spacer-16">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 16}}
 						<!-- link -->
 						<tr>
 							<td class="h2 align-center">
@@ -49,10 +37,7 @@
 					<!-- end workshop copy -->
 				</td>
 			</tr>
-			<tr height="32">
-				<td class="spacer-32">&nbsp;</td>
-			</tr>
-			<!-- spacer -->
+			{{spacer 32}}
 			{{#if content.workshops.dates }}
 			<tr>
 				<td>
@@ -78,10 +63,7 @@
 					</table>
 				</td>
 			</tr>
-			<tr height="32">
-				<td class="spacer-32">&nbsp;</td>
-			</tr>
-			<!-- spacer -->
+			{{spacer 32}}
 			{{/if}}
 		</table>
 		<!-- end container -->

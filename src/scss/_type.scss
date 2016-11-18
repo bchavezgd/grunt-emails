@@ -8,7 +8,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	font-weight: 600;
 	line-height: $body-line-height;
 	margin: 0;
-	margin-bottom: 30px;
+	// margin-bottom: 30px;
 }
 
 h1,
@@ -16,12 +16,14 @@ h1,
 td[class~="h1"] {
 	font-size: 38px;
 	line-height: 1;
+	margin-bottom: 1rem
 }
 
 h2,
 .h2,
 td[class~="h2"] {
 	font-size: 24px;
+	margin-bottom: 1rem
 }
 
 h3,
@@ -29,12 +31,14 @@ h3,
 td[class~="h3"] {
 	font-size: 18px;
 	line-height: 1.2;
+	margin-bottom: 1rem
 }
 
 h4,
 .h4,
 td[class*="h4"] {
 	font-size: 14px;
+	margin-bottom: 1rem
 }
 
 p, .p, ul, ol {
@@ -42,8 +46,7 @@ p, .p, ul, ol {
 	font-size: $body-font-size;
 	font-weight: normal;
 	margin: 0;
-	margin-bottom: 15px;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 }
 .p-small {
 	font-size: 12px;

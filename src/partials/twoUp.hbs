@@ -3,10 +3,7 @@
 <tr class="ads">
 	<td>
 		<table class="container">
-			<tr height="32">
-				<td class="spacer-32">&nbsp;</td>
-			</tr>
-			<!-- spacer -->
+			{{spacer 32}}
 
 			<tr class="grid">
 				{{#each content.twoUps }}
@@ -19,21 +16,16 @@
 							</td>
 						</tr>
 
-						<tr height="16">
-							<td class="spacer-16">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 16}}
+
 
 						<tr>
 							<td valign="top" class="h3">
-								{{ title }}
+								{{{ title }}}
 							</td>
 						</tr>
 
-						<tr height="16">
-							<td class="spacer-16">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 16}}
 
 						<tr>
 							<td class="p">
@@ -41,10 +33,7 @@
 							</td>
 						</tr>
 
-						<tr height="16">
-							<td class="spacer-16">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 16}}
 
 						<tr>
 							<td align="center">
@@ -53,10 +42,7 @@
 						</tr>
 
 						{{#if promo-code }}
-						<tr height="16">
-							<td class="spacer-16">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 16}}
 
 						<tr>
 							<td class="p" align="center">use promo code: <strong>{{promo-code}}</strong>
@@ -64,21 +50,15 @@
 						</tr>
 						{{/if}}
 
-						<tr height="16">
-							<td class="spacer-16">&nbsp;</td>
-						</tr>
-						<!-- spacer -->
+						{{spacer 16}}
 					</table>
 
 				</td>
-				<td class="col-spacer"></td>
+
 				{{/each}}
 			</tr>
 
-			<tr height="32">
-				<td class="spacer-32">&nbsp;</td>
-			</tr>
-			<!-- spacer -->
+			{{spacer 32}}
 
 		</table>
 	</td>

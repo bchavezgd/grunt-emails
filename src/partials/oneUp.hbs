@@ -4,10 +4,7 @@
   <td>
     <table class="container">
 
-      <!-- spacer -->
-      <tr height="32">
-        <td class="spacer-32">&nbsp;</td>
-      </tr>
+      {{spacer 32}}
 
       <tr>
         <td>
@@ -18,15 +15,12 @@
             <tr>
               <td>
                 <a href="{{ content.oneUp.link }}" target="_blank">
-                  <img src="{{ content.oneUp.thumbnail }}">
+                  <img src="{{ content.oneUp.thumbnail }}" alt="{{{ content.oneUp.headline }}}">
                 </a>
               </td>
             </tr>
 
-            <!-- spacer -->
-            <tr height="16">
-              <td class="spacer-16">&nbsp;</td>
-            </tr>
+            {{spacer 16}}
 
 
             <!-- headline -->
@@ -36,10 +30,7 @@
               </td>
             </tr>
 
-            <!-- spacer -->
-            <tr height="16">
-              <td class="spacer-16">&nbsp;</td>
-            </tr>
+            {{spacer 16}}
 
 
             <!-- blurb -->
@@ -49,10 +40,7 @@
               </td>
             </tr>
 
-            <!-- spacer -->
-            <tr height="16">
-              <td class="spacer-16">&nbsp;</td>
-            </tr>
+            {{spacer 16}}
 
             {{#if content.oneUp.price}}
             <tr>
@@ -70,10 +58,7 @@
                     </td>
                     {{/if}}
                   </tr>
-                  <!-- spacer -->
-                  <tr height="16">
-                    <td class="spacer-16">&nbsp;</td>
-                  </tr>
+                  {{spacer 16}}
                 </table>
               </td>
             </tr>
@@ -102,10 +87,7 @@
           <!-- end content-->
         </td>
       </tr>
-      <!-- spacer -->
-      <tr height="32">
-        <td class="spacer-32">&nbsp;</td>
-      </tr>
+      {{spacer 32}}
     </table>
     <!-- end container -->
   </td>
