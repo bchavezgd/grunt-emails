@@ -61,6 +61,35 @@ articles:
     ceus: 0.3
     ready: true
 
+  - title: "GAIN for Trainers"
+    excerpt:
+      markdown: |
+        GAIN for Trainers is a mobile app platform that allows you to send custom workouts to your clients and hold them accountable 24/7.
+
+        This demo video shows how to program and schedule workouts for clients by selecting exercises and adding sets, reps and other protocols. The Client App demo shows how the client receives the workout and gets a rich guided and automatically tracked workout experience, which is all reported back to the trainer.
+
+        Developed by personal trainers for personal trainers, GAIN is easy to use, and a great way to help your clients continue to achieve their goals when you can’t physically be there. This totally beats what you’ve been doing before—with texts, email, and spreadsheets!
+
+        [Download the GAIN Trainer App from iTunes App Store](https://itunes.apple.com/us/app/gain-trainer-app-for-certified/id1104812587?ls=1&mt=8)
+
+        [Learn more > gainfitness.com](https://trainer.gainfitness.com/)
+    link: https://www.youtube.com/watch?v=CInTHbQ-CQE
+    more: "Watch the video > Youtube"
+    thumbnail: https://static.nccpt.com/images/161121-gain.jpg
+    alt: "gain for trainers"
+    ceus: 0
+    ready: true
+
+  - ready: true
+    title: "Nutrition Counseling? The Next Big Thing"
+    thumbnail: https://static.nccpt.com/images/161121-mynk-post.jpg
+    excerpt:
+      markdown: |
+        If you have been thinking about adding a Nutrition Counseling component to your business, and want to learn from the best, I have a Special Event to share with you&hellip;
+    link: https://blog.nccpt.com/2016/1322/
+    more: "Find out now"
+    ceus: 0
+
 #featured trainer
 featured:
   ready: false
@@ -113,6 +142,8 @@ blog:
     link: https://blog.nccpt.com/2016/need-clients-offdaytrainer/
     more: "Find out now"
     ceus: 0
+
+
 
 #ads.
 oneUp:

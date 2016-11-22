@@ -7,7 +7,7 @@ subject: NCCPT Lift Newsletter.
 layout: blackfriday
 published: true
 twitter:
-  image: https://www.nccpt.com/images/black-friday/pt-site.jpg
+  image: http://static.nccpt.com/images/161121-pt-site.jpg
 og:
   url: https://www.nccpt.com/data/newsletters/<%= grunt.template.today("yyyy") %>/<%= due %>-nccpt.html
   image: https://www.nccpt.com/images/black-friday/pt-site.jpg
