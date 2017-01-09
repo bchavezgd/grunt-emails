@@ -2,22 +2,29 @@
 <tr class="hero">
   <td>
     <table class="container">
-          {{spacer 16}}
 
+
+					{{#if content.hero.image}}
+					{{spacer 16}}
           <!-- hero image -->
 
           <tr>
             <td class="col-6 align-center">
+							{{#if content.hero.link}}
               <a href="{{content.hero.link }}" target="_blank">
                 <img width="600" src="{{ content.hero.image }}" alt="{{ content.hero.alt }}">
               </a>
+							{{else}}
+								<img width="600" src="{{ content.hero.image }}" alt="{{ content.hero.alt }}">
+							{{/if}}
             </td>
           </tr>
 
           <!-- end hero -->
 
-          {{spacer 32}}
 
+					{{/if}}
+					{{spacer 32}}
           <!-- lead -->
           <tr class="main">
             <td class="h1">
@@ -63,12 +70,13 @@
 
             {{spacer 16}}
             {{else}}
-
+						{{#if content.hero.link }}
             <tr>
               <td class="align-center">
                 <a href="{{ content.hero.link }}" target="_blank" class="btn btn-default">{{{ content.hero.linkText }}}</a>
               </td>
             </tr>
+						{{/if}}
 
 
             {{spacer 32}}

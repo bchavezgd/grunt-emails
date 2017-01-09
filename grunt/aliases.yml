@@ -6,7 +6,6 @@ dev:
   - 'newer:sass:dev'
   - 'postcss:dev'
   - 'newer:assemble:pages'
-  # - 'newer:imagemin'
 
 static:
   - 'sass:static'
@@ -19,6 +18,5 @@ static:
 
 default:
   - 'dev'
-  # - 'static'
   - 'connect'
   - 'watch'

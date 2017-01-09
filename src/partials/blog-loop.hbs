@@ -43,26 +43,25 @@
           <tr>
             <td>
               <table class="blog-panel">
-                <tr>
+								<tr>
+								{{#if thumbnail}}
+
                   <!-- thumbnail -->
                   <td class="col-2" style="vertical-align: middle">
                     <a href="{{ link }}" target="_blank" title="{{title}}">
-                      <img src="{{ thumbnail }}" class="blog-thumbnail" width="194" alt="{{title}}"
-												{{#if srcset}}
-													srcset="{{srcset}}"
-												{{/if}}
-												{{#if sizes}}
-													sizes="{{sizes}}"
-												{{/if}}
-											>
+                      <img src="{{ thumbnail }}" class="blog-thumbnail" width="194" alt="{{title}}">
                     </a>
                   </td>
                   <!-- end thumbnail -->
                   <!-- horizontal space -->
-                  <td width="16" class="col-spacer hidden-sm">&nbsp;</td>
-                  <!-- end space -->
-                  <!-- blog copy -->
+                  {{col-spacer}}
+									<!-- blog copy -->
                   <td class="col-4" style="vertical-align: middle">
+										{{else}}
+										<!-- blog copy -->
+	                  <td class="col-6" style="vertical-align: middle">
+									{{/if}}
+
                     <table class="blog-copy">
                       <tr>
                         <td>
@@ -107,7 +106,12 @@
                               <!-- spacer -->
                             {{/if}}
                             <tr>
+															{{#unless thumbnail}}
+															<td class="align-center">
+																{{else}}
                               <td>
+																{{/unless}}
+
                                 <a href="{{ link }}" target="_blank" title="{{title}}">
                                   <button role="button" class="btn btn-default">
                                     {{more}}

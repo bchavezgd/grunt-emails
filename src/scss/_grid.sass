@@ -2,22 +2,25 @@
 /*   grid work	*/
 /*	----------	*/
 
+
 .container
+	[class*="col"]
+		margin: 0
 	.col-#{$columns}
 	@for $i from 1 through $columns
 		.col-#{$i}
 			// converting px width to %100% * [below] / $width
-			width:  floor( ($i * ($width / $columns)) - $gutter)
-			margin: 0
+			width:  round( ($i * ($width / $columns)) - $gutter)
+
 
 /* nested columns. */
 [class*="col"]
 	@for $i from 1 through $columns
 		.col-#{$i}
-			// converting px width to %100% *
+			// converting px width to %
 			width: round(100% * ( ( ($i * ($width / $columns)) - $gutter) / $width))
 
-table[class*="col-"]
+// table[class*="col-"]
 	// display: table-cell
 
 
@@ -26,14 +29,13 @@ td.col-spacer
 	// display: table-cell
 	width: 2 * $gutter
 
-.spacer
+[class*='spacer']
 	line-height: 0
 	font-size: 0
-	// display: table-row
 
 @for $i from 1 to 5
 	.spacer-#{$i * 8}
-		@extend .spacer
+		// @extend .spacer
 		height: $body-line-height * ($i * 8px)
 
 .grid td.col-spacer:last-of-type

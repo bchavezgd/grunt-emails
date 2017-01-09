@@ -1,23 +1,22 @@
 module.exports = {
-  options: {
-    sourceComments: true
-  },
+  options: {},
   dev: {
     options: {
-      outputStyle: 'expanded'
+      outputStyle: 'expanded',
+      sourceComments: true
     },
-    files: [{
+    files: [ {
       src: '<%= paths.src %>/scss/nccpt.scss',
       dest: '<%= paths.dist %>/nccpt.css'
-        }]
+    } ]
   },
   static: {
-    options: {
-      outputStyle: 'compressed'
-    },
-    files: [{
+    // options: {
+    //   outputStyle: 'compact'
+    // },
+    files: [ {
       src: '<%= paths.src %>/scss/nccpt.scss',
       dest: '<%= paths.site %>/nccpt.css'
-        }]
+    } ]
   }
 };

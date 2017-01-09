@@ -4,7 +4,7 @@ module.exports = {
     layout: 'nccpt',
     plugins: ['assemble-markdown-data'],
     layoutdir: '<%= paths.src %>/layouts',
-    partials: ['<%= paths.src %>/partials/**/*.hbs'],
+    partials: ['<%= paths.src %>/partials/**/*.*'],
     data: '<%= paths.src %>/data/*.{json,yml}',
     helpers: '<%= paths.src %>/helpers/*.js',
     flatten: true

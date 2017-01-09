@@ -1,89 +1,83 @@
 <!-- featured articles -->
 <tr class="featured-articles">
-  <td>
-    <table class="container">
-      <tr>
-        <td>
-          <!-- header -->
-          <table class="header">
-            {{spacer 16}}
-            {{#each content.articles}} {{#if ready}}
+	<td>
+		<table class="container">
+			<tr>
+				<td>
+					<!-- header -->
+					<table class="header">
+						{{spacer 16}}
+						{{#each content.articles}} {{#if ready}}
 
-            <tr>
-              <td class="col-6">
-                <!-- article -->
-                <table align="center">
-                  <tr>
-                    <td>
-                      <a href="{{ link }}" target="_blank">
-                        <img src="{{ thumbnail }}" width="590" alt="{{title}}"
-													{{#if srcset}}
-														srcset="{{srcset}}"
-													{{/if}}
-													{{#if sizes}}
-														sizes="{{sizes}}"
-													{{/if}}>
-                      </a>
-                    </td>
-                  </tr>
+						<tr>
+							<td class="col-6">
+								<!-- article -->
+								<table align="center">
+									<tr>
+										<td>
+											<a href="{{ link }}" target="_blank">
+												<img src="{{ thumbnail }}" width="590" alt="{{title}}" class="img-responsive">
+											</a>
+										</td>
+									</tr>
 
-                  {{spacer 16}}
+									{{spacer 16}}
 
-                  <tr>
-                    <td class="h2 light-text align-center">
-                      {{{ title }}}
-                    </td>
-                  </tr>
+									<tr>
+										<td class="h2 light-text align-center">
+											{{{ title }}}
+										</td>
+									</tr>
 
 
 
-                  {{spacer 32}}
+									{{spacer 32}}
 
 
-                  <tr>
-                    <td class="p light-text">
-                      {{{ excerpt }}}
-                    </td>
-                  </tr>
+									<tr>
+										<td class="p light-text">
+											{{{ excerpt }}}
+										</td>
+									</tr>
 
-                  {{spacer 16}}
+									{{spacer 16}}
 
-                  <tr>
-                    <td class="col-6 align-center light-text">
-                      <a href="{{ link }}" title="{{more}}" target="_blank">
-                        <button role="button" class="btn btn-light">
-                          {{{ more }}}
-                        </button>
+									<tr>
+										<td class="col-6 align-center light-text">
+											<a href="{{ link }}" title="{{more}}" target="_blank">
+												<button role="button" class="btn btn-light">
+													{{{ more }}}
+												</button>
 
-                      </a>
-                    </td>
-                  </tr>
+											</a>
+										</td>
+									</tr>
 
-                  {{spacer 16}}
-                  {{#if ceus}}
-                  <tr>
-                    <td class="h3 dark-text" bgcolor="#91d6e6" style="vertical-align: baseline;">
-                      <p class="h3 align-center" style="margin: 1rem">
-                        <a href="{{ link }}" title="{{more}}" target="_blank">
-                					GET: {{ceus}} CEU's
-                  			</a>
-                      </p>
-                    </td>
-                  </tr>
-                  {{spacer 32}}
-                  {{/if}}
-                </table>
-                <!-- end article -->
-              </td>
-            </tr>
-            {{/if}}
+									{{spacer 16}}
+									{{#if ceus}}
+									<tr>
+										<td class="h3 dark-text" bgcolor="#91d6e6" style="vertical-align: baseline;">
+											<p class="h3 align-center" style="margin: 1rem">
+												<a href="{{ link }}" title="{{more}}" target="_blank">
+													GET: {{ceus}} CEU's
+												</a>
+											</p>
+										</td>
+									</tr>
+									{{spacer 32}}
+									{{/if}}
+								</table>
+								<!-- end article -->
+							</td>
+						</tr>
+						{{/if}}
 						{{/each}}
-          </table>
-          <!-- end header -->
-        </td>
-      </tr>
-    </table>
-    <!-- end container -->
-  </td>
+					</table>
+					<!-- end header -->
+				</td>
+			</tr>
+		</table>
+		<!-- end container -->
+	</td>
 </tr>
 <!-- end featured articles -->

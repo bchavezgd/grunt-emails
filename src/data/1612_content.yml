@@ -1,0 +1,274 @@
+---
+# for excerpt and other body copy, the punctuation must be escaped.
+# or else they break the template parsing function.
+# colon	: => &#58;
+# apostropy ' => &apos;
+# ellipsis ... => &hellip;
+# quotes "left  right" => &ldquo;   &rdquo;
+
+#featured articles
+
+hero:
+  title: "New Courses Coming Soon!"
+  excerpt:
+    markdown: |
+      There are new courses coming soon.
+      including:
+
+      - Certified Strength Training Specialist
+      - Strength Agility and Speed Specialist
+      - Group Treadmill Training
+
+      ---
+
+      ## Certified Strength Training Specialist (1.9 CEU&rsquo;s)
+
+      ![CSTS Banner](http://static.nccpt.com/images/161216-csts.jpg)
+
+      Strength is the major component of all movements and the foundation of all fitness. Without strength we wither and die.
+
+      All fitness goals, specifically sports or performance start with the person&rsquo;s strength and their ability to apply it.
+
+      This course contains a very extensive manual along with video and one final exam attempt.*
+
+      In this course you will learn:
+
+      * What is Strength?
+      * The Different Types of Strength
+      * The Role of Biomechanics
+      * What is Mechanical Efficiency?
+      * Deeper Understanding of Flexibility and Stretching
+      * Assessment Basics
+      * The Sport or Weightlifting (as it applies to personal training)
+      * How to Create a Strength Program
+      * Overreaching, Overtraining, Detraining and Recovery Techniques
+
+      ---
+
+      ## Strength Agility and Speed Specialist
+
+      ![SAST Banner](http://static.nccpt.com/images/161216-sast.jpg)
+
+      Athletes will encounter many unexpected obstacles during a performance, and in their preparation they can create movement patterns or strength which can be the difference between a win or loss. While not incorporated in the title of the course, quickness is a component of many sports. This course does not discount the importance of quickness and does incorporate components, but rather places a larger focus on strength training which science is showing helps athletes just as much.
+
+      Get your athlete to perform more efficiently and effectively. In this course you will learn different theories on speed, agility, and strength training that help improve performance and decrease the chance of injury. You will learn the fundamental drills to improve running technique, different theories on acceleration, how reaction time can improve agility, different way to alter you current drills, and different modalities to strength train your athlete with.
+
+      ### Topics Covered in The Course:
+      * The Specificity of Training
+      * VRT Training
+      * Stride Length & Stride Frequency Drills
+      * Single Limb Training
+      * Acceleration vs Maximum Velocity
+      * Olympic Lifting Exercises
+      * The Biomechanics of Running
+      * and so much more!
+
+      ---
+
+      ## Group Treadmill Training (.20 CEU’s)
+
+      ![Group Treadmill Training Banner](http://static.nccpt.com/images/161216-treadmill.jpg)
+
+      Are you looking for a new way to inspire your clients or members? Group Treadmill Classes have hit the industry like a storm with club franchises springing up all over the place implementing this popular modality in their group exercise classes.
+
+      This course contains a manual, video and final quiz. There are unlimited quiz attempts.
+
+      In this course you&rsquo;ll learn:
+
+      * The four components of a treadmill
+      * The three classes of treadmills
+      * How to safely conduct Group Treadmill Classes
+      * Treadmill myths and advantages
+      * Running Mechanics
+      * Exercise Physiology applied to the treadmill
+      * How to prepare for class
+      * How to set up the room
+      * Four great class formats
+
+
+  link:
+  linkText: "Learn More"
+  image:
+  alt: "Youth Fitness Specialist"
+  ceus: 0
+  ready: true
+
+
+# displays as stack,
+articles:
+  - ready: true
+    title: "Help Clients set Realistic New Year’s Weight Resolutions"
+    ceus: 0
+    thumbnail: https://i1.wp.com/blog.nccpt.com/wp-content/uploads/2016/11/resolutions.jpg
+    link: https://blog.nccpt.com/2016/help-clients-set-realistic-new-years-weight-resolutions/
+    more: "Keep Reading."
+    excerpt:
+      markdown: |
+        With the beginning of the New Year comes new year resolutions. This means that clients will start to pour in, expecting you to work your trainer magic and transform them from their holiday shell into Michael Phelps or Ronda Rousey within a matter of weeks. While this may be possible if they are already well on their way, it’s likely that their new year’s weight loss goals will not be made in the amount of time expected.
+
+#featured trainer
+featured:
+  ready: true
+  altLayout: false
+  image: https://i1.wp.com/blog.nccpt.com/wp-content/uploads/2016/12/Amber_Stone.jpg
+  link: https://wp.me/p70251-lL
+  linkText: "Read More"
+  name: "Amber Stone"
+  excerpt:
+    markdown: |
+      For some people, healthy choices come after a sporadic life change or even a rude awakening. But for others, practically every day of their lives was centered around a well-balanced lifestyle.
+
+
+#featured blog articles
+blog:
+  - ready: true
+    title: "Up, Coming, and Here to Stay: "
+    subhead: "2017 Fitness Trends"
+    thumbnail: https://i0.wp.com/blog.nccpt.com/wp-content/uploads/2016/11/161215-2017-trends.jpg
+    excerpt:
+      markdown: |
+        Trends don&rsquo;t always stick around which makes it difficult to know what to pick up on and what to let lie. Shoulder pads? No, thank you! Skinny jeans? Yes, please! Like in the hair and fashion industries, fad diets and health trends flood the fitness market and then leave a few poor souls crushed in their receding wake.
+    link: https://blog.nccpt.com/2016/up-coming-and-here-to-stay-2017-fitness-trends/
+    more: "Read More"
+    ceus: 0
+
+  - ready: true
+    title: "How Becoming a Senior Fitness Instructor Will Put You at the Top of the Fitness Industry "
+    subhead:
+    thumbnail:
+    excerpt:
+      markdown: |
+        Every year the American College of Sports Medicine (ACSM) publishes a forecast of rising fitness trends. In 2015 one of the biggest indicators of significant movement in the fitness industry was the sharp increase in older client participation in fitness programs as an essential component of physician-recommended longevity health regimens. In other words, professional medical advice for seniors is starting to concentrate heavily on exercise.
+    link: https://wp.me/p70251-eR
+    more: "Read More"
+    ceus: 0
+
+  - ready: true
+    title: "Choosing a Personal Training Certification "
+    subhead:
+    thumbnail: http://static.nccpt.com/images/161215-choosing-cert-n.jpg
+    excerpt:
+      markdown: |
+        Are you passionate about health and fitness? Do you find yourself thinking or talking about diet and exercise almost on a daily basis? Do you have a passion for helping others? Or, have you recently completed your own weight loss journey and you’d like to share your knowledge and experiences with others? If you’ve answered yes to any of these questions, a career as a Certified Personal Trainer may be right for you.
+
+    link: https://blog.nccpt.com/2016/choosing-a-personal-training-certification
+    more: "Read More"
+    ceus: 0
+
+  - ready: false
+    title: "The Benefits of Treating Your Sports Injuries with Hydrotherapy"
+    subhead:
+    thumbnail:
+    excerpt:
+      markdown: |
+        Whether you&rsquo;re a sports athlete or maintain an active exercise regime, sore muscles and joints can be a common occurrence that can interfere with your athletic routine. No matter how careful you are, injuries and pain can transpire which may lead you to seek therapy options as an alternative to medicine and chemical-laced rubs. Hydrotherapy can be a safe and soothing way to heal injuries, aches, and sore muscles you incur from physical activity.
+
+    link: https://blog.nccpt.com/2016/the-benefits-of-treating-your-sports-injuries-with-hydrotherapy/
+    more: "Read More"
+    ceus: 0
+
+  - ready: true
+    title: Want to make some money?
+    subhead: it's as easy as sharing your email
+    thumbnail:
+    excerpt:
+      markdown: |
+        [![NCCPT Refferal Program](https://static.nccpt.com/images/refferal-program.jpg)](https://www.nccpt.com/referral-program)
+
+        Introducing the NCCPT Referral program! With just your email address you’ll be able to earn **10% commission** on anyone you refer. 
+    link: https://www.nccpt.com/referral-program
+    more: "Read the details"
+    ceus: 0
+
+
+workshops:
+  ready: true
+  link: http://www.nccpt.com/live-workshops
+  linkText: "Find a Workshop near you."
+  thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
+  headline: "Learn hands-on how to become a personal trainer with our two-day workshop!"
+  copy:
+    markdown: |
+      This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.
+      In addition to sixteen hours of hands-on experience with industry veterans, you'll receive&#58;
+      * NCCPT textbook and *one time exam attempt
+      * Access to all personal training course videos online.
+      * Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).
+      * 1.6 CEUs if you are currently a personal trainer looking for more experience.
+
+      <span class="small">(*proctoring fee is not included)</span>
+
+  dates:
+    - location: "Newbury Park Workshop"
+      date: "Jan 21 - 22, 2017"
+    - location: "Newbury Park Workshop"
+      date: "Feb 25 - 26, 2017"
+
+
+#ads.
+oneUp:
+  ready: true
+  blurb:
+    markdown: |
+      ## Become an MFN Professional
+
+      **INCREASE YOUR CREDIBILITY AND ONLINE EXPOSURE**
+      **Create a full page profile listing on our site.**
+
+      The **[Medical Fitness Network](https://medicalfitnessnetwork.org/about/)**(MFN) is an online resource locator for consumers to find a fitness or allied healthcare professional.
+
+      MFN welcomes the following professionals to join our network: acupuncturists, chiropractors, dietitians, fitness/yoga/pilates, health & wellness coaches, massage therapists, mental health professionals and physical therapists.
+
+  headline: NCCPT is Proud to Present MFN Network to our Trainers!
+  link: https://medicalfitnessnetwork.org/professionals/welcome-nccpt/
+  linkText: "Learn More"
+  price:
+  promoCode:
+  thumbnail: http://static.nccpt.com/images/160929-Prof-graphic-mats.jpg
+
+twoUpAds: true
+twoUps:
+  - blurb:
+    link: http://smartfitness.com/pdf/smart-fitness-zip-recruiter.pdf
+    link-text: "Find the right employees (PDF)"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/160523-ziprecruiter.jpg
+    title: "Get a discount on listing with Zip Recruiter"
+
+  - blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
+    link: http://profitjobs.com/
+    link-text: "What are you waiting for?"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/160523-profitjob.jpg
+    title: ProFitJobs.com
+
+threeUpAds: true
+threeUps:
+  - headline: "How to Be the Best Trainer in Your Community"
+    blurb: "The ONLY text messaging platform created by fit pros, for fit pros! "
+    link: http://offdaytrainer.com/nccpt
+    linkText: "learn more"
+    price:
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/161215-three-up-a.jpg
+
+  - headline: "Get fit with HIIT"
+    blurb:
+      markdown: |
+        Unleash client potential and increase your client-base with the HOTTEST fitness training around.
+    link: https://www.nccpt.com/store/products/high_intensity_interval_training_hiit_course_0_6_ceus_/1723
+    linkText: "Shop Now!"
+    price:
+    promoCode:
+    # thumbnail: http://static.nccpt.com/images/161215-three-up-b.jpg
+    thumbnail: http://static.nccpt.com/images/151106-hiit.jpg
+
+  - blurb:
+      markdown: |
+        Spend $199 on NCCPT Products, and get a free [Moov Now](http://welcome.moov.cc/moovnow/)
+    headline: "Track Your MOOVs"
+    link: http://welcome.moov.cc/moovnow/
+    linkText: "Take a look."
+    price:
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/161215-three-up-c.jpg

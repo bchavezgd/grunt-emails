@@ -158,7 +158,7 @@ fieldset[disabled] .btn-default.active {
 	* btn-dark
 	*/
 .btn-dark {
-	color: lighten($gray-brand, 50%);
+	color: $background-color;
 	background-color: $brand-dark;
 	border-color: lighten($brand-dark, 10%);
 	&:hover,
@@ -166,7 +166,7 @@ fieldset[disabled] .btn-default.active {
 	&.focus,
 	&:active,
 	&.active {
-		color: #cbcbcb;
+		color: darken($background-color, 25%);
 		background-color: $brand-dark;
 		border-color: #adadad;
 	}
@@ -248,9 +248,9 @@ fieldset[disabled] .btn-dark.active {
 	background-color: $brand-dark;
 	border-color: #ccc;
 }
-.btn-dark:hover {
-	color: $brand-dark;
-}
+// .btn-dark:hover {
+// 	color: $background-color;
+// }
 /* end btn-dark */
 a.btn {
 	text-align: center;

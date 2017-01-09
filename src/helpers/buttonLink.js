@@ -14,7 +14,7 @@ module.exports.register = function (Handlebars, options)  {
 								</a>\
 							</td>\
 							<td>\
-									<button class=\"btn btn-dark h2\" type=\"button\" name=\"phone number\">Call Now: (800) 778-6060</button>\
+									<button class=\"btn btn-dark h2 light-text\" type=\"button\" name=\"phone number\">Call Now: (800) 778-6060</button>\
 							</td>\
 						</tr>\
 					</table>\
