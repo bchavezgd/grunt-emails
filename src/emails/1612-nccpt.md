@@ -2,8 +2,6 @@
 date: December, 2016
 due: 1612
 content: <%= 1612_content %>
-
-
 subject: NCCPT Lift Newsletter.
 layout: pres-message
 published: true

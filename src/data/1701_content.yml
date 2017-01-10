@@ -1,0 +1,282 @@
+---
+# for excerpt and other body copy, the punctuation must be escaped.
+# or else they break the template parsing function.
+# colon	: => &#58;
+# apostropy ' => &apos;
+# ellipsis ... => &hellip;
+# quotes "left  right" => &ldquo;   &rdquo;
+
+#featured articles
+
+hero:
+  title: "New Courses Coming Soon!"
+  excerpt:
+    markdown: |
+      There are new courses coming soon.
+      including:
+
+      - Certified Strength Training Specialist
+      - Strength Agility and Speed Specialist
+      - Group Treadmill Training
+
+      ---
+
+      ## Certified Strength Training Specialist (1.9 CEU&rsquo;s)
+
+      ![CSTS Banner](http://static.nccpt.com/images/161216-csts.jpg)
+
+      Strength is the major component of all movements and the foundation of all fitness. Without strength we wither and die.
+
+      All fitness goals, specifically sports or performance start with the person&rsquo;s strength and their ability to apply it.
+
+      This course contains a very extensive manual along with video and one final exam attempt.*
+
+      In this course you will learn:
+
+      * What is Strength?
+      * The Different Types of Strength
+      * The Role of Biomechanics
+      * What is Mechanical Efficiency?
+      * Deeper Understanding of Flexibility and Stretching
+      * Assessment Basics
+      * The Sport or Weightlifting (as it applies to personal training)
+      * How to Create a Strength Program
+      * Overreaching, Overtraining, Detraining and Recovery Techniques
+
+      ---
+
+      ## Strength Agility and Speed Specialist
+
+      ![SAST Banner](http://static.nccpt.com/images/161216-sast.jpg)
+
+      Athletes will encounter many unexpected obstacles during a performance, and in their preparation they can create movement patterns or strength which can be the difference between a win or loss. While not incorporated in the title of the course, quickness is a component of many sports. This course does not discount the importance of quickness and does incorporate components, but rather places a larger focus on strength training which science is showing helps athletes just as much.
+
+      Get your athlete to perform more efficiently and effectively. In this course you will learn different theories on speed, agility, and strength training that help improve performance and decrease the chance of injury. You will learn the fundamental drills to improve running technique, different theories on acceleration, how reaction time can improve agility, different way to alter you current drills, and different modalities to strength train your athlete with.
+
+      ### Topics Covered in The Course:
+      * The Specificity of Training
+      * VRT Training
+      * Stride Length & Stride Frequency Drills
+      * Single Limb Training
+      * Acceleration vs Maximum Velocity
+      * Olympic Lifting Exercises
+      * The Biomechanics of Running
+      * and so much more!
+
+      ---
+
+      ## Group Treadmill Training (.20 CEU’s)
+
+      ![Group Treadmill Training Banner](http://static.nccpt.com/images/161216-treadmill.jpg)
+
+      Are you looking for a new way to inspire your clients or members? Group Treadmill Classes have hit the industry like a storm with club franchises springing up all over the place implementing this popular modality in their group exercise classes.
+
+      This course contains a manual, video and final quiz. There are unlimited quiz attempts.
+
+      In this course you&rsquo;ll learn:
+
+      * The four components of a treadmill
+      * The three classes of treadmills
+      * How to safely conduct Group Treadmill Classes
+      * Treadmill myths and advantages
+      * Running Mechanics
+      * Exercise Physiology applied to the treadmill
+      * How to prepare for class
+      * How to set up the room
+      * Four great class formats
+
+
+  link:
+  linkText:
+  image:
+  alt: "Youth Fitness Specialist"
+  ceus: 0
+  ready: true
+
+
+# displays as stack,
+articles:
+  - ready: true
+    title: "Weightlifting and The Personal Trainer"
+    ceus: 0
+    thumbnail: https://i2.wp.com/blog.nccpt.com/wp-content/uploads/2017/01/csts-cover.jpg?resize=730%2C432&ssl=1
+    link: https://blog.nccpt.com/2017/weightlifting-and-the-personal-trainer/
+    more: "Want More?"
+    excerpt:
+      markdown: |
+        Excerpt from the **Certified Strength Training Specialist** manual, coming soon. part 1 of 3.
+
+        ---
+
+        The traditional Olympic sport of competitive weightlifting may not initially seem like a logical fit for a personal trainer. Weightlifting is a highly complex and technical sport in which to excel. Novices are challenged to learn proper technique and most newcomers expect to learn from an experienced coach.
+  - ready: true
+    title: "Developed by personal trainers for personal trainers"
+    ceus: 0
+    thumbnail: http://static.nccpt.com/images/1701-gain.jpg
+    link: https://www.youtube.com/watch?v=CInTHbQ-CQE
+    more: "learn more"
+    excerpt:
+      markdown: |
+        GAIN for Trainers is a mobile app platform that allows you to send custom workouts to your clients and hold them accountable 24/7.
+
+        This demo video shows how to program and schedule workouts for clients by selecting exercises and adding sets, reps and other protocols. The Client App demo shows how the client receives the workout and gets a rich guided and automatically tracked workout experience, which is all reported back to the trainer.
+
+        Developed by personal trainers for personal trainers, GAIN is easy to use, and a great way to help your clients continue to achieve their goals when you can’t physically be there. This totally beats what you’ve been doing before—with texts, email, and spreadsheets!
+
+        Download the GAIN Trainer App from [iTunes App Store](https://itunes.apple.com/us/app/gain-trainer-app-for-certified/id1104812587?ls=1&mt=8)
+
+#featured trainer
+featured:
+  ready: true
+  altLayout: false
+  image: https://i2.wp.com/blog.nccpt.com/wp-content/uploads/2017/01/reiss-featured-img.jpg?resize=720%2C405&ssl=1
+  link: https://blog.nccpt.com/2017/featured-trainer-john-reiss
+  linkText: "Read More"
+  name: "John Reiss"
+  excerpt:
+    markdown: |
+      Orange County, California has always been a mecca for surfers, diners, and lively music goers. However, some may not know that it is also a place where lives are changed one child at a time.
+
+
+#featured blog articles
+blog:
+  - ready: true
+    title: "From Awkward to Awesome: "
+    subhead: "Writing your own Bio "
+    thumbnail: https://i1.wp.com/blog.nccpt.com/wp-content/uploads/2017/01/bios-featured-img.jpg?resize=720%2C405&ssl=1
+    excerpt:
+      markdown: |
+        Even the most confident person can struggle to come up with a good response to “Tell me about yourself”. Having to write about yourself can cause the same reaction, leaving you blank. Even if you’re the most interesting and exciting person you know, all of your experiences, talents, and accomplishments can make it difficult to narrow yourself down to a few minutes or a few words. Making it even more difficult, most of us have been taught that bragging about ourselves is rude and conceited which makes jotting down our accomplishments in a humble way tricky.
+    link: https://blog.nccpt.com/2017/from-awkward-to-awesome-writing-your-own-bio/
+    more: "Read More"
+    ceus: 0
+
+  - ready: 1
+    title: "Train Outdoors…"
+    subhead: "Even in the Winter"
+    thumbnail: https://i2.wp.com/blog.nccpt.com/wp-content/uploads/2017/01/train-outdoors.jpg?resize=730%2C550&ssl=1
+    excerpt:
+      markdown: |
+        As an NCCPT trainer, winter can be a troublesome season. Most clients will want to work out indoors in the overcrowded, stuffy gyms, and some will lose all motivation to work out until it warms up again. Studies have shown that exercising outdoors can measurably improve mood and self-esteem along with other numerous benefits, but with the looming cold and threat of snow, how can you convince your clients that it’s actually better for them to leave their stash of cocoa and their cozy fireplace and get outside to exercise?
+    link: https://blog.nccpt.com/2017/train-outdoorseven-in-the-winter/
+    more: "Read More"
+    ceus: 0
+
+  - ready: 0
+    title: ""
+    subhead: ""
+    thumbnail:
+    excerpt:
+      markdown: |
+    link:
+    more: "Read More"
+    ceus: 0
+
+
+
+
+workshops:
+  ready: true
+  link: http://www.nccpt.com/live-workshops
+  linkText: "Find a Workshop near you."
+  thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
+  headline: "Learn hands-on how to become a personal trainer with our two-day workshop!"
+  copy:
+    markdown: |
+      This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.
+      In addition to sixteen hours of hands-on experience with industry veterans, you'll receive&#58;
+      * NCCPT textbook and *one time exam attempt
+      * Access to all personal training course videos online.
+      * Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).
+      * 1.6 CEUs if you are currently a personal trainer looking for more experience.
+
+      <span class="small">(*proctoring fee is not included)</span>
+
+  dates:
+    - location: "Newbury Park Workshop"
+      date: "Jan 21 - 22, 2017"
+    - location: "Newbury Park Workshop"
+      date: "Feb 25 - 26, 2017"
+
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Jan 22, 2017" 
+
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Feb 26, 2017"
+
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Mar 26, 2017"
+
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "Apr 23, 2017"
+
+    - location: "Aliso Viejo, CA - Renaissance ClubSport"
+      date: "May 21, 2017"
+
+#ads
+oneUp:
+  ready: 1
+  blurb:
+    markdown: |
+      ## Become an MFN Professional
+
+      **INCREASE YOUR CREDIBILITY AND ONLINE EXPOSURE**
+      **Create a full page profile listing on our site.**
+
+      The **[Medical Fitness Network](https://medicalfitnessnetwork.org/about/)**(MFN) is an online resource locator for consumers to find a fitness or allied healthcare professional.
+
+      MFN welcomes the following professionals to join our network: acupuncturists, chiropractors, dietitians, fitness/yoga/pilates, health & wellness coaches, massage therapists, mental health professionals and physical therapists.
+
+  headline: NCCPT is Proud to Present MFN Network to our Trainers!
+  link: https://medicalfitnessnetwork.org/professionals/welcome-nccpt/
+  linkText: "Learn More"
+  price:
+  promoCode:
+  thumbnail: http://static.nccpt.com/images/160929-Prof-graphic-mats.jpg
+
+twoUpAds: 1
+twoUps:
+  - blurb:
+    link: http://smartfitness.com/pdf/smart-fitness-zip-recruiter.pdf
+    link-text: "Find the right employees (PDF)"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/160523-ziprecruiter.jpg
+    title: "Get a discount on listing with Zip Recruiter"
+
+  - blurb: "Get your FREE ProFitJobs.com account. Upload your resume and search for your dream job today."
+    link: http://profitjobs.com/
+    link-text: "What are you waiting for?"
+    promo-code:
+    thumbnail: http://static.nccpt.com/images/160523-profitjob.jpg
+    title: ProFitJobs.com
+
+threeUpAds: 1
+threeUps:
+  - headline: "How to Be the Best Trainer in Your Community"
+    blurb: "The ONLY text messaging platform created by fit pros, for fit pros! "
+    link: http://offdaytrainer.com/nccpt
+    linkText: "learn more"
+    price:
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/161215-three-up-a.jpg
+
+  - headline: "Get fit with HIIT"
+    blurb:
+      markdown: |
+        Unleash client potential and increase your client-base with the HOTTEST fitness training around.
+    link: https://www.nccpt.com/store/products/high_intensity_interval_training_hiit_course_0_6_ceus_/1723
+    linkText: "Shop Now!"
+    price:
+    promoCode:
+    # thumbnail: http://static.nccpt.com/images/161215-three-up-b.jpg
+    thumbnail: http://static.nccpt.com/images/151106-hiit.jpg
+
+  - blurb:
+      markdown: |
+        Spend $199 on NCCPT Products, and get a free [Moov Now](http://welcome.moov.cc/moovnow/)
+    headline: "Track Your MOOVs"
+    link: http://welcome.moov.cc/moovnow/
+    linkText: "Take a look."
+    price:
+    promoCode:
+    thumbnail: http://static.nccpt.com/images/161215-three-up-c.jpg
