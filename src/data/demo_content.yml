@@ -2,7 +2,7 @@
 # for excerpt and other body copy, the punctuation must be escaped.
 # or else they break the template parsing function.
 # colon	: => &#58;
-# apostropy &apos; => &apos;
+# apostropy ' => &apos;
 # ellipsis ... => &hellip;
 # quotes "left  right" => &ldquo;   &rdquo;
 
@@ -12,60 +12,8 @@ hero:
   title: "New Courses Coming Soon!"
   excerpt:
     markdown: |
-      There are new courses coming soon.
-      including:
 
-      - Certified Strength Training Specialist
-      - Strength Agility and Speed Training .6 CEU&apos;s
-      - Group Treadmill Training .1 CEU&apos;s
-
-      ---
-
-      ## Certified Strength Training Specialist (1.9 CEU&rsquo;s)
-
-      ![CSTS Banner](http://static.nccpt.com/images/161216-csts.jpg)
-
-      Strength is the major component of all movements and the foundation of all fitness. Without strength we wither and die.
-
-      All fitness goals, specifically sports or performance start with the person&rsquo;s strength and their ability to apply it.
-
-      This course contains a very extensive manual along with video and one final exam attempt.*
-
-      In this course you will learn:
-
-      * What is Strength?
-      * The Different Types of Strength
-      * The Role of Biomechanics
-      * What is Mechanical Efficiency?
-      * Deeper Understanding of Flexibility and Stretching
-      * Assessment Basics
-      * The Sport of Weightlifting (as it applies to personal training)
-      * How to Create a Strength Program
-      * Overreaching, Overtraining, Detraining and Recovery Techniques
-
-      ---
-
-      ## Strength Agility and Speed Training .6 CEU&apos;s
-
-      ![SAST Banner](http://static.nccpt.com/images/161216-sast.jpg)
-
-      Athletes will encounter many unexpected obstacles during a performance, and in their preparation they can create movement patterns or strength which can be the difference between a win or loss. While not incorporated in the title of the course, quickness is a component of many sports. This course does not discount the importance of quickness and does incorporate components, but rather places a larger focus on strength training which science is showing helps athletes just as much.
-
-      Get your athlete to perform more efficiently and effectively. In this course you will learn different theories on speed, agility, and strength training that help improve performance and decrease the chance of injury. You will learn the fundamental drills to improve running technique, different theories on acceleration, how reaction time can improve agility, different ways to alter you current drills, and different modalities to strength train your athlete with.
-
-      ### Topics Covered in The Course:
-      * The Specificity of Training
-      * VRT Training
-      * Stride Length & Stride Frequency Drills
-      * Single Limb Training
-      * Acceleration vs Maximum Velocity
-      * Olympic Lifting Exercises
-      * The Biomechanics of Running
-      * and so much more!
-
-      ---
-
-      ## Group Treadmill Training ( .1 CEU’s)
+      ## Group Treadmill Training (.20 CEU’s)
 
       ![Group Treadmill Training Banner](http://static.nccpt.com/images/161216-treadmill.jpg)
 
@@ -86,9 +34,9 @@ hero:
       * Four great class formats
 
 
-  link:
-  linkText:
-  image:
+  link: https://#
+  linkText: READ MORE
+  image: http://placehold.it/600x300
   alt: "Youth Fitness Specialist"
   ceus: 0
   ready: true
@@ -104,17 +52,17 @@ articles:
     more: "Want More?"
     excerpt:
       markdown: |
-        Excerpt from the **Certified Strength Training Specialist** manual, coming soon. Part 1 of 3.
+        Excerpt from the **Certified Strength Training Specialist** manual, coming soon. part 1 of 3.
 
         ---
 
         The traditional Olympic sport of competitive weightlifting may not initially seem like a logical fit for a personal trainer. Weightlifting is a highly complex and technical sport in which to excel. Novices are challenged to learn proper technique and most newcomers expect to learn from an experienced coach.
-  - ready: true
+  - ready: 0
     title: "Developed by personal trainers for personal trainers"
     ceus: 0
     thumbnail: http://static.nccpt.com/images/1701-gain.jpg
     link: https://www.youtube.com/watch?v=CInTHbQ-CQE
-    more: "Learn more"
+    more: "learn more"
     excerpt:
       markdown: |
         GAIN for Trainers is a mobile app platform that allows you to send custom workouts to your clients and hold them accountable 24/7.
@@ -127,7 +75,7 @@ articles:
 
 #featured trainer
 featured:
-  ready: true
+  ready: 1
   altLayout: false
   image: https://i2.wp.com/blog.nccpt.com/wp-content/uploads/2017/01/reiss-featured-img.jpg?resize=720%2C405&ssl=1
   link: https://blog.nccpt.com/2017/featured-trainer-john-reiss
@@ -141,7 +89,7 @@ featured:
 #featured blog articles
 blog:
   - ready: true
-    title: "From Awkward to Awesome"
+    title: "From Awkward to Awesome: "
     subhead: "Writing your own Bio "
     thumbnail: https://i1.wp.com/blog.nccpt.com/wp-content/uploads/2017/01/bios-featured-img.jpg?resize=720%2C405&ssl=1
     excerpt:
@@ -181,15 +129,15 @@ workshops:
   link: http://www.nccpt.com/live-workshops
   linkText: "Find a Workshop near you."
   thumbnail: http://static.nccpt.com/images/150904-workshop.jpg
-  headline: "Learn hands-on how to become a personal trainer with our workshops!"
+  headline: "Learn hands-on how to become a personal trainer with our two-day workshop!"
   copy:
     markdown: |
       This workshop is designed to help you prepare for your certification exam as well as gain valuable hands on experience working elite level personal trainers guiding you every step of the way.
-      In addition to sixteen hours of hands-on experience with industry veterans, you&apos;ll receive&#58;
+      In addition to sixteen hours of hands-on experience with industry veterans, you'll receive&#58;
       * NCCPT textbook and *one time exam attempt
       * Access to all personal training course videos online.
       * Chance to purchase additional products on site (body fat calipers, measuring tape and metronome).
-      * 1.6 CEUs for 2 Day Workshop, .8 CEUs for 1 Day Workshop if you are currently a personal trainer looking for more experience.
+      * 1.6 CEUs if you are currently a personal trainer looking for more experience.
 
       <span class="small">(*proctoring fee is not included)</span>
 
@@ -216,7 +164,7 @@ workshops:
 
 #ads
 oneUp:
-  ready: 1
+  ready: 0
   blurb:
     markdown: |
       ## Become an MFN Professional
@@ -256,7 +204,7 @@ threeUps:
   - headline: "How to Be the Best Trainer in Your Community"
     blurb: "The ONLY text messaging platform created by fit pros, for fit pros! "
     link: http://offdaytrainer.com/nccpt
-    linkText: "Learn more"
+    linkText: "learn more"
     price:
     promoCode:
     thumbnail: http://static.nccpt.com/images/161215-three-up-a.jpg
@@ -272,80 +220,12 @@ threeUps:
     # thumbnail: http://static.nccpt.com/images/161215-three-up-b.jpg
     thumbnail: http://static.nccpt.com/images/151106-hiit.jpg
 
-  - headline: "Run Your First Marathon"
-    blurb: "If you want to complete your first marathon then this course is a must."
-    link: https://www.nccpt.com/store/products/run_your_first_marathon_0_6_ceus_/1414
-    linkText: "Take a look"
+  - blurb:
+      markdown: |
+        Spend $199 on NCCPT Products, and get a free [Moov Now](http://welcome.moov.cc/moovnow/)
+    headline: "Track Your MOOVs"
+    link: http://welcome.moov.cc/moovnow/
+    linkText: "Take a look."
     price:
     promoCode:
-    thumbnail: http://static.nccpt.com/images/marathon.png
-
-posting:
-  ready: true
-  thumbnail: http://static.nccpt.com/images/equinox_logo.jpg
-  headline: "Equinox is looking for Personal Trainers!"
-  copy:
-    markdown: |
-      **Overview**
-
-      Equinox Personal Trainers provide personalized attention, professional instruction, and exercise programming to each member to maximize the member’s health, fitness, and wellness goals while providing the highest level of customer service. Join us and discover a dynamic work environment built around helping others maximize their potential, where limitless opportunity is cultivated by the highest in industry standards across training, education, marketing, media and sales.
-
-      **Opportunities include:**
-
-      * The highest compensation in the industry
-      * Earning potential of $100k+
-      * Performance-based pay
-      * Pay-period, monthly and annual bonus opportunities
-      * Over 160 hours of paid continuing education through our EFTI program taught by leading industry educators and top Equinox Personal Trainers
-      * Career advancement – the potential to progress through 5 Tiers of Personal Training, become a Master Instructor, or in-club Manager with the top training and development program in the industry
-      * Competitive Benefits Package including medical, dental and 401K
-
-      **Job Description**
-
-      * Build client base through conducting fitness assessments and demonstrating the value of personal training, including safe and proper exercise techniques.
-      * Prepare and deliver comprehensive fitness programs based on clients’ goals.
-      * Motivate and inspire clients to get results through goal setting, frequent follow-up, and re-assessments to show progress.
-      * Provide hospitality to all members.
-
-      **Qualifications**
-
-      * Desire to transform lives through educating members on health and wellness topics.
-      * Understand principles of physical fitness and proper exercise technique.
-      * Possess excellent customer service skills.
-      * Possess or be willing to learn sales skills.
-      * Ability to self-promote and network.
-      * Ability to communicate clearly and concisely, both verbally and in writing.
-      * Adjust and operate fitness equipment.
-
-      **Certifications/Education Level**
-
-      * High School Diploma or GED required
-      * Cardiopulmonary Resuscitation (CPR) and Automated External Defibrillator (AED) certification required
-
-      **Experience**
-
-      * Personal Trainer experience preferred but not required
-
-      **Additional Information**
-
-        All your information will be kept confidential according to EEO guidelines.
-
-        For more information and application please visit:
-
-      **[www.equinox.com/personaltraining](https://www.equinox.com/personaltraining)**
-
-      **Contact**
-
-      Melanie Hardy - Personal Trainer Recruiter East
-
-      (917) 289-2363
-
-      Melanie.Hardy@equinox.com
-
-post2:
-  ready: true
-  thumbnail: http://static.nccpt.com/images/lafit.png
-  headline: "LA Fitness is looking for Personal Trainers!"
-  copy:
-    markdown: |
-      LA Fitness Sports Clubs has immediate openings for qualified Certified Personal Trainers in Indianapolis. Please email your resume to **joseph.jacobs@fitnessintl.com.** 
+    thumbnail: http://static.nccpt.com/images/161215-three-up-c.jpg

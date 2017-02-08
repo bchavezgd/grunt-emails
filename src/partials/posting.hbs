@@ -1,0 +1,39 @@
+<!-- posting -->
+<tr class="featured-trainer">
+	<td>
+		<table class="container">
+			{{spacer 32}}
+			<tr>
+				<td class="col-6">
+					<!-- posting copy -->
+					<table>
+						<tr>
+							<td class="h2 light-text" style="text-align: center;">
+								{{{ content.posting.headline }}}
+							</td>
+						</tr>
+						{{spacer 16}}
+						<tr>
+							<td>
+								<a href="{{ content.posting.link }}" target="_blank">
+									<img src="{{ content.posting.thumbnail }}" width="300" style="margin: 0 auto; display: block;" alt="{{ content.posting.headline }}"> </a>
+							</td>
+						</tr>
+						{{spacer 16}}
+						<!-- blurb -->
+						<tr>
+							<td class="p light-text">
+								{{{ content.posting.copy }}}
+							</td>
+						</tr>
+						{{spacer 16}}
+					</table>
+					<!-- end posting copy -->
+				</td>
+			</tr>
+			{{spacer 32}}
+		</table>
+		<!-- end container -->
+	</td>
+</tr>
+<!-- end posting -->
